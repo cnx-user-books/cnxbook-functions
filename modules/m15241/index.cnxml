@@ -1,0 +1,1013 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Polynomial function</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>effc29da-28b6-45aa-875f-7a3cb5908664</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+A real polynomial, simply referred as polynomial in our study, is an algebraic expression having terms of “x” raised to non-negative numbers, separated by “+” or “-“ sign. A polynomial in one variable is called a univariate polynomial, a polynomial in more than one variable is called a multivariate polynomial. A real polynomial function in one variable is an algebraic expression having terms of real variable “x” raised to non-negative numbers. The general form of representation is :
+
+
+</para>
+<para id="element-2">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-3">
+or
+
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-5">Here, <m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mi>o</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+,<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mi>1</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+,….,<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mi>n</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+ are real numbers. For real function, “x” is real variable and “n” is a non-negative number. An expression like <m:math>
+		<m:mrow>
+			<m:mn>2</m:mn>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>+</m:mo>
+			<m:mn>2</m:mn>
+		</m:mrow>
+	</m:math>
+ is a valid polynomial in “x”. But, <m:math>
+		<m:mrow>
+			<m:mi>x</m:mi>
+			<m:mo>+</m:mo>
+			<m:mn>1</m:mn>
+			<m:mo>/</m:mo>
+			<m:mi>x</m:mi>
+		</m:mrow>
+	</m:math>
+is not as <m:math>
+		<m:mrow>
+			<m:mn>1</m:mn>
+			<m:mo>/</m:mo>
+			<m:mi>x</m:mi>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mrow>
+					<m:mo>-</m:mo>
+					<m:mn>1</m:mn>
+				</m:mrow>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+has negative integer power. Also, <m:math>
+		<m:mrow>
+			<m:mn>3</m:mn>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>1.2</m:mn>
+			</m:msup>
+			<m:mo>+</m:mo>
+			<m:mn>2</m:mn>
+			<m:mi>x</m:mi>
+		</m:mrow>
+	</m:math>
+ is not a polynomial as it contains a term with fractional power. Sum and difference of two real polynomials is also a polynomial. Polynomials are continuous function. Its domain is real number set R, whereas its range is either real number set R or its subset. Derivative and anti-derivative (indefinite integral) of a polynomial are also real polynomials.
+</para>
+
+<para id="element-6">
+<term>Degree of polynomial function/ expression</term>
+
+</para>
+<para id="element-6a">
+Highest power in the expression is the degree of the polynomial. The degree of the polynomial <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+is 3. The degree “1” corresponds to linear, degree “2” to quadratic, “3” to cubic and “4” to bi-quadratic polynomial. The general form of quadratic equation is :
+</para>
+
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-8">
+Note that “a” can not be zero because degree of function/ expression reduces to 1. Extending this requirement for maintaining order of polynomial, we define polynomial of order “n” as :
+
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-1">
+<title> Polynomial equation 
+</title>
+
+<para id="element-10">
+
+The polynomial equation is formed by equating polynomial to zero.
+
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">
+A quadratic equation has the form :
+
+
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-14">
+The roots of a polynomial equation are the values of “x” for which value of polynomial f(x) becomes zero. If f(a) = 0, then "x=a" is the root of the polynomial. A polynomial equation of degree “n” has at the most “n” roots – real or imaginary. Important point to underline here is that a real polynomial can have imaginary roots. 
+
+</para>
+<para id="element-15">
+Solution of polynomial equation is intersection(s) of two equations :
+
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-17">
+and
+
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>(x-axis)</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-19">
+The solutions of equations (real or complex) are the roots of the polynomial equation. If we plot y=f(x) .vs. y=0 plot, then real roots are x-coordinates (x-intercepts) where plot intersect x-axis. Clearly, graph of polynomial can at most intersect x-axis at “n” points, where “n” is the degree of polynomial. On the other hand, y-intercept of a polynomial is obtained by putting x=0,
+
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-21">
+<figure id="fig-21">
+<title> x and y intercepts of polynomial </title>
+<media id="idm2061456" alt=""><image src="../../media/p1a.gif" mime-type="image/gif"/></media>
+<caption> Graph of polynomial can at most intersect x-axis at “n” points, where “n” is the degree of polynomial. </caption>
+</figure>
+</para>
+<section id="section-1a">
+<title> Polynomial equation 
+</title>
+<para id="element-22">
+
+
+Some useful deductions about roots of a polynomial equation and their nature are :
+
+</para>
+<para id="element-23">
+<term>1 : </term> A polynomial equation of order n can have n roots – real or imaginary.
+ 
+
+</para>
+<para id="element-24">
+<term>2 : </term> Imaginary roots occur in pairs like 1+3i and 1-3i
+
+</para>
+<para id="element-25">
+<term>3 : </term> Roots having square root term occur in pairs 1+√3 and 1-√3.
+
+</para>
+<para id="element-26">
+<term>4 : </term> If a polynomial equation involves only even powers of x and all terms are positive, then all roots of polynomial equation are imaginary (complex). For example, roots of the quadratic equation given here are complex.
+
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<term>Descartes rules of signs</term>
+</para>
+<para id="element-28a">
+Descartes rules are :
+</para>
+<para id="element-29">
+<term>(i) </term>	Maximum number of positive real roots of a polynomial equation f(x) is equal to number of sign changes in f(x).
+</para>
+<para id="element-30">
+<term>(ii) </term> Maximum number of negative real roots of a polynomial equation f(x) is equal to number of sign changes in f(-x).
+
+</para>
+<para id="element-31">
+The signs of the terms of polynomial equation <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>12</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+ are “+  +  -  +”. There are two sign changes as we move from left to right. Hence, this cubic polynomial can have at most 2 positive real roots.  Further,  corresponding <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>12</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+has signs of term given as “-  + + +“. There is one sign change involved here. It means that polynomial equation can have at most one negative root. 
+</para>
+</section>
+</section>
+<section id="section-2">
+<title> Polynomials
+</title>
+
+<section id="section-2a">
+<title> Zero polynomial
+</title>
+<para id="element-32a">
+The function is defined as :
+</para>
+<para id="element-32b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f(x)</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>0</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+The polynomial “0”, which has no term at all, is called zero polynomial. The graph of zero polynomial is x-axis itself. Clearly, domain is real number set R, whereas range is a singleton set {0}.
+</para>
+</section>
+<section id="section-2b">
+<title> Constant function
+</title>
+
+<para id="element-33">
+
+It is a polynomial of degree 0. The value of constant function is constant irrespective of values of "x". The image of the constant function (y) is constant for all values of pre-images (x). 
+
+</para>
+<para id="element-34">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f(x)</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>c</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Constant function </title>
+<media id="idp924272" alt=""><image src="../../media/p2.gif" mime-type="image/gif"/></media>
+<caption> Constant function is a polynomial of degree 0. </caption>
+</figure>
+</para>
+<para id="element-36">
+The graph of a constant function is a straight line parallel to x-axis. As “y = (f(x) = c” holds for real values of “x”, the domain of constant function is "R". On the other hand, the value of “y” is a single valued constant, hence range of constant function is singleton set {c}.We can treat constant function also as a linear function of the form f(x) = c with m=0. Its graph is a straight line like that of linear function.
+
+</para><para id="element-914">There is an interesting aspect about periodicity of constant function. A polynomial function is not periodic in general. A periodic function repeats function values after regular intervals. It is defined as a fuction for which f(x+T) = f(x), where T is the period of the function. In the case of constant function, function value is constant whatever be the value of independent variable. It means that 
+	<m:math>
+		<m:mrow>
+			<m:mi>f(x</m:mi>
+			<m:mo>+</m:mo>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+			<m:mo>)</m:mo>
+			<m:mo>=</m:mo>
+			<m:mi>f(x</m:mi>
+			<m:mo>+</m:mo>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+			<m:mo>)</m:mo>
+			<m:mo>=</m:mo>
+			<m:mo>..........</m:mo>
+			<m:mi>f(x)</m:mi>
+			<m:mo>=</m:mo>
+			<m:mi>c</m:mi>
+		</m:mrow>
+	</m:math>
+
+. Clearly, it meets the requirement with the difference that there is no definite or fixed period like "T". The relation of periodicity, however, holds for any change to x. We, therefore, summarize (it is also the accepted position) that constant function is a periodic function with no period.</para>
+</section>
+<section id="section-2c">
+<title> Linear function
+</title>
+
+<para id="element-37">
+
+Linear function is a polynomial of order 1. 
+
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-39">
+It is also expressed as :
+
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Linear function </title>
+<media id="idp1012384" alt=""><image src="../../media/p3.gif" mime-type="image/gif"/></media>
+<caption> Linear function is a polynomial of degree 1. </caption>
+</figure>
+</para>
+<para id="element-42">
+The graph of a linear function is a straight line. The coefficient of “x” i.e. m is slope of the line and c is y-intercept, which is obtained for x = 0 such that f(0) = c. It is clear from the graph that its domain and range both are real number set R. 
+</para>
+</section>
+<section id="section-2d">
+<title> Identity function
+</title>
+<para id="element-43">
+
+The dependent (y) and independent (x) variables have same value. Identity function is similar in concept to that of identity relation which consists of relation of an element of a set with itself.  It is a linear function in which m=1 and c=0. Identity function form is represented as :
+
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+      <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f(x)</m:mi>
+    <m:mo>=</m:mo>
+      <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-45">
+<figure id="fig-45">
+<title> Identity function </title>
+<media id="idp963984" alt=""><image src="../../media/p4.gif" mime-type="image/gif"/></media>
+<caption> Identity function is a polynomial of degree 1. </caption>
+</figure>
+
+</para>
+<para id="element-46">
+The graph of identity function is a straight line bisecting first and third quadrants of coordinate system. Note that slope of straight line is 45°. It is clear from the graph that its domain and range both are real number set R. 
+
+</para>
+</section>
+<section id="section-2e">
+<title> Quadratic function
+</title>
+<para id="element-47">
+The general form of quadratic function is :
+
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f(x)</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-49">
+We shall discuss quadratic function in detail in a separate module and hence discussion of this function is not taken up here.
+</para>
+</section>
+</section>
+<section id="section-3">
+<title> Graph of polynomial function
+</title>
+<para id="element-50">
+Graph of polynomial is continuous and non-periodic. If degree is greater than 1, then it is a non-linear graph. Polynomial graphs are analyzed with the help of function properties like intercepts, slopes, concavity, and end behaviors. The may or may not intersect x-axis. This means that it may or may not have real roots. As maximum number of roots of a polynomial is at the most equal to the order of polynomial, we can deduce that graph can at the most intersect x-axis “n” times as maximum numbers of real roots are “n”. 
+</para>
+<para id="element-51">
+The fact that graph of polynomial is continuous suggests two interesting inferences  :
+
+</para>
+<para id="element-52">
+1: If there are two values of polynomial f(a) and f(b) such that f(a)f(b) &lt; 0, then there are at least 1 or an odd numbers of real roots between a and b. The condition f(a)f(b) &lt; 0 means that function values f(a) and f(b) lie on the opposite sides of x-axis. Since graph is continuous, it is bound to cross x-axis at least once or odd times. As such, there are at least 1 or odd numbers of real roots (as shown in the left figure down).
+
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Roots of polynomial function </title>
+<media id="idp899136" alt=""><image src="../../media/p5.gif" mime-type="image/gif"/></media>
+<caption> The numbers of x-intercepts depend on nature of product given by f(a)f(b). </caption>
+</figure>
+</para>
+<para id="element-54">
+2 : If there are two values of polynomial f(a) and f(b) such that f(a)f(b) &gt; 0, then there are either no real roots or there are even numbers of real roots between a and b. The condition f(a)f(b) &gt; 0 means that function values f(a) and f(b) are either both negative or both positive i.e. they lie on the same side of x - axis. Since graph is continuous, it may not cross at all or may cross x-axis even times (as shown in the right figure above). Clearly, there is either no real root or there are even numbers of real roots.
+
+</para>
+<para id="element-55">
+We shall study graphs of quadratic polynomials in a separate module. Further, other graphs will be discussed in appropriate context, while discussing a particular function. Here, we present two monomial quadratic graphs <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ and <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+. These graphs are important from the point of view of generalizing graphs of these particular polynomial structure. The nature of graphs <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+, where “n” is even integer greater than equal to 2, is similar to the graph of <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+. We should emphasize that the shape of curve simply generalizes the nature of graph – we need to draw them actually, if we want to draw graph of a particular monomial function. However, we shall find that these generalizations about nature of curve lets us know a great deal about the monomial polynomial. In particular, we can conclude that their domain and range are real number set R.  
+</para>
+<para id="element-56">
+<figure id="fig-56">
+<title> Even degree function </title>
+<media id="idp2910288" alt=""><image src="../../media/p6.gif" mime-type="image/gif"/></media>
+<caption> The nature of graphs of degree of positive even integer are similar to the graph shown. </caption>
+</figure>
+</para>
+<para id="element-57">
+Similarly, the nature of graphs <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+, where “n” is odd number integer greater than 2, is similar to the graph of 
+<m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. 
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Odd degree function </title>
+<media id="idm2101264" alt=""><image src="../../media/p7.gif" mime-type="image/gif"/></media>
+<caption> The nature of graphs of degree of positive odd integer are similar to the graph of shown. </caption>
+</figure>
+</para>
+</section>
+
+
+
+
+
+
+
+  </content>
+  
+</document>

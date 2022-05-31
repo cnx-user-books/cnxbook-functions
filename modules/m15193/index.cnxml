@@ -1,0 +1,900 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Subsets</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>3ad8659d-2031-4e6a-9615-2aaffeed82d4</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The collections are generally linked in a given context. If we think of ourselves, then we belong to a certain society, which in turn belongs to a province, which in turn belongs to a country and so on. In the context of a school, all students of a school belong to school. Some of them belong to a certain class. If there are sections within a class, then some of these belong to a section. 
+</para>
+<para id="element-3">We need to have a mathematical relationship between different collections of similar types. In set theory, we denote this relationship with the concept of “subset”. 
+</para>
+<para id="element-4">
+<definition id="definition-4">
+<term> Subset </term>
+<meaning id="idp3627360"> A set, “A”  is a subset of set “B”, if each member of set “A” is also a member of set “B”.</meaning>
+</definition>
+</para>
+<para id="element-5">
+We use symbol “
+<m:math>
+  <m:mrow>
+    <m:mo>⊂</m:mo>
+  </m:mrow>
+</m:math>
+” to denote this relationship between a “subset” and a “set”. Hence,
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">We read this symbolic representation as : set “A” is a subset of set “B”. We express the intent of relationship as  :
+</para>
+<para id="element-8"><m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>if</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>then</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">It is evident that set "B" is larger of the two sets. This is sometimes emphasized by calling set "B" as the “superset” of "A". We use the symbol “
+<m:math>
+  <m:mrow>
+    <m:mo>⊃</m:mo>
+  </m:mrow>
+</m:math>
+” to denote this relation :
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>⊃</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">If set "A" is not a subset of "B", then we write this symbolically as :
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>⊄</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-1">
+<title>Important results / deductions </title>
+<para id="element-14">Some of the important characteristics and related deductions are presented here :
+</para>
+<section id="section-1a">
+<title>Equality of two sets</title>
+<para id="element-14a"> It is clear that set “B” is inclusive of subset “A”. It means that “B” may have additional elements over and above those common with “B”. In case, all elements of “B” are also in “A”, then two sets are equal. We express this symbolically as :
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>and</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>B</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>then</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">This is true in other direction as well :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>then</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>and</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>B</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+We can write two instances in a single representation as  :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>and</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>B</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">The symbol “
+<m:math>
+  <m:mrow>
+    <m:mo>⇔</m:mo>
+  </m:mrow>
+</m:math>
+” means that relation holds in either direction. 
+</para>
+</section>
+<section id="section-1b">
+<title>Relation with itself</title>
+<para id="element-21">
+Every set is subset of itself. This is so because every element is present in itself.
+</para>
+</section>
+<section id="section-1c">
+<title>Relation with Empty set</title>
+<para id="element-22">
+Empty set is a subset of every set. This deduction is direct consequence of the fact that empty set has no element. As such, this set is subset of all sets.
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Proper subset</title>
+<para id="element-23">We have seen from the deductions above that special circumstance of “equality” can blur the distinction between “set” and “subset”. In order to emphasize, mother-child relation between sets, we coin the term “proper subset”. If every element of set “B” is not present in set “A”, then “A” is a “proper” subset of set “B”; otherwise not. This means that set “B” is a larger set, which, besides other elements, also includes all elements of set “A”.
+</para>
+<para id="element-24">Set of vowels in English alphabet, “V”, is a “proper” subset of set of English alphabet, “E”. All elements of “V” are present in “E”, but not all elements of “E” are present in “V”.
+</para>
+<para id="element-25">There is a bit of conventional differences. Some write a “proper” subset relation using symbol “
+<m:math>
+  <m:mrow>
+    <m:mo>⊂</m:mo>
+  </m:mrow>
+</m:math>
+” and  write symbol “
+<m:math>
+  <m:mrow>
+    <m:mo>⊆</m:mo>
+  </m:mrow>
+</m:math>
+” to mean possibility of equality as well. We have chosen not to differentiate two subset types.
+</para>
+</section>
+<section id="section-3">
+<title>Number system</title>
+<para id="element-26">The number system is one such system, in which different number groups are related. Natural number is a subset of integers. integers are subset of rational numbers and rational numbers are subset of real numbers. None of these sets are equal. Hence, relations are described by proper subsets.
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+We can write the chain of relation among number sets :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>P</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>Q</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">However, irrational numbers are also subset of real numbers, but irrational numbers is not rational numbers. We represent this relation by emphasizing that rational numbers is not a subset of irrational numbers or vice-versa. We depict this relation as :
+</para>
+<para id="element-31"><m:math display="block">
+  <m:mrow>
+    <m:mi>Q</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mtext>rational numbers</m:mtext>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+    <m:mo>⊄</m:mo>
+    <m:mi>T</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mtext>irrational numbers</m:mtext>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">But irrational numbers is subset of real numbers. The real numbers comprises of only two subsets at the highest level – rational and irrational. Therefore, irrational numbers is the remaining collection after deducting rational numbers from real numbers. 
+</para>
+<para id="element-33">
+Following the logic, we define set of irrational numbers as :
+</para>
+<para id="element-34"><m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mtext>irrational numbers</m:mtext>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>and</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>Q</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title>Power set</title>
+<para id="element-35">Power set is formed of all possible subsets of a given set. It is denoted as P(A). 
+</para>
+<para id="element-37">
+<definition id="definition-37">
+<term> Power set </term>
+<meaning id="idp393088"> The collection of all subsets of a set “A” is called power set, P(A).</meaning>
+</definition>
+</para>
+<para id="element-38">
+For example, consider a set given by :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,</m:mn>
+    <m:mn>3,</m:mn>
+    <m:mn>4</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">What are the possible subsets? There are three subsets consisting of individual elements: {1}, {3} and {4}. Then, elements taken two at a time form following subsets : {1,3}, {1,4} and {3,4}. Since order or sequence does not matter in set representation, there are only three subsets of two elements taken together. Now, the elements taken three at a time form the only one subset : {1,3,4}. Remember, a set is a subset of itself. Further, empty set (φ) is subset of any set. Hence, φ is also a subset of the given set “A”.
+</para>
+<para id="element-41">The set comprising of all possible subsets of given set “A” is :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,3</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,4</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>3,4</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,3,4</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">We note two important points from this representation of power set :
+</para>
+<para id="element-44"><term>1: </term>The elements of a power set are themselves sets. In other words, every element of a power set is a set.
+</para>
+<para id="element-45"><term>2: </term> If the numbers of elements (cardinality) in a set is “n”, then numbers of elements in power set is <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>n</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-46">For a set having three elements, the total numbers of elements in the power set is :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">We can see that this result is consistent with the illustration given above. We should, here, emphasize to avoid confusion that counting of elements of a set (cardinality) excludes empty set. It is, however, counted as members of power set. 
+</para>
+</section>
+<section id="section-5">
+<title>Example</title>
+<para id="element-49"><term>Problem 1: </term>The finite sets “A” and “B” have “m” and “n” numbers of elements respectively. The total numbers of subsets of “A” is 56 more than the total numbers of subsets of “B”. Find “m” and “n”.
+</para>
+<para id="element-50"><term>Solution : </term>According to relation obtained for power set, the total numbers of subsets of “A” and “B” are :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>m</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>n</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">According to question,
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>56</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>m</m:mi>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>56</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">We need to find two equations to find “m” and “n”. For this we seek expansion of “56” in terms of powers of “2”.
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>56</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>7</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mn>2</m:mn>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">In order to get this form, we rearrange the expression on the LHS of the earlier equation as :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mn>2</m:mn>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>n</m:mi>
+          </m:mrow>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mn>2</m:mn>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">Equating powers of similar base,
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>and</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6">
+<title>Intervals</title>
+<para id="element-62">Intervals is an alternative way to represent a subset of real numbers. Real numbers is represented by a number line having infinite membership. We can think any segment of this number line as subset or interval. Consider an interval, where “a” and “b” belongs to real numbers and a &lt; b :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">The value of “x” falls between “a” and “b”. For example, an interval 2&lt;x&lt;4 is a collection of all points lying between end points 2 and 4. The important thing is that this interval does not include end points and is called “open” interval. We can represent this collection as a set in “set builder form” as :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>a</m:mi>
+      <m:mi>n</m:mi>
+      <m:mi>d</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mn>2</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">Alternatively, we can use pair of small brackets to represent open interval as :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">The two forms of representations are equivalent. The later form is obviously an easier and convenient representation of the subset of real number. We use small braket “(“ or “)” to denote interval that excludes end point. Likewise, we use square bracket “[“ or “]” to denote interval that includes end point. We can represent a “close”  interval as [2,4]. This interval is equivalent to :
+</para>
+<para id="element-69"><m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mn>2,4</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">We can have combination of “open” and “close” brackets like :
+</para>
+<para id="element-71"><m:math display="block">
+  <m:mrow>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">As a reminder, we should note that interval corresponding to real numbers or its subset is an infinite set as we can have infinite points on the line segment corresponding to an interval.</para>
+<section id="section-6a">
+<title>Graphical representation</title>
+<para id="element-73">The graphical representation uses a segment of line on the number line representing real numbers. The line segment is demarcated by a pair of two small circles – a filled circle to mean that end point is included in the interval and an unfilled circle to mean that end point is excluded from the interval. 
+</para>
+<para id="element-74">Let us consider a,b 
+<m:math>
+  <m:mrow>
+    <m:mo>∈</m:mo>
+  </m:mrow>
+</m:math>
+ R and a &lt; b, then
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76"><m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    <m:mo>)</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77"><m:math display="block">
+  <m:mrow>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">Graphically,
+</para>
+<para id="element-80">
+<figure id="fig-80">
+<title> Intervals </title>
+<media id="idm5699328" alt=""><image src="../../media/ss1.gif" mime-type="image/gif"/></media>
+<caption> Representation on real number line.</caption>
+</figure>
+</para>
+</section>
+<section id="section-6b">
+<title>Set of real numbers</title>
+<para id="element-81">The real numbers is represented graphically by a straight line. The question that we seek to be answer here is whether the set of integers is bounded by infinity. In other words, whether we can define interval of real numbers like :
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">The literal meaning of infinity is “unboundedness”. Infinity is considered as a large number, which may either be positive or negative. It does not have a finite (fixed) value. Infinity, therefore, is not a part of real number system. It does not lie on the real number line. For this reason, we can not assign infinity to a real variable like (though we do generally):
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">It follows, then, that appropriate interval, representing real numbers, is open at both ends :
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>(</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-6b1">
+<title>Interval of real numbers greater than or less than a given value</title>
+<para id="element-87">In the interval form, we can write the set of real numbers greater than a given value, "a", as :
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>(</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+This is equivalent to :
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91"> The final notation "x &gt; a" does not require to mention about infinity. It is an interval of real numbers greater than the given value 'a' appearing on the right. It is implied that it can be any large value.  Similarly, the interval of real numbers less than a given value is :
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>(</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+</section>
+  </content>
+  
+</document>

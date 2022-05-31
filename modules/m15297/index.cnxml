@@ -1,0 +1,2230 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Value of a function</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>03a4844a-cf84-4ca1-83fa-56c703268c45</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The value of a function at “x = a” is denoted as “f(a)”. The working rule for finding value of a function is to replace independent variable “x” by “a”.
+</para>
+<section id="section-1">
+<title>Polynomial and rational functions</title>
+<section id="section-1a">
+<para id="element-2"><term>Problem 1: </term> Find “f(y)”, if
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4"><term>Solution : </term> 
+</para>
+<para id="element-5"><term>Statement of the problem : </term> The given function is a rational function. We have to evaluate the function when independent variable is function itself.
+</para>
+<para id="element-6">We need to replace “x” by “y”. 
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>-</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<para id="element-8"><term>Problem 2: </term> Find “f(x)”, if
+</para>
+<para id="element-9"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10"><term>Solution : </term> 
+</para>
+<para id="element-11"><term>Statement of the problem : </term>The given function is a polynomial function with a polynomial as its argument. We have to evaluate the function for independent variable “x”. 
+</para>
+<para id="element-12">We need to replace “x-1” by “x” in the given equation to find “f(x)”. The right hand side expression, however, does not contain term “x-1”. We, therefore, need to find the term, which will replace “x”. Clearly if "x" replaces "x-1", then "x+1" will replace "x-1+1 = x"
+</para>
+<para id="element-15">Thus, we need to replace “x” by “x+1”. 
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1c">
+<para id="element-17"><term>Problem 3: </term> If 
+<m:math>
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+      <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+      <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+      </m:mfrac>
+  </m:mrow>
+</m:math>, then prove that :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mo>}</m:mo>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19"><term>Solution : </term> 
+</para>
+<para id="element-20"><term>Statement of the problem : </term> The function is a polynomial function. We have to evaluate cube of the function, which involves evaluation of function for arguments, which are independent variable, raised to certain integral powers.
+</para>
+<para id="element-21">The cube of given function is :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mo>}</m:mo>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mi>x</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mo>}</m:mo>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">Now, <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> is :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">Hence,
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mo>}</m:mo>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">But, we see that :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">Hence,
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mo>}</m:mo>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1d">
+<para id="element-32"><term>Problem 4: </term> If
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">Then, find
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mo>{</m:mo>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mo>}</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<term>Solution : </term> 
+</para>
+<para id="element-37"><term>Statement of the problem : </term> The given function is rational function. We have to find the expression which involves (i) function, (ii) function with argument as squared independent variable and (iii) square of the function.
+</para>
+<para id="element-38">We need to substitute for various terms in the given expression : 
+</para>
+<para id="element-39">                                                                       <m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mo>{</m:mo>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mo>}</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mi>X</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mfrac>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mfrac>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>−</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>+</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40a">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mo>−</m:mo>
+                  <m:mi>x</m:mi>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Modulus functions</title>
+<section id="section-2a">
+<para id="element-41"><term>Problem 5: </term> If
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>|</m:mo>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">Then, evaluate 
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>|</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45"><term>Solution : </term>
+</para>
+<para id="element-46"><term>Statement of the problem : </term> Function, f(x), involves modulus and is in rational form. The value of this function, in turn, forms the part of a expression to be evaluated. We have to find the value of expression. 
+</para>
+<para id="element-47">We first evaluate the expression without modulus sign : 
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>|</m:mo>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mo>−</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>|</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>|</m:mo>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>|</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mo>|</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>|</m:mo>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">But, we know that <m:math>
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">Taking modulus of the expression,
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>|</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Note that we need to keep the condition for which the given expression is evaluated.
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Logarithmic functions</title>
+<section id="section-3a">
+<para id="element-54"><term>Problem 6: </term> Find <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>, if 
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>-</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56"><term>Solution : </term> 
+</para>
+<para id="element-57"><term>Statement of the problem : </term> The given function is transcendental logarithmic function. We have to evaluate the function for an argument (input to function), which is itself a rational function in independent variable, “x”.  
+</para>
+<para id="element-58">
+We need to replace “x” by “<m:math>
+  <m:mrow>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>x</m:mi>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mrow>
+      <m:mn>1</m:mn>
+      <m:mo>+</m:mo>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+  </m:mrow>
+</m:math>”. 
+</para>
+<para id="element-59"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+    <m:mi>log</m:mi>
+    <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+          <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+    <m:mi>log</m:mi>
+    <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+    <m:mi>log</m:mi>
+    <m:mi>e</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>−</m:mo>
+
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+
+    <m:msub>
+    <m:mi>log</m:mi>
+    <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-4">
+<title>Trigonometric functions</title>
+<section id="section-4a">
+<para id="element-61"><term>Problem 7: </term> Find <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>, if
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>cot</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>cot</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63"><term>Solution : </term> 
+</para>
+<para id="element-64"><term>Statement of the problem : </term> The given function is a rational function with trigonometric function as independent variable. We have to find the value of function for a particular angle.
+</para>
+<para id="element-65">We need to replace “x” by “<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+”. 
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>cot</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>π</m:mi>
+            <m:mo>/</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>cot</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>π</m:mi>
+            <m:mo>/</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67"> As <m:math>
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>,
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>4</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4b">
+<para id="element-69"><term>Problem 8: </term> Find <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>, if
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71"><term>Solution : </term> 
+</para>
+<para id="element-72"><term>Statement of the problem : </term> The given function is a rational function. We have to evaluate the function for a value, which is itself a trigonometric function.
+</para>
+<para id="element-73">
+We need to replace “x” by “<m:math>
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>”. 
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>tan</m:mi>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>tan</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4c">
+<para id="element-75"><term>Problem 9: </term> If <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mo>{</m:mo>
+    <m:mi>log</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+, then prove that  :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77"><term>Solution : </term> 
+</para>
+<para id="element-78"><term>Statement of the problem : </term> The given function, f(x) is a trigonometric function, whose input is a logarithmic function. We have to evaluate LHS of the given equation to equate the same to RHS. 
+</para>
+<para id="element-79">Here, we evaluate each term of the left hand side of the equation separately and then combine the result.
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mo>{</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mo>{</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">Substituting in the LHS expression, we have :
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+We know that :
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>C</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>D</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>C</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>D</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">Hence,
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>y</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>y</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>y</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>log</m:mi>
+            <m:msub>
+              <m:mi/>
+              <m:mi>e</m:mi>
+            </m:msub>
+            <m:mi>y</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-1000">
+<title>Acknowledgment</title>
+<para id="element-1000">
+Author wishes to thank Mr Jay Sicard, Pasadena TX for suggesting valuable typographical correction on the topic. 
+</para>
+</section>
+
+
+
+ 
+  </content>
+  
+</document>

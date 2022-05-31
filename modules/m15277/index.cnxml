@@ -1,0 +1,2670 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Trigonometric functions</title>
+  <metadata>
+  <md:content-id>m15277</md:content-id><md:title>Trigonometric functions</md:title>
+  <md:abstract/>
+  <md:uuid>40d80efa-3604-4d5c-9911-b43c987ba69b</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We are familiar with trigonometric ratios, identities and their applications. In this module, we shall revisit the concept of trigonometric ratios from the perspective of a function. For this, we shall first recapitulate a bit of basics and important results and then emphasize: how can we conceive trigonometric ratio as a function?
+</para>
+<para id="element-2">The most important aspect, here, is the extension of the concept of angle beyond the domain of 2π i.e. the angle of "1" revolution. This concept is followed by the investigation of trigonometric ratios, which is originally defined for acute angle. Here, we shall apply these ratios in the context of any real value angle, represented on a real number line.
+</para>
+<section id="section-1">
+<title>Angle and real number</title>
+<para id="element-3">The measurement of angle is constrained to a circular periphery. We can unwind this constraint and think of angle as a real number, extending from minus infinity to plus infinity. For this, we imagine the circular periphery straightened into a line. Alternatively, we may think angle be represented along a straight line like real number and then think to bend straight line along the periphery of the circle. Following this visualization, we consider angle as if it were represented by a real number line, which is tangent to the circle.
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Angle </title>
+<media id="id1167959896053" alt=""><image src="../../media/tf1.gif" mime-type="image/gif"/></media>
+<caption> Angle and real number.</caption>
+</figure>
+</para>
+<para id="element-5"> The positive section of the real number line can be wrapped many times over in the anticlockwise direction. Similarly, the negative section of the number line can be wrapped many times over in the clockwise direction. 
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Angle </title>
+<media id="id1167951659246" alt=""><image src="../../media/tf2.gif" mime-type="image/gif"/></media>
+<caption> Angle and real number.</caption>
+</figure>
+</para>
+<para id="element-7">We consider representation of angle on real number line equivalent to measurement of angle from a reference direction about the central vertex “O” in as many revolutions as required. The measurement of angle in anticlockwise direction is considered positive and negative in clockwise direction.
+</para>
+</section>
+<section id="section-2">
+<title>Trigonometric ratios</title>
+<para id="element-8">Trigonometric ratios are defined for acute angle in a right angle triangle. Even for angles, which are not acute, we consider trigonometric ratios as ratios of sides or ratios of a side and hypotenuse of the right angle triangle OAB, which is constructed with the terminal ray, “OA” (measuring angle from the initial position in x-direction) and x-axis. The cosine of angle “θ”, in terms of side and hypotenuse of triangle OAB, is :
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Trigonometric ratio </title>
+<media id="id1167955736089" alt=""><image src="../../media/tf3.gif" mime-type="image/gif"/></media>
+<caption> Trigonometric ratio of an angle greater than acute angle.</caption>
+</figure>
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">Clearly, the sign of ratio is given by the sign of the side of the right angle triangle OAB, involved in the ratio.  We attach sign to bidirectional measurements along x and y axes. We can not attach sign to the radial ray OA as it can be directed in multiple directions. In the case shown above, side of the triangle “OB” is negative with respect to positive x-direction. As such, the cosine of “θ” in this particular case is negative. However, note that “AB” is positive and hence sine of the angle, which involves “AB”, is positive for the same angle.
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">Alternatively, the sign of “x” and “y” coordinates of the final ray on the circle decides the sign of trigonometric ratio. As one of the coordinates is involved in the ratio, its sign becomes the sign of trigonometric ratio. Consider the position, “A”, shown in the figure. 
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Sing of trigonometric ratio </title>
+<media id="id1167962297079" alt=""><image src="../../media/tf4.gif" mime-type="image/gif"/></media>
+<caption> The sign of trigonometric ratio is decided by the sign of coordiantes.</caption>
+</figure>
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>as “y” is negative</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>as “x” is negative</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18"><m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>as both “x” and “y” are negative</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-2a">
+<title>Unit circle</title>
+<para id="element-19">The angle and ratios defined in reference with circle is independent of the size of circle i.e. its radius. If radius is considered to be “1”, then we link trigonometric ratios directly to the coordinates of the tip of the terminal ray. Let x,y be the coordinates of a point “A” on a unit circle. Then,
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">The figure below shows what these trigonometric ratios mean with reference to circle, tangent and coordinates.
+</para>
+<para id="element-24">
+<figure id="fig-24"><title> Trigonometric ratios </title>
+<media id="id1167955697508" alt=""><image src="../../media/tf5.gif" mime-type="image/gif"/></media>
+<caption> Geometric meaning of trigonometric ratios on unit circle.</caption>
+</figure>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Trigonometric functions</title>
+<para id="element-25">There are six of trigonometric ratios. In the following sub-sections, we describe each trigonometric function with corresponding domain, range and graph. In particular, we shall come to know that some of these trigonometric functions are not defined for all values of angles. Further, we shall deliberately denote angle by variable “x” – not by “θ” as conventionally denoted. This is to emphasize that angle is a real number.</para>
+<para id="element-25a"> Besides, domain and range, we shall also discuss periodicity and polarity of each trigonometric function. We refer a function periodic if its values are repeated after certain interval. Graphically, periodic function has a fundamental segment, which can be used to draw plot of the function by repeating that fundamental segment again and again. Mathematically, we say that f(x+T) = f(x), where T is fundamental period. </para>
+<para id="element-25c"> Here, we shall make use of one important rule about periodic function. If T is the period of function f(x), then period of function <m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>f</m:mi>
+    <m:mo>(</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+ is <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+  <m:mrow>
+    <m:mo>|</m:mo>
+      <m:mi>k</m:mi>
+    <m:mo>|</m:mo>
+  </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>, where a,b and k are real numbers. Important points to note that a and b do not affect period, but coefficient of x i.e. k affect period and is given by <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+  <m:mrow>
+    <m:mo>|</m:mo>
+      <m:mi>k</m:mi>
+    <m:mo>|</m:mo>
+  </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>.
+
+</para>
+<para id="element-25b"> On the other hand, polarity refers to whether the function is even or odd. If f(x) = f(-x), then function is even and its plot is symmetric about y-axis. If f(x) = -f(x), then function is odd and its plot is symmetric about origin.</para>
+<section id="section-3a">
+<title>Sine function</title>
+<para id="element-26">
+For each real number “x”, there is a sine function defined as :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">The plot of sin(x) .vs. x is shown here.
+</para>
+<para id="element-33">
+<figure id="fig-33">
+<title> Sine function </title>
+<media id="id1167964966346" alt=""><image src="../../media/tf6.gif" mime-type="image/gif"/></media>
+<caption> Graph of sine function</caption>
+</figure>
+</para>
+<para id="element-29a">The plot, here, is continuous and period is "2π". Think period of the function in term of minimum segment which can be used to extend the plot on either side. Further as sin(-x) = -sinx, sine function is an odd function. This fact is also substantiated by the fact that plot is symmetric about origin - not y-axis.
+</para>
+<para id="element-29">Since function holds for all values of “x”, its domain is “R”. On the other hand, the values of sine function is bounded between “-1” and “1”, inclusive of end points. Hence, domain and range of sine function are :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31a">
+Let us now consider sine function which is given as :
+</para>
+<para id="element-31b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+        <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31c">Multiplying sine function by a constant A does not change the periodicity of function. However, it changes the maximum and minimum values of the function. The plot extends from -A to A along y-axis as against from -1 to 1 when function is not multiplied by a constant. This, in turn, changes the range of the function :
+</para>
+<para id="element-31d">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>A,A</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31e">
+We now consider yet another form of sine function which is given as :
+</para>
+<para id="element-31f">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+        <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31g">
+Multiplying argument x of sine function by a constant k does not change the nature of plot. However, it changes the periodicity of the function. Recall that if T is the period of function f(x), then period of function <m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>f</m:mi>
+    <m:mo>(</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+ is <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+  <m:mrow>
+    <m:mo>|</m:mo>
+      <m:mi>k</m:mi>
+    <m:mo>|</m:mo>
+  </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+Clearly, the period of sin(kx) is <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+  <m:mrow>
+    <m:mo>|</m:mo>
+      <m:mi>k</m:mi>
+    <m:mo>|</m:mo>
+  </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>. If |k| is less than 1, then period is more than 2π and if |k| is greater than 1, then period is less than 2π. 
+</para>
+<example id="example-201">
+<para id="element-201"><term>Problem : </term> Find domain and range of function :
+</para>
+<para id="element-201a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-201b"><term>Solution : </term> 
+
+
+We know that domain of sinx is real number set R and range is [-1,1]. The given function is real for all real values of x. Hence, its domain remains R. On the other hand, minimum and maximum values of function changes from that corresponding to sinx function :
+
+
+</para>
+<para id="element-201c">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mrow>
+        <m:mtext>min</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>Y</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-201d">Hence, range of given function is [1,3]. It is evident that graph of function is that of graph of sinx shifted up by 2 units.
+</para>
+</example>
+
+
+
+</section>
+<section id="section-3b">
+<title>Cosine function</title>
+<para id="element-34">For each real number “x”, there is a cosine function defined as :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">The plot of cos(x) .vs. x is shown here.
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Cosine function </title>
+<media id="id1167956818423" alt=""><image src="../../media/tf7.gif" mime-type="image/gif"/></media>
+<caption> Graph of Cosine function</caption>
+</figure>
+</para>
+<para id="element-40a">The plot, here, is continuous and period is "2π". Think period of the function in term of minimum segment which can be used to extend the plot on either side. Further as cos(-x) = cosx, cosine function is an even function. This fact is also substantiated by the fact that plot is symmetric about y-axis.
+</para>
+<para id="element-36">Since function holds for all values of “x”, its domain is “R”. On the other hand, the values of cosine function is bounded between “-1” and “1”, inclusive of end points. Hence, domain and range of sine function are :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38a">When cosine function is given as f(x) = Acosx, maximum and minimum values of function becomes -A and A. The range is modified as :
+</para>
+<para id="element-38b">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>A,A</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38c">
+When cosine function is given as f(x) = Acos(kx), the period of cosine function is given by <m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+  <m:mrow>
+    <m:mo>|</m:mo>
+      <m:mi>k</m:mi>
+    <m:mo>|</m:mo>
+  </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>.
+</para>
+
+<example id="example-202">
+
+<para id="element-202a"><term>Problem : </term> Find domain range of the function :
+</para>
+<para id="element-202b"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>12</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-202c"><term>Solution : </term>The given function comprises of sine and cosine functions. Here, we reduce given function in terms of one trigonometric function and then find range of the function. This reduction is required as otherwise it would be difficult to estimate when two trigonometric functions together evaluates to minimum and maximum values. Let us put,
+
+
+</para>
+<para id="element-202d">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>12</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-202e">Clearly, 
+<m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:msup>
+          <m:mn>12</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mn>5</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>13</m:mn>
+  </m:mrow>
+</m:math>. Putting these values/ expression in function,
+
+
+</para>
+<para id="element-202f">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>13</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>13</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-202g">We know that range of sine function is [-1,1]. Hence, range of given function is :
+
+
+</para>
+<para id="element-202h">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>13</m:mn>
+    <m:mo>,</m:mo>
+    <m:mn>13</m:mn>
+    <m:mo>]</m:mo>
+
+  </m:mrow>
+</m:math>
+
+
+</para>
+</example>
+</section>
+<section id="section-3c">
+<title>Tangent function</title>
+<para id="element-41">For a real number “x”, there is a tangent function defined as :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">Note that defining statement defines the function for a real number “x” – not for "each" real “x” as in the case of sine and cosine functions. It is so because, tangent function is not defined for all real values of “x”. Let us recall that :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">This is a rational polynomial form, which is defined for 
+<m:math>
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. Now, cos(x) evaluates to zero for certain values of “x”, which appears at a certain interval given by the condition,
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>where</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">The function cos(x) is zero for 
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mo>…</m:mo>
+  </m:mrow>
+</m:math>
+ etc. In other words, the cosine function is zero for all odd multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+”. It means that tangent function is not defined for odd multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+”. Therefore, values of “x” for which cosine is zero need to be excluded from the domain set of real number set “R”. On the other hand, the values of tangent function are extended along the real number line on either side of zero. The range of the function, therefore, is “R”. Hence, domain and range of tangent function are :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">The plot of tan(x) .vs. x is shown here.
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> Tangent function </title>
+<media id="id1167952831539" alt=""><image src="../../media/tf8.gif" mime-type="image/gif"/></media>
+<caption> Graph of tangent function</caption>
+</figure>
+</para>
+<para id="element-51a">The period of tanx is π. Multiplication of tangent function by a constant A does not change the range as in the case of sine and cosine function. The plot is always extended on either side of x-axis so that its range is R. Multiplying argument x like tan(kx), however, changes the points where function is not defined. It is now given by :
+</para>
+<para id="element-51b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2k</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51c">
+Therefore, domain is now modified as :
+</para>
+<para id="element-51d">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2k</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3d">
+<title>Cosecant function</title>
+<para id="element-52">For a real number “x”, there is a cosecant function defined as :
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">Again, the function is not defined for all real number “x”. Let us recall that :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">This is a rational polynomial form, which is defined for 
+<m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. Now, sin(x) evaluates to zero for values of “x”, which appears at a certain interval given by the condition,
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>where</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+This means that sin(x) is zero for 
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mo>±</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>…</m:mo>
+  </m:mrow>
+</m:math>
+ etc. In other words, the sine function is zero for all integer multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+”. It means that cosecant function is not defined for integral multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+”.  Therefore, values of “x”, for which sine is zero, need to be excluded from real number set “R” for defining domain of the function.
+</para>
+<para id="element-59">On the other hand, values of cosecant function are fall in certain intervals. We have seen that values of sine function is between “-1” and “1”, including end points. Reciprocal of these values are either lesser than “-1” or greater than “1”. Symbolically,
+</para>
+<para id="element-60"><m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">Combining two intervals, using modulus function :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">The combined interval of the cosecant function, therefore, is :
+</para>
+<para id="element-64"><m:math display="block">
+  <m:mrow>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+        <m:mo>]</m:mo>
+    <m:mo>∪</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+        <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">Hence, domain and range of cosecant function are :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+        <m:mo>]</m:mo>
+    <m:mo>∪</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+        <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">The plot of cosecant(x) .vs. x is shown here.
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Cosecant function </title>
+<media id="id1167964401816" alt=""><image src="../../media/tf9.gif" mime-type="image/gif"/></media>
+<caption> Graph of cosecant function</caption>
+</figure>
+</para>
+<para id="element-69a">The period of cosecx is 2π. Important to note here is that function is not defined even within a periodic segment. Since cosec(-x) = -cosecx, we conclude that cosecant function is odd function in each of periodic segment. Multiplication of cosecant function by a constant A changes the range as plot lies on or beyond -A or A. The range is modified as :
+</para>
+<para id="element-69e"> <m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>A</m:mn>
+      </m:mrow>
+        <m:mo>]</m:mo>
+    <m:mo>∪</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>A,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+        <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69f"> Multiplying argument x like cosec(kx), however, changes the points where function is not defined. It is now given by :
+</para>
+<para id="element-69b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+  <m:mfrac>
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+  </m:mrow>
+    <m:mi>k</m:mi>
+  </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69c">
+Therefore, domain is now modified as :
+</para>
+<para id="element-69d">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+  <m:mfrac>
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+  </m:mrow>
+    <m:mi>k</m:mi>
+  </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3e">
+<title>Secant function</title>
+<para id="element-70">For a real number “x”, there is a secant function defined as :
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">Again, the function is not defined for all real number “x”. Let us recall that :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">This is a rational polynomial form, which is defined for 
+<m:math>
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. Now, cos(x) evaluates to zero for values of “x”, which appears at a certain interval given by the condition,
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>where</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">The function cos(x) is zero for 
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mo>…</m:mo>
+  </m:mrow>
+</m:math>
+ etc. In other words, the cosine function is zero for all odd multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+”. It means that secant function is not defined for odd multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+”. These values of “x”, for which cosine is zero, need to be excluded from real number set “R”.
+</para>
+<para id="element-77">
+The values of secant function are bounded by certain intervals. We have seen that values of cosine function is between “-1” and “1”, including end points. Just like the case of cosecant function, the range of secant function is : 
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">or
+</para>
+<para id="element-80"><m:math display="block">
+  <m:mrow>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+        <m:mo>]</m:mo>
+    <m:mo>∪</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+        <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">Hence, domain and range of secant function are :
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+        <m:mo>]</m:mo>
+    <m:mo>∪</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+        <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">The plot of secant(x) .vs. x is shown here.
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Secant function </title>
+<media id="id1167966549544" alt=""><image src="../../media/tf10.gif" mime-type="image/gif"/></media>
+<caption> Graph of secant function</caption>
+</figure>
+</para>
+<para id="element-85a">The period of secx is 2π. Important to note here is that function is not defined even within a periodic segment. Since sec(-x) = secx, we conclude that secant function is even function in each of periodic segment. Multiplication of secant function by a constant A changes the range plot lies on or beyond -A or A. The range is modified as :
+</para>
+<para id="element-85e"> <m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>A</m:mn>
+      </m:mrow>
+        <m:mo>]</m:mo>
+    <m:mo>∪</m:mo>
+        <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>A,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+        <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85f"> Multiplying argument x like sec(kx), however, changes the points where function is not defined. It is now given by :
+</para>
+<para id="element-85b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2k</m:mn>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85c">
+Therefore, domain is now modified as :
+</para>
+<para id="element-85d">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2k</m:mn>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3f">
+<title>Cotangent function</title>
+<para id="element-86">For a real number “x”, there is a cotangent function defined as :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">The function is not defined for all real number “x”. Let us recall that :
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">This is a rational polynomial form, which is defined for <m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. Now, sin(x) evaluates to values of “x”, which appears at a certain interval given by the condition,
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>where</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">This means that sin(x) is zero for 
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mo>±</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>…</m:mo>
+  </m:mrow>
+</m:math>
+
+etc. In other words, the sine function is zero for all integral multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+”. It means that cotangent function is not defined for integral multiples of “
+<m:math>
+  <m:mrow>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+”.  Values of “x”, for which sine is zero, need to be excluded from real number set “R”. On the other hand, the values of cotangent function are extended along the real number line on either side of zero. The range of the function, therefore, is “R”. Hence, domain and range of cotangent function are :
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">The plot of cot(x) .vs. x is shown here.
+</para>
+<para id="element-96">
+<figure id="fig-96">
+<title> Cotangent function </title>
+<media id="id1167964385900" alt=""><image src="../../media/tf11.gif" mime-type="image/gif"/></media>
+<caption> Graph of cotangent function</caption>
+</figure>
+</para>
+<para id="element-96a">The period of cotx is π. Since cot(-x) = -cotx, we conclude that cotangennt function is odd function in each of periodic segment. Multiplication of cotangennt function by a constant A does not change the range plot extends either side of x-axis. Multiplying argument x like cot(kx), however, changes the points where function is not defined. It is now given by :
+</para>
+<para id="element-96b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+  <m:mfrac>
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+  </m:mrow>
+    <m:mi>k</m:mi>
+  </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96c">
+Therefore, domain is now modified as :
+</para>
+<para id="element-96d">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+  <m:mfrac>
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+  </m:mrow>
+    <m:mi>k</m:mi>
+  </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+
+
+<section id="section-4">
+<title>Examples</title>
+
+<example id="example-203">
+<para id="element-203a"><term>Problem : </term> Find range of the function :
+
+</para>
+<para id="element-203b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-203c"><term>Solution : </term> The denominator of given function is non-negative as value of sin2x can not exceed 1. We know range of sin2x. We shall build up expression from this basic trigonometric function to determine range of the given function. Here,
+
+
+</para>
+<para id="element-203d">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-203e">Multiplying with -1 to change sign of sine function, we have (note the change in inequality sign) :
+
+
+</para>
+<para id="element-203f">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>≥</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≥</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mn>3</m:mn>
+    <m:mo>≥</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-203g">We need to take reciprocal of each term in the equality to obtain required function form (note the change in inequality sign),
+
+
+</para>
+<para id="element-203h">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>≤</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≤</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>≤</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>3,</m:mn>
+        </m:mfrac>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-203i">
+
+This is a unique method to determine range by building up a function from a basic function along with change in the interval of values. We need to be careful that such building up of function does not introduce condition in which function becomes indeterminate. Further, we can find range conventionally by solving function for x in terms of y. We have not considered this method here as solution for x involves inverse trigonometric function. We shall, however, revisit this problem subsequent to the study of inverse trigonometric function.
+</para>
+
+</example>
+
+<example id="example-1">
+<para id="element-300"><term>Problem : </term> Find range of function :
+</para>
+<para id="element-301">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>π</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mn>4</m:mn>
+            </m:mfrac>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-302"><term>Solution : </term>
+Before we attempt to find range, we need to find domain of the function so that we can determine interval of function values. We know that expression within square root is non-negative. Also, expression is a quadratic function. Analyzing this quadratic function, domain of quadratic function is found as [-π/2, π/2]. Coefficient of squared term is negative. Hence, its graph opens down and maximum value of quadratic function is :
+
+
+</para>
+<para id="element-303">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>D</m:mi>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:mi>X</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+            <m:mi>X</m:mi>
+            <m:mfrac>
+              <m:mi>π</m:mi>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>X</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-304">Since expression is non-negative within square root, minimum value of function is 0 (see figure). Now, sine function is an increasing function in [0, π/2] as is evident from its graph. Thus sine function assumes values in the interval [sin0, sin π/2] i.e. [0,1]. Sine function, however, has a coefficient of 2 . As such, range of given function is [0,2].
+</para>
+</example>
+</section>
+<section id="section-5">
+<title>Exercise</title>
+
+
+<para id="element-214a">
+<exercise id="exercise-214a">
+<problem id="id1167964707985">
+<para id="element-214"><term>Problem : </term> Find the domain of the function given by :
+</para>
+<para id="element-215">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>sin</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</problem>
+
+<solution id="id1167960493149">
+<para id="element-216"><term>Solution : </term> The argument (input) to cosine function is sine function. The expression within square root is non-negative. It means that :
+</para>
+<para id="element-219"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒ </m:mo>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>sin</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    <m:mo>≥ </m:mo>
+    <m:mn> 0 </m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-220">We know that cosine function is positive in first and fourth quadrants. It means that the argument of the cosine function should be between -π/2 and π/2. Therefore, we need to see whether the value of “sinx” falls within this interval or not? The value of sine function, on the other hand, lies in the interval [-1,1]. This is indeed (as shown in the figure below) within the required interval for cosine function to be non-negative as 1 &lt; π/2 and -1 &gt; -π/2. 
+</para>
+<para id="element-221">
+<figure id="fig-221">
+<title> Domain of cosine function  </title>
+<media id="id1167964638238" alt=""><image src="../../media/t2-8df4.gif" mime-type="image/gif"/></media>
+<caption> The range of sine function falls within domain of cosine function </caption>
+</figure>
+</para>
+<para id="element-222">Now, we know that sine function is real for all real values of “x”. Hence, domain of the given function is :
+</para>
+<para id="element-223">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+
+
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-203ab">
+<exercise id="exercise-203ab">
+<problem id="id1167957859093">
+<para id="element-203"><term>Problem : </term> Find the domain of the function given by :
+</para>
+<para id="element-204"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+        <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</problem>
+
+<solution id="id1167965618977">
+<para id="element-205"><term>Solution : </term> 
+The cosine function is valid for all real values of its argument. The argument, however, is in rational form, requiring that denominator is not zero. Hence,
+</para>
+<para id="element-208">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-209">We can easily evaluate this inequality knowing the fact that greatest integer function is zero in the interval 0≤x&lt;1. This is also substantiated by the graph of greatest integer function as shown here. Now, applying to the greatest integer function of the denominator, the interval in which greatest integer function is equal to zero is :
+</para>
+<para id="element-210">
+<figure id="fig-210">
+<title> Greatest integer function  </title>
+<media id="id1167955786993" alt=""><image src="../../media/t1-6a0b.gif" mime-type="image/gif"/></media>
+<caption> The greatest integer function [x] returns zero in the interval 0≤x&lt;1.</caption>
+</figure>
+</para>
+<para id="element-211">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-212">Hence, domain of the given function is :
+</para>
+<para id="element-213">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>1,2</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-204a">
+<exercise id="exercise-204a">
+<problem id="id1167955617577">
+<para id="element-97"> Check the validity of the composition and find domain of the function given by :
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mo>[</m:mo>
+    <m:mi>log</m:mi>
+    <m:mi>e</m:mi>
+    <m:mo>{</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mrow>
+                <m:mn>9</m:mn>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>}</m:mo>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</problem>
+
+<solution id="id1167959971604">
+<para id="element-100"> We know that range of logarithmic function is “R”. Here, logarithmic function itself is the argument of sine function. This means that argument of sine function is "R". This meets the requirement of a sine function, whose domain is "R". Hence, composition of function as given in the question is a valid composition. 
+</para>
+
+<para id="element-103">In order to find, domain of the function, we need to find values of “x” for which argument of logarithmic function is a positive real number. In the nutshell, we need to evaluate following inequality :
+</para>
+<para id="element-104"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mrow>
+                <m:mn>9</m:mn>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-105">Here, we see that numerator is a square root of a polynomial and is, therefore, positive. Now, evaluating of the polynomial in the numerator for positive real number, we have :
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">Since numerator is positive, the denominator needs to be positive so that total rational polynomial is positive. Evaluating inequality relation for the polynomial in the denominator for positive real number :
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">Now, we know that the domain of the quotient is <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+. Hence, 
+</para>
+<para id="element-113"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>(</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>)</m:mo>
+    <m:mo>∩</m:mo>
+    <m:mo>(</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Domain of "f"</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-307">
+<exercise id="exercise-307">
+<problem id="id1167964492294">
+<para id="element-308">
+Find range of function :
+</para>
+<para id="element-309">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>π</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mn>9</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</problem>
+
+<solution id="id1167956806964">
+<para id="element-310">
+Range is [-1,1]
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-312">
+<exercise id="exercise-312">
+<problem id="id1167956776704">
+<para id="element-313">
+Find range of function :
+</para>
+<para id="element-314">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>π</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mn>9</m:mn>
+            </m:mfrac>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</problem>
+<solution id="id1167955816999">
+<para id="element-315">
+Range is [0,√3]
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+</section>
+
+
+  </content>
+  
+</document>

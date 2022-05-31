@@ -1,0 +1,1639 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Exponential and logarithmic functions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b9866e0f-8025-4ef3-b3b9-36d419c606b6</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Logarithmic and exponential functions are closely related functions. Logarithmic functions are useful in interpreting expressions/ equations, in which exponents are unknown. On the other hand, exponential functions are representation of natural process or mathematical relations, having exponential growth or decay. We shall encounter many expressions, involving these two functions in mathematics, while analyzing or describing processes. Further, two function types have simple derivatives and related integration results (we shall learn about derivatives and integration in calculus). 
+</para>
+<para id="element-3">Symbolically, exponential and logarithmic functions, respectively, are :
+</para>
+<para id="element-4"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-5">and
+</para>
+<para id="element-6"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">In this module, we shall find out that exponential and logarithmic functions are inverse of each other. The roles of function "f(x)" and independent variable "x" are exchanged in two function definition. We shall clarify this point subsequently. 
+</para>
+<section id="section-2">
+<title>Exponential function</title>
+<para id="element-45">An exponential function relates every real number “x” to the exponentiation, “
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+”. In other words, we can say that an exponential function associates every real number (x) to a function given by :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">where :
+</para>
+<para id="element-48">
+<list id="list-48" list-type="enumerated">
+<item> The base “a” is positive real number, but excluding “1”. Symbolically, 
+<m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+. </item>
+<item> The exponent “x” is a real number.  </item>
+<item> The number “y” represents the result of exponentiation, “
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+” and is a positive real number. Symbolically, y &gt;0.  </item>
+</list>
+</para>
+<para id="element-49">We need not memorize nature of "x","y" and "a". Rather we can investigate the same by reasoning. The base "a" can not be zero, because <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math> is not uniquely defined as required for invertible function. The exponential function is designed to be invertible. This means that "f(x)" and "x" be uniquely related. Also, if "a" is a negative number like "-2", then <m:math>
+  <m:mrow>
+    <m:msup>
+  <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mn>-2</m:mn>
+      <m:mo>)</m:mo>
+  </m:mrow>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math> may evaluate to positive or negative value depending on whether "x" is even or odd integer. Clearly sign of function depends on the nature of integer values of "x". In case, "x" is not an integer, then sign of <m:math>
+  <m:mrow>
+    <m:msup>
+  <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mn>-2</m:mn>
+      <m:mo>)</m:mo>
+  </m:mrow>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math> can not be interpreted for all values of "x". Further if a=1, then 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math> evaluates to "1" for all values of "x". Again function is not uniquely defined. In the nutshell, we conclude that  base "a" is a positive number, but not equal to "1". In particular, the exponential function corresponding to base “e”, which is equal to 2.718281828, is called “natural” exponential function. </para>
+<para id="element-50a"> Once nature of "a" is decided, it is easy to find the nature of "y". Consider simplified exponents like <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> , <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>1</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> , <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+     <m:mn>-2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>, <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>-100</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>. All these numbers are greater than zero. This is true even if exponent is not integer. We conclude that "y" is positive number. Note that neither "a" nor "y" are zero. On the other hand, "x" by definition is a real number. 
+</para>
+
+
+
+<para id="element-51">Clearly, the domain and range of exponential function are :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Value of “x”</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Value of “y”</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-50">We shall see subsequently that roles of “x” and “f(x)” are exchanged for logarithmic function. Here, “x” is the exponent i.e. the logarithmic value of a positive number and “f(x)” is the result of exponentiation, which is argument of logarithmic function. For this reason, we say that exponential and logarithmic functions are inverse to each other. As expected for inverse functions, we shall also see that domain and range of exponential and logarithmic functions are exchanged.
+</para>
+
+
+<para id="element-55">The nature of exponential function are different around a=1. The plots of exponential functions for two cases (i)0 &lt; a &lt; 1 and (ii) a &gt; 1 are discussed here. If the base is greater than zero, but less than “1”, then the exponential function asymptotes to positive x-axis. It is easy to visualize the nature of plot. It is placed in the positive upper part as "f(x)" is positive. Also, note that <m:math>
+  <m:mrow>
+    <m:msup>
+  <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mn>0.25</m:mn>
+      <m:mo>)</m:mo>
+  </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> is greater than (<m:math>
+  <m:mrow>
+    <m:msup>
+  <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mn>0.25</m:mn>
+      <m:mo>)</m:mo>
+  </m:mrow>
+      <m:mn>4</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>. Hence, plot begins from a higher value to lower value as "x" increases, but never becomes equal to zero. 
+</para>
+<para id="element-57">
+<figure id="fig-57">
+<title> Exponential function </title>
+<media id="idp12062976" alt=""><image src="../../media/le4.gif" mime-type="image/gif"/></media>
+<caption> The plot of exponential function, when base is less than "1".</caption>
+</figure>
+</para>
+<para id="element-58">If the base is greater than “1”, then the exponential function asymptotes to negative x-axis. Again, it is easy to visualize the nature of plot. It is placed in the positive upper part as "f(x)" is positive. Also, note that <m:math>
+  <m:mrow>
+    <m:msup>
+  <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mn>1.25</m:mn>
+      <m:mo>)</m:mo>
+  </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> is less than (<m:math>
+  <m:mrow>
+    <m:msup>
+  <m:mrow>
+      <m:mo>(</m:mo>
+      <m:mn>1.25</m:mn>
+      <m:mo>)</m:mo>
+  </m:mrow>
+      <m:mn>4</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>. Hence, plot begins from a lower value to higher value as "x" increases. 
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Exponential function </title>
+<media id="idp15011424" alt=""><image src="../../media/le5.gif" mime-type="image/gif"/></media>
+<caption> The plot of exponential function, when base is greater than "1".</caption>
+</figure>
+</para>
+<para id="element-60">Note that expanse of exponential function is along x – axis on either side of the y-axis, showing that its domain is R. On the other hand, the expanse of “y” is limited to positive side of y-axis, showing that its range is positive real number. Further, irrespective of base values, all plots intersect y-axis at the same point i.e. y = 1 as :
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+<section id="section-1">
+<title>Logarithmic functions</title>
+<para id="element-8"> A logarithmic function gives “exponent” of an expression in terms of a base, “a”, and a number, “x”. The following two representations, in this context, are equivalent :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">and
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">where :
+</para>
+<para id="element-14">
+<list id="list-14" list-type="enumerated"><item> The base “a” is positive real number, but excluding “1”. Symbolically, 
+<m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+. </item>
+<item> The number “x” represents result of exponentiation, “
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+” and is also a positive real number. Symbolically, x &gt;0. </item>
+<item> The exponent “y” i.e. logarithm of “x” is a real number.  </item>
+</list>
+</para>
+<para id="element-15">Note that neither “a” nor “x” equals to zero. 
+</para>
+<para id="element-16">The expression of a logarithm for “x” on a certain base represents logarithmic function. In words, we can say that a logarithmic function associates every positive real number (x) to a real valued exponent (y), which is symbolically represented as :
+</para>
+<para id="element-17"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">Following earlier discussion for the case of exponential function, we exclude "a = 1" as logarithmic function is not relevant to this base. 
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mn>1</m:mn>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">We can easily see here that whatever be the exponent, the value of logarithmic function is “1". Hence, base “1” is irrelevant as exponent “y” is not uniquely associated with “x”.
+</para>
+<para id="element-26">From the defining values of "x" and "f(x)", we conclude that domain and range of logarithmic function is :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Value of “x”</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Value of “y”</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28a">Note that domain and range of logarithmic function is exchanged with respect to domain and range of exponential function. 
+</para>
+<section id="section-1a">
+<title>Base</title>
+<para id="element-29">The base of the logarithmic function can be any positive number. However, “10” and “e” are two common bases that we often use. Here, “e” is a mathematical constant given by :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.718281828</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">If we use “e” as the base, then the corresponding logarithmic function is called “natural” logarithmic function. The plots, here, show logarithmic functions for two bases (i) 10 and (ii) e.
+</para>
+<para id="element-32">
+<figure id="fig-32">
+<title> Logarithmic function </title>
+<media id="idp1602032" alt=""><image src="../../media/le1.gif" mime-type="image/gif"/></media>
+<caption> The plots of logarithmic function on different bases.</caption>
+</figure>
+</para>
+<para id="element-33">Note that expanse of logarithmic function "f(x)" is along y – axis on either side of axis, showing that its range is R. On the other hand, the expanse of “x” is limited to positive side of x-axis, showing that domain is positive real number. Further, irrespective of bases, logarithmic plots intersect x-axis at the same point i.e. x = 1 as :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title>Graphs</title>
+<para id="element-35">We have noted the importance of base “1” for logarithmic function. Base “1” plays an important role for determining nature of logarithmic function. Here, we have drawn plots for two cases : (i) 0&lt;a &lt; 1 and (ii) a &gt; 1. If the base is greater than zero, but less than “1”, then the logarithm function asymptotes to positive y-axis. Since, "x" is positive number, plot falls only in the right side quadrants. Also, note that <m:math>
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>0.1</m:mi>
+    </m:msub>
+      <m:mn>0.001</m:mn>
+      <m:mo>=</m:mo>
+      <m:mn>3</m:mn>
+  </m:mrow>
+</m:math> is less than <m:math>
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>0.1</m:mi>
+    </m:msub>
+      <m:mn>0.01</m:mn>
+      <m:mo>=</m:mo>
+      <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>. Hence, plot begins from a higher value to lower value as "x" increases. Further, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>0.1</m:mi>
+    </m:msub>
+      <m:mn>10</m:mn>
+      <m:mo>=</m:mo>
+      <m:mn>-1</m:mn>
+  </m:mrow>
+</m:math>. We deduce that plot moves below x-axis for "x" greater than "1".
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Logarithmic function </title>
+<media id="idp11589296" alt=""><image src="../../media/le2.gif" mime-type="image/gif"/></media>
+<caption> The plot of logarithmic function, when base is less than "1".</caption>
+</figure>
+</para>
+<para id="element-38">If the base is greater than “1”, then the logarithm function asymptotes to negative y-axis. Since, "x" is positive number, plot again falls only in the right side quadrants. Also, note that <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>10</m:mi>
+    </m:msub>
+      <m:mn>10</m:mn>
+      <m:mo>=</m:mo>
+      <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> is greater than <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>10</m:mi>
+    </m:msub>
+      <m:mn>100</m:mn>
+      <m:mo>=</m:mo>
+      <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>. Hence, plot begins from a lower value to greater value as "x" increases. Further, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>10</m:mi>
+    </m:msub>
+      <m:mn>10</m:mn>
+      <m:mo>=</m:mo>
+      <m:mn>1</m:mn>
+      <m:mn/>
+  </m:mrow>
+</m:math>. We deduce that plot moves above x-axis for "x" greater than "1".
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Logarithmic function </title>
+<media id="idp11713088" alt=""><image src="../../media/le3.gif" mime-type="image/gif"/></media>
+<caption> The plot of logarithmic function, when base is greater than "1".</caption>
+</figure>
+</para>
+</section>
+<section id="section-1c">
+<title>Logarithmic identities</title>
+<para id="element-40">Some of the important logarithmic identities are given here without proof. Idea, here, is to simply equip ourselves so that we can work with logarithmic functions in conjunction with itself or with other functions.
+</para>
+<para id="element-40a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+        <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+      <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40b">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+      <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+      <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40c">
+<m:math display="block">
+  <m:mrow>
+      <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+      <m:mi>x</m:mi>
+  </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40d">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>b</m:mi>
+    </m:msub>
+      <m:mi>c</m:mi>
+  </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>c</m:mi>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>b</m:mi>
+    </m:msub>
+      <m:mi>a</m:mi>
+  </m:mrow>
+    </m:msup>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41b">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41c">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mi>y</m:mi>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41d">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mi>y</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>a</m:mi>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mi>y</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-1c1">
+<title>Change of base</title>
+<para id="element-43">Sometimes, we are required to work with logarithmic expressions of different bases. In such cases, we convert them to same base, using following relation :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>b</m:mi>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>b</m:mi>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>a</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<example id="example-62">
+<para id="element-62"><term>Problem :</term> Find the domain of the function given by :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mn>10</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64"><term>Solution :</term>  The given function is reciprocal of a logarithmic function. Therefore, we first need to ensure that logarithmic function does not evaluate to zero for a value of “x”. A logarithmic function evaluates to zero if its argument is equal to “1”. Hence,
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Further domain of logarithmic function is a positive real number. For that :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>&gt;</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">Combining two results, the domain of the given function is :
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain of “f”</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+<example id="example-73">
+<para id="element-73"><term>Problem : </term> Find all real values of “x” such that : 
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74"><term>Solution :</term>  Solving for the exponential function, we get following inequality :
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">Now, we know that domain of an exponential function is “R”. However, this information is not helpful here to find values of “x” that satisfies the inequality. Taking natural logarithm on either side of the equation,
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">But, logarithm of “1” i.e. 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+ is zero. Hence,
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-148">This is rational inequality. In order to solve this inequality, we need to multiply each side of the inequality by -1 so that "x" in "1-x" becomes positive. This multiplication changes the inequality to "greater than" inequality.</para><para id="element-157"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>x</m:mi>
+
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para><para id="element-82">Here, critical points are 0 and 1. The rational expression is positive in the intervals on either side of middle interval. 
+</para>
+<para id="element-83">
+<figure id="fig-83"><title> Sign convention </title><media id="idp21387872" alt=""><image src="../../media/len6.gif" mime-type="image/gif"/></media><caption> Positive and negative intervals.</caption></figure>
+</para>
+<para id="element-84">Picking the intervals for which expression is positive :
+</para>
+<para id="element-85">
+<figure id="fig-85"><title> Intervals </title><media id="idp13820720" alt=""><image src="../../media/len7.gif" mime-type="image/gif"/></media><caption> Intervals for which rational function is positive.</caption></figure>
+</para>
+<para id="element-87"><m:math display="block">
+  <m:mrow>
+      <m:mtext>Domain</m:mtext>
+        <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+</section>
+
+<section id="section-3">
+<title>Logarithmic inequality</title>
+
+<para id="element-88">The nature of logarithmic function is dependent on the base value. We know that base of a logarithmic function is a positive number excluding “1”. The value of “1” plays important role in deciding nature of logarithmic function and hence that of inequality associated to it. Let us consider an equality :
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">What should we conclude : <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>? It depends on the value of “a”. We can understand the same by considering LHS of the inequality equal to an exponent z :
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">If a &gt; 1, then "<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>z</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>" will yield a greater “x” than "<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>", because z&gt;y (it is given by the inequality). On the other hand, if 0&lt;a&lt;1, then "<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>z</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>" will yield a smaller “x” than "<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>", because z&gt;y. We can understand this conclusion with the help of an example. Let
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94a">
+Let
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">
+Clearly, <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mtext>as</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>16</m:mn>
+    <m:mo>&gt;</m:mo>
+    <m:mn>8</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">
+Let us now consider a &lt;1,
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mrow>
+        <m:mn>0.5</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97a">
+Let
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mrow>
+        <m:mn>0.5</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">
+Clearly, <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>0.5</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mn>0.5</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mtext>as</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>0.0625</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0.125</m:mn>
+  </m:mrow>
+</m:math>. Thus, we finally conclude :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-101">
+We have used two ways notation to indicate that interpretation of logarithmic inequality is true in either direction. Similarly, we can conclude that :
+</para>
+<para id="element-88b">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-88c">Logarithmic inequality involving logarithmic functions on same base on either side of the inequality can be interpreted as :  
+</para>
+<para id="element-88d">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>y</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+      <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>y</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+      <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-90a"><term>Alternate method</term>
+</para>
+<para id="element-90b">We know that if x&gt;y, then :
+</para>
+<para id="element-90c">
+
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90d">Let us now consider the inequality <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>. Following above deduction, we use the term of inequality as powers on a common base :
+</para>
+<para id="element-90e">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+    </m:msup>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msup>
+      <m:mi>a</m:mi>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+    </m:msup>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90f">Using identity, <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>,
+</para>
+<para id="element-90g">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90h">Similarly, we can deduce other results of logarithmic inequalities.
+</para>
+<para id="element-90i">
+</para>
+<para id="element-90j">
+</para>
+<para id="element-90k">
+</para>
+<para id="element-90l">
+</para>
+<para id="element-90m">
+</para>
+<para id="element-90n">
+</para>
+</section>
+  </content>
+  
+</document>

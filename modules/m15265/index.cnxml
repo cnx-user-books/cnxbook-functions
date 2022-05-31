@@ -1,0 +1,1469 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Domain and range</title>
+  <metadata>
+  <md:content-id>m15265</md:content-id><md:title>Domain and range</md:title>
+  <md:abstract/>
+  <md:uuid>f88d4a4e-254c-4a21-bf19-6fc2ad51981d</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">We have seen that a function is a special relation. In the same sense, real function is a special function. The special about real function is that its domain and range are subsets of real numbers “R”. In mathematics, we deal with functions all the time – but with a difference. We drop the formal notation, which involves its name, specifications of domain and co-domain, direction of relation etc. Rather, we work with the rule alone. For example,
+</para>
+<para id="element-2">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-3">This simplification is based on the fact that domain, co-domain and range are subsets of real numbers. In case, these sets have some specific intervals other than “R” itself, then we mention the same with a semicolon (;) or a comma(,) or with a combination of them :
+</para>
+<para id="element-4"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    </m:msqrt>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>,</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5">Note that the interval “
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+  <m:mrow>
+    <m:mo>,</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+” specifies a subset of real number and defines the domain of function. In general, co-domain of real function is “R”. In some cases, we specify domain, which involves exclusion of certain value(s), like :
+</para>
+<para id="element-6"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">This means that domain of the function is 
+<m:math>
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+. Further, we use a variety of ways to denote a subset of real numbers for domain and range. Some of the examples are :
+</para>
+<para id="element-8">
+<list id="list-8" list-type="bulleted"><item>
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>:</m:mo>
+  </m:mrow>
+</m:math>
+ denotes subset of real number greater than “1”. </item>
+<item> 
+<m:math>
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>,</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+ denotes subset of real number that excludes integers “0” and “1”.</item>
+<item>
+<m:math>
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>:</m:mo>
+  </m:mrow>
+</m:math>
+ denotes subset of real number between “1” and “2” excluding end points. </item>
+<item>
+<m:math>
+  <m:mrow>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mn>1,2</m:mn>
+      </m:mrow>
+    <m:mo>]</m:mo>
+    <m:mo>:</m:mo>
+  </m:mrow>
+</m:math>
+ denotes subset of real number between “1” and “2” excluding end point “1”, but  including end point “2”.</item>
+</list>
+</para>
+<para id="element-11">
+Further, we may emphasize the meaning of following inequalities of real numbers as the same will be used frequently for denoting important segment of real number line : 
+</para>
+<para id="element-11a">
+<list id="list-11a" list-type="bulleted">
+<item>Positive number means x &gt; 0 (excludes “0”). </item>
+<item> Negative number means x &lt; 0 (excludes “0”). </item>
+<item>Non - negative number means x ≥ 0 (includes “0”).</item>
+<item>Non – positive number means x ≤ 0 (includes “0”).</item>
+</list>
+</para>
+
+<section id="section-1">
+<title>Domain of real function</title>
+<para id="element-9">Domain of real function is a subset of “R” such that rule “f(x)” is real. This concept is simple. We need to critically examine the given function and evaluate interval of “x” for which “f(x)” is real. 
+</para>
+
+<para id="element-9a">In this module, we shall restrict ourselves to algebraic functions. We determine domain of algebraic function for being real in the light of following facts :
+</para>
+
+<para id="element-9b">
+<list id="list-9b" list-type="bulleted"><item>If the function has rational form p(x)/q(x), then denominator q(x) ≠ 0.</item>
+<item>The term √x is a positive number, where x&gt;=0.</item>
+<item> The expression under even root should be non-negative. For example the function  
+<m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>3</m:mn>
+          <m:mi>x</m:mi>
+          <m:mo>-</m:mo>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math> to be real, 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+.</item>
+
+<item> The expression under even root in the denominator of a function should be positive number. For example the function  
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+ to be real, 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. Note that zero value of expression is not permitted in the denominator. </item> 
+</list>
+</para>
+<para id="element-10">Here, we shall work with few examples as illustration for determining domain of real function. 
+</para>
+<section id="section-1a">
+<title>Examples</title>
+<section id="section-1a1">
+<para id="element-12"><term>Problem 1 : </term> A function is given by :
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">Determine its domain set.
+</para>
+<para id="element-16"><term>Solution : </term> The function, in the form of rational expression, needs to be checked for its denominator. The denominator should not evaluate to zero as “a/0” form is undefined. For given function in the question, the denominator evaluates to zero when,
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">Hence, domain of the given function is 
+<m:math>
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+. The representation of the domain on real number line is shown with a dark line on  either side of the excluded point “-1”.
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Domain of a function </title>
+<media id="id1170882535211" alt=""><image src="../../media/dr1.gif" mime-type="image/gif"/></media>
+<caption> The number "-1" is excluded from the domain. </caption>
+</figure>
+</para>
+</section>
+<section id="section-1a2">
+<para id="element-21"><term>Problem 2 : </term>A function is given by :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:mn>5</m:mn>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>6</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">Determine its domain set.
+</para>
+<para id="element-24"><term>Solution : </term> We observe that given function is a square root of a quadratic polynomial. The expression within square root should be a non-negative number as square root of a negative number is not a real number. It means that expression under even root should be non-negative.
+</para>
+<para id="element-25">We factorize the quadratic expression in order to find corresponding interval for which expression under the root is non-negative.  
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-414"><note id="id1170884051778">There are two specific sign schemes. These schemes are very helpful in determining interval for inequalities. We shall discuss and use them in next module. For the present, we carry on with general interpretation so that we realize difficulties in estimating intervals of inequalities without sign schemes and also that we have insight into the requirements of interval formation.
+</note></para><para id="element-29">We interpret this result in reference to quadratic equation. When x ≤ 2, both factors of quadratic equation are non-positive and  their product is non-negative. We can check with one such value like “1” or “-1”. On the other hand, when x ≥ 3, both factors are non-negative and their product is also non-negative. It turns out that these two conditions correspond to two intervals, which are disconnected to each other.
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Domain of a function </title>
+<media id="id1170881681310" alt=""><image src="../../media/dr2.gif" mime-type="image/gif"/></media>
+<caption> The domain consists of two disjointed intervals. </caption>
+</figure>
+</para>
+<para id="element-31">The representation of the domain interval on real number line is shown with thick line and small filled circles. From the representation on the figure also, it is clear that it is a case of two disjoint intervals. We, therefore, represent the valid domain of the function with the help of the concept of union of two sets (intervals) in the following manner :
+</para>
+<para id="element-32"><m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>3</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">i.e.
+</para>
+<para id="element-35"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    <m:mo>]</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>[</m:mo>
+      <m:mrow>
+        <m:mn>3,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">This interpretation is typical of product of two linear factors, which is greater than or equal to zero. This interpretation, as a matter of fact, can be used as an axiom in general for deciding interval, involving product of two factors.
+</para>
+</section>
+</section>
+</section>
+<section id="section-2">
+<title>Range of a real function</title>
+<para id="element-37">Range is a set of images. It is a subset of co-domain. The requirement, here, is to find the interval of the co-domain for which there is “pre-image” in the domain set. In other words, we need to find the values of “y” within the domain of the function.
+</para>
+<para id="element-38">Further, we have already developed technique to find the inverse element i.e. pre-images, while studying inverse function. We shall apply the same concept here to decide range of the function. However, unlike determining domain, it is extremely helpful that we follow a step-wise algorithm to determine the range. It is given here as :
+</para>
+<para id="element-39">
+<list id="list-39" list-type="enumerated">
+<item> Find domain. </item>
+<item> Put y = f(x). </item>
+<item> Solve the function for “x” in terms of “y”. </item>
+<item> Find the values of “y” for which “x” is real in the domain of the function determined in step 1. </item>
+</list>
+</para>
+<para id="element-243">While determining range of a function, we need to be careful with regard to two important aspects :</para><para id="element-842"><term>1: </term> The values obtained for range are consistent with the function. This means that we should check the range against the requirement of a given function. For example, if range of a square root function is evaluated as say [-3,3], then we need to discard negative interval. A square root can not be negative. Hence, the correct range would be [0,3]. </para><para id="element-665"><term>2: </term>  We need to exclude values of function (y) corresponding to invalid values of “x”. This is particularly the case if domain is a continuous interval except few points barred by the definition of the function. </para><para id="element-40">
+The best way to understand this algorithm is to work with few examples.
+</para>
+<section id="section-2a">
+<title>Examples</title>
+<section id="section-2a1">
+<para id="element-41"><term>Problem 3 : </term>A function is given by :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>9</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">Determine its range.
+</para>
+<para id="element-44"><term>Solution : </term> For real value of “y”, the expression 
+<m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+ is non-negative number. It means that :
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">We interpret this result in reference to the given quadratic equation. When <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>but</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+, the signs of two factors are opposite and hence their product is less than or equal to zero. Outside this interval, the expression evaluates to positive number. 
+</para>
+<para id="element-49">
+<figure id="fig-49">
+<title> Domain of a function </title>
+<media id="id1170883877767" alt=""><image src="../../media/dr3.gif" mime-type="image/gif"/></media>
+<caption> The domain lies between two end points, inclusive of them. </caption>
+</figure>
+</para>
+<para id="element-50">The representation of the domain interval on real number line is shown with thick line and two small filled circles. We see that real values of “x” lies between “-3” and “3”, including end points. We represent the valid domain as :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">or 
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3,3</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">This interpretation is typical of product of two linear factors, which is less than or equal to zero. This interpretation can also be used as an axiom in general for deciding interval, involving two factors.
+</para>
+<para id="element-55">In order to find range, we solve the function for “x”,
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>9</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>9</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+Following the same analysis as for domain, we reach the conclusion that the value of “y” for real “x” is given by the interval :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3,3</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">Now, the examination of given function reveals that “y” can be only positive number (note that no negative sign precede square root expression) in the expression for "Y" : 
+</para>
+<para id="element-849"><m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>9</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para><para id="element-491">Hence, “y” can not be negative. Note that we determined interval of "y", which includes negative numbers also. Thus, we conclude that range of the given function is half of the interval obtained earlier, which includes zero also :</para><para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mn>0,3</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2a2">
+<para id="element-62"><term>Problem 4 : </term>A function is given by :
+</para>
+<para id="element-63"><m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-64">Determine its range.
+</para>
+<para id="element-65"><term>Solution : </term> We observe that the both numerator and denominator of the given function are non-negative. It is because “
+<m:math>
+  <m:mrow>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+  </m:mrow>
+</m:math>
+ “ always evaluates to non-negative number. It means that given function is real for all values of “x”. Thus, domain of function is “R”. 
+</para>
+<para id="element-66">In order to find range, we solve the function for “x”,
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>y</m:mi>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">For “x” to be real, the expression within square root should be non - negative. This case, however, is different in that it is a ratio of two linear expressions. It is possible that denominator is positive, but numerator is negative or vice - versa. As such, the rational expression as a whole will be negative. In the nutshell, we need to evaluate “x” for following requirements (Note : we are presenting basic reasoning here. Subsequently, we will learn more sophisticated means to determine valid intervals of variables) :
+</para>
+<para id="element-72">
+<list id="list-72" list-type="enumerated"><item> Total expression within the square root as a whole is non-negative number as square root of a negative number is not a real number. </item>
+<item> For positive value of "y" in the numerator, the denominator is non-negative as square root of a negative number is not a real number. </item>
+<item> The denominator does not evaluate to zero. The form “y/0” is undefined. </item>
+</list>
+</para>
+<para id="element-73a">For the first requirement, the expression in the square root should be greater than or  equal to zero i.e non-negative number.
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">Further, denominator of the expression “1-y” is non-negative.  Also,  “1-y” is not equal to zero. Combining two requirements, the expression is a positive number : 
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">Combining two intervals i.e. intersection of two intervals, we have the range of the function as :
+</para>
+<para id="element-846"><figure id="fig-846"><title> Range of a function </title><media id="id1170895809722" alt=""><image src="../../media/dr4b.gif" mime-type="image/gif"/></media><caption> Range of the function is equal to intersection of two intervals. </caption></figure></para><para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+</section>
+
+
+<section id="section-4">
+<title>Classification of functions  </title>
+<para id="element-130a">In mathematics, we deal with specific real functions, which are characterized by specific domain, range and rules. Some of the familiar functions are polynomial, rational, irrational, trigonometric, exponential, logarithmic functions and piece wise defined functions etc. These functions are further combined to form more complex function following certain definition or rule so that function is meaningful for real values. 
+</para>
+<para id="element-131a">There are varieties of functions. These functions are broadly classified under three headings :
+</para>
+<para id="element-132a">
+<list id="list-132a" list-type="bulleted">
+<item> 	<term>Algebraic functions : </term> polynomial, rational and irrational functions </item>
+<item> <term>Transcendental functions : </term> trigonometric, inverse trigonometric, exponential and logarithmic functions </item>
+<item> <term>Piece wise defined functions : </term> modulus, greatest integer, least integer, fraction part functions and other specific piece wise definitions  </item>
+</list>	
+</para>
+<para id="element-133a">Polynomial function is further classified based on (i) numbers of terms eg. monomial, binomial, trinomial etc. (ii) numbers of variables involved eg. function in one or two variables and (iii) degree of the polynomial eg. linear, quadratic, cubic, bi-quadratic etc. 
+</para>
+<para id="element-134a">Generally we deal with function expressions in one variable in which dependent variable (y) is explicitly related to independent variable (x). Such functions are called explicit function.
+</para>
+<para id="element-135a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-136a">On the other hand, there are function rules in which “y” is not explicitly related to “x”. Such functions are called implicit functions.
+</para>
+<para id="element-137a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+        <m:mi>y</m:mi>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-138a">Further, we also use properties of function like periodicity (repetition of function values at regular intervals of independent variable) and polarity (odd or even) to characterize a function. For this reason, we sometimes name a function like periodic, non-periodic, aperiodic, odd, even or equal function etc.
+</para>
+
+</section>
+
+
+<section id="section-3">
+<title>Important concepts  </title>
+<para id="element-80">In this section, we discuss few important concepts, which are frequently used in determining domain and range.
+</para>
+
+<section id="section-3c">
+<title>Defined and undefined expressions</title>
+<para id="element-131">Defined expressions are meaningful and unambiguous. On the contrary, undefined expressions are not meaningful. Most of the undefined expressions results from combination of zeros and infinity in various ways. There is, however, no unanimity about “undefined” values among mathematicians. Hence, we shall present two lists – one list which is undefined in all contexts and another list which may be defined in certain context. We consider this later list as defined expressions, unless otherwise stated.
+</para>
+<para id="element-132"><term>Undefined in all contexts </term>
+</para>
+<para id="element-133"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>∞</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>∞</m:mi>
+    </m:msup>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>∞</m:mi>
+      <m:mi>∞</m:mi>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:mo>(</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-667">We should understand here that an expression is undefined when it can not be interpreted. The important point is that it has got nothing to do with the magnitude of quantity. Emphatically, infinity is not undefined. We shall discuss this aspect subsequently.</para><para id="element-262">Note that "
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>∞</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ " is undefined, because it is not certain whether the expression will evaluate to "-1" or "1". On the other hand, expression "
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>∞</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+" is defined because we are sure that the expression will evaluate to "1", however large is infinity.</para><para id="element-134"><term>Defined in some contexts </term>
+</para>
+<para id="element-135">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mtext>undefined or 1</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-136">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>∞</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mrow>
+	      <m:mtext>undefined or 1</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-137">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mn>1</m:mn>
+      <m:mi>∞</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mrow>
+	      <m:mtext>undefined or 1</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7d">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+	      <m:mtext>undefined or 0</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-138">For our purpose, unless otherwise stated, we shall consider later set as defined.  </para>
+</section>
+<section id="section-3d">
+<title>Infinity</title>
+<para id="element-98">Infinity is not a member of real number set “R”. Strictly we can not write infinity like :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>where “x” is real.</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">For this reason, the interval of real number set is defined in terms of infinity without equality as :
+</para>
+<para id="element-101">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-701">We may emphasize that infinity by itself is “unbounded” – not undefined. What it means that we can interpret infinity – even though its value is not known. We can say it is very large number (either positive or negative as the case be), but we can not interpret undefined values at all.  </para><para id="element-102">It is easy to interpret operations with infinity. We need to only keep the meaning of infinity as a very large number in focus. Various operations, involving infinity are presented here :
+</para>
+<para id="element-103"><term>1: </term>   The plus or minus infinity is not changed by adding or subtracting real number.
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>∞</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-145">Above results are on expected line. Addition or subtraction of finite values will only yield a large number. It is so because infinity can be greater than a large value that we might conceive.</para><para id="element-106"><term>2: </term>  Addition of two infinities is infinity. 
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>∞</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108"><term>3: </term>  Difference of two infinities is undefined.
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>∞</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>Undefined</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-694">Addition of two infinities is definitely a very large number. We are, however, not sure about their difference. The difference of two infinities can either be small or large. It depends on the relative "largeness" of two infinities. Hence, difference of two infinities is "undefined".</para><para id="element-110"><term>4: </term>   Product of two infinities are inferred as :
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>∞</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114"><term>5: </term>  Product of infinity with a real number “x” is given as :
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115a"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>∞</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-118"><term>6: </term>  Division of infinity by infinity is not defined.
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>∞</m:mi>
+      <m:mi>∞</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mtext>Undefined</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120"><term>7: </term>  A real number, “x”, raised to infinity
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>∞</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-122">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>∞</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-123">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>∞</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-124"><term>8: </term>  An infinity raised to infinity is defined.
+</para><para id="element-524"><m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>∞</m:mi>
+      <m:mi>∞</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+  </content>
+  
+</document>

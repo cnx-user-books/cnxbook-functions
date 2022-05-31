@@ -1,0 +1,1863 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Composition of trigonometric function and its inverse</title>
+  <metadata>
+  <md:content-id>m17229</md:content-id><md:title>Composition of trigonometric function and its inverse</md:title>
+  <md:abstract/>
+  <md:uuid>d0482de5-2aa6-4dc2-8cc2-8e3ab89921a5</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1"> Trigonometric and inverse trigonometric functions are inverse to each other. We can use them to compose new functions. In such composition, trigonometric function represents value of trigonometric ratio, whereas inverse trigonometric function represents angle. The composite function either evaluates to value or angle, depending on particular composition. 
+
+</para>
+<section id="section-1">
+<title> Composition representing value of trigonometric function </title>
+
+<para id="element-2"> 
+
+Sine inverse trigonometric function is given by :
+
+
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+    
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-5">
+The composition <m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math> evaluates to a value. Clearly, x is a value of sine trigonometric function which falls within the range of sine function i.e <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+. It is important to note that domain of inverse function is same as range of the corresponding trigonometric function. We write six compositions denoting value of trigonometric functions as :
+
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:msup>
+      <m:mi>cot</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10"><m:math display="block">
+  <m:mrow>
+    <m:mi>sec</m:mi>
+    <m:msup>
+      <m:mi>sec</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>]</m:mo>
+        <m:mo>∪</m:mo>
+        <m:mo>[</m:mo>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:msup>
+      <m:mi>cosec</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>]</m:mo>
+        <m:mo>∪</m:mo>
+        <m:mo>[</m:mo>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2">
+<title> Composition representing angle </title>
+
+
+
+<para id="element-12"> 
+We shall discuss this composition with respect to individual inverse trigonometric ratio.
+
+</para>
+<section id="section-2a">
+<title> Composition with arcsine </title>
+<para id="element-13">
+
+Sine inverse trigonometric function is given by :
+
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-15">
+In order to maintain generality, we replace y by x as :
+   
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-17">
+The composition <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math> evaluates to an angle. Clearly, x is angle value – not the value of trigonometric ratio. However, we know that we use a truncated domain of trigonometric function for defining range of inverse function. The values in the interval are selected such that all unique values of sine trigonometric function are represented. It means that expression on LHS of the equation i.e. <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math> evaluates to angle values lying in the interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+. 
+
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+However, x as argument of sine function can assume angle values belonging to real number set. It means angles represented by LHS and RHS can be different if we consider angle values beyond principal set selected to render corresponding trigonometric function invertible. 
+
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> sine function</title>
+<media id="id1167164310800" alt=""><image src="../../media/c1-26a6.gif" mime-type="image/gif"/></media>
+<caption> Principle domain </caption>
+</figure>
+</para>
+
+<para id="element-22">
+Let us consider adjacent intervals such that all sine values are included once. Such intervals are <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mn>5</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+ etc on the right side and <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>  etc on the left side of the principal interval. 
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> sine function</title>
+<media id="id1167155200619" alt=""><image src="../../media/c2-d0fb.gif" mime-type="image/gif"/></media>
+<caption> Additional domains for inversion</caption>
+</figure>
+</para>
+<para id="element-24">
+Our task now is to determine angles in any of these new intervals, say <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+, corresponding to angles in the principal interval. We make use of value diagram which allows to determine angles having same trigonometric values. Let us consider a positive acute angle “θ” in the principal interval. This lies in the first quadrant. The new interval represents second and third quadrants. However, sine is positive in second quadrant and negative in third quadrant. Let the angle corresponding to positive acute angle in principal interval be x. Clearly, x corresponding to positive acute angle θ lies in second quadrant and is given by :
+
+
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Value diagrams </title>
+<media id="id1167155604198" alt=""><image src="../../media/c3-7b6f.gif" mime-type="image/gif"/></media>
+<caption> Value diagrams for positive and negative angles </caption>
+</figure>
+
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">
+Hence,
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-30"> In order to find expression corresponding to negative angle interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+, we need to construct negative value diagram. We know that equivalent negative angle is obtained by deducting “-2π” to the positive angle. Thus, corresponding to expression for positive angles in four quadrants, the expression in terms of negative angles are  “-θ”,“-π+θ”,“-π-θ” and “-2π+θ” in four quadrants counted in clockwise direction in the value diagram. Now, we estimate from the sine plot that an angle, corresponding to a positive acute angle, θ, in the principal interval, lies in third negative quadrant. Therefore,
+
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-33">
+Hence,
+
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-35">
+Combining three results,
+
+</para>
+<para id="element-36">
+<code id="id1167149353710" display="block">
+              |-π-x;   x∈ [-3π/2, -π/2]
+sin⁻¹ sinx  = | x;     x∈ [-π/2, π/2]
+              | π- x;  x∈ [π/2, 3π/2]
+</code>
+</para>
+<para id="element-37">
+We can similarly find expressions for more such intervals. 
+</para>
+<section id="section-2a1">
+<title> Graph of sin⁻¹sinx
+
+  </title>
+
+<para id="element-38">
+
+Using three expressions obtained above, we can draw plot of the composition function. We extend the plot, using the fact that composition is a periodic function with a period of 2π. The equation of plot, which is equivalent to plot y=x shifted by 2π towards right, is :
+
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-40">
+The equation of plot, which is equivalent to plot y=x shifted by 2π towards left, is :
+
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> sine inverse of sine </title>
+<media id="id1167151251728" alt=""><image src="../../media/c4-d2f9.gif" mime-type="image/gif"/></media>
+<caption> The function is periodic with period 2π. </caption>
+</figure>
+
+</para>
+<para id="element-43">
+We see that graph of composition is continuous. Its domain is R. Its range is <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>. The function is periodic with period 2π.
+</para>
+
+</section>
+</section>
+<section id="section-2b">
+<title> Composition with arccosine </title>
+
+<para id="element-44">
+
+The composition <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+   
+  </m:mrow>
+</m:math> evaluates to angle values lying in the interval [0, π]. 
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-46">
+Let us consider adjacent intervals such that all cosine values are included once. Such intervals are [π, 2π],  [2π, 3π] etc on the right side and [-π, 0],  [-2π, -π]  etc on the left side of the principal interval. 
+
+
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> cosine function </title>
+<media id="id5264103" alt=""><image src="../../media/c5-f19e.gif" mime-type="image/gif"/></media>
+<caption> Additional domains for inversion. </caption>
+</figure>
+
+</para>
+<para id="element-48">
+The new interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math> represents third and fourth quadrants. The angle x, corresponding to positive acute angle θ, lies in fourth quadrant. Then, 
+
+
+</para>
+<para id="element-49">
+<figure id="fig-49">
+<title> Value diagrams </title>
+<media id="id6911874" alt=""><image src="../../media/c3-7b6f.gif" mime-type="image/gif"/></media>
+<caption> Value diagrams for positive and negative angles </caption>
+</figure>
+
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-52">
+Hence,
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-54">
+In order to find expression corresponding to negative angle interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+, we estimate from the cosine plot that an angle corresponding to a positive acute angle, θ, in the principal interval lies in first negative quadrant. Therefore,
+
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-57">
+Hence,
+
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>,</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-59">
+Combining three results,
+
+</para>
+<para id="element-60">
+<code id="id4557748" display="block">
+              |-x;     x∈ [-π, 0]
+cos⁻¹ cosx  = | x;     x∈[0, π]
+              |2π- x;  x∈ [π, 2π]
+</code>
+</para>
+<para id="element-61">
+We can similarly find expressions for other intervals. 
+</para>
+<section id="section-2b1">
+<title> Graph of cos⁻¹cosx  </title>
+
+<para id="element-62">
+Using three expressions obtained above, we can draw plot of the composition function. We have extended the plot, using the fact that composition is a periodic function with a period of 2π. The equation of plot, which is equivalent to plot y=x shifted by 2π towards right, is :
+
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-64">
+The equation of plot, which is equivalent to plot y=x shifted by 2π towards left, is :
+
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-66">
+<figure id="fig-66">
+<title> cosine inverse of cosine </title>
+<media id="id1167164419278" alt=""><image src="../../media/c7-7089.gif" mime-type="image/gif"/></media>
+<caption> The function is periodic with period 2π. </caption>
+</figure>
+
+</para>
+<para id="element-67">
+We see that graph of composition is continuous. Its domain is R. Its range is <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>. The function is periodic with period 2π.
+</para>
+</section>
+</section>
+
+<section id="section-2c">
+<title> Composition with arctangent  </title>
+
+<para id="element-68">
+
+
+The composition <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+ evaluates to angle values lying in the interval <m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2,</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>. 
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+</para>
+<para id="element-70">
+Let us consider adjacent intervals such that all tangent values are included once. Such intervals are (π/2, 3π/2),  (3π/2, 5π/2) etc on the right side and (-3π/2, -π/2),  (-5π/2, -3π/2)  etc on the left side of the principal interval. 
+</para>
+<para id="element-71">
+<figure id="fig-71">
+<title> tangent function </title>
+<media id="id1167150044484" alt=""><image src="../../media/c8-11c0.gif" mime-type="image/gif"/></media>
+<caption> Additional domains for inversion. </caption>
+</figure>
+</para>
+<para id="element-72">
+The new interval <m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2,</m:mn>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+ represents second and third quadrants. The angle x, corresponding to positive acute angle θ, lies in third quadrant. Then, 
+
+
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Value diagrams </title>
+<media id="id7559273" alt=""><image src="../../media/c3-7b6f.gif" mime-type="image/gif"/></media>
+<caption> Value diagrams for positive and negative angles </caption>
+</figure>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-76">
+Hence,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-78">
+In order to find expression corresponding to negative angle interval <m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2,</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+, we estimate from the tangent plot that an angle corresponding to a positive acute angle, θ, in the principal interval lies in second negative quadrant. Therefore,
+
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-81">
+Hence,
+
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-83">
+Combining three results,
+
+</para>
+<para id="element-84">
+<code id="id1167151141979" display="block">
+              | x+π;   x∈ (-3π/2, -π/2)
+tan⁻¹ tanx  = | x;     x∈ (-π/2, π/2)
+              | x-π;   x∈ (π/2, 3π/2)
+</code>
+</para>
+<para id="element-85">
+We can similarly find expressions for other intervals. 
+</para>
+<section id="section-2c1">
+<title> Graph of tan⁻¹tanx  </title>
+
+<para id="element-86">
+
+Using three expressions obtained above, we can draw plot of the composition function. We have extended the plot, using the fact that composition is a periodic function with a period of π. The equation of plot, which is equivalent to plot y=x shifted by π towards right is :
+
+
+</para>
+<para id="element-87">
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-88">
+The equation of plot, which is equivalent to plot y=x shifted by π towards left is :
+
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">
+These results are same as obtained earlier. It means that nature of plot is same in the adjacent intervals.
+
+</para>
+<para id="element-91">
+<figure id="fig-91">
+<title> tangent inverse of tangent </title>
+<media id="id1167151412876" alt=""><image src="../../media/c10-d7f9.gif" mime-type="image/gif"/></media>
+<caption> The function is periodic with period π. </caption>
+</figure>
+
+</para>
+<para id="element-92">
+We see that graph of composition is discontinuous. Its domain is 
+<m:math>
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+. Its range is <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+. The function is periodic with period π.
+</para>
+</section>
+</section>
+
+<section id="section-2d">
+<title> Composition with arccosecant  </title>
+
+<para id="element-93">
+
+The composition <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>cosec</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math> evaluates to angle values lying in the interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+. 
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>cosec</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-95">
+Let us consider adjacent intervals such that all cosine values are included once. Such intervals are [π/2, 3π/2] – {π},  [3π/2, 5π/2] – {2π} etc on the right side and [-3π/2, -π/2] – {-π},  [-5π/2, -3π/2] – {-2π} etc on the left side of the principal interval. 
+
+
+</para>
+<para id="element-96">
+<figure id="fig-96"><title> cosecant function </title><media id="id3673367" alt=""><image src="../../media/c-11a.gif" mime-type="image/gif"/></media><caption> Additional domains for inversion. </caption></figure>
+
+</para>
+<para id="element-97">
+The new interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math> lies in second and third quadrants. The angle x corresponding to positive acute angle θ, lies in second quadrant. Then, 
+
+
+</para>
+<para id="element-98">
+<figure id="fig-98">
+<title> Value diagrams </title>
+<media id="id1167151137387" alt=""><image src="../../media/c3-7b6f.gif" mime-type="image/gif"/></media>
+<caption> Value diagrams for positive and negative angles </caption>
+</figure>
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+
+<para id="element-101">
+Hence,
+
+</para>
+<para id="element-102">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>cosec</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-103">
+In order to find expression corresponding to negative angle interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>, we estimate from the cosecant plot that an angle corresponding to a positive acute angle, θ, in the principal interval lies in third negative quadrant. Therefore,
+
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-105">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-106">
+Hence,
+</para>
+<para id="element-107"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>cosec</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-108">
+Combining three results,
+
+</para>
+<para id="element-109">
+<code id="id2563372" display="block">
+                  |- π-x;   x∈[-3π/2, -π/2] – {-π}
+cosec⁻¹ cosecx  = | x;      x∈[-/2, π/2]-{0} 
+                  | π- x;   x∈[π/2, 3π/2] – {π}
+</code>
+</para>
+<para id="element-110">
+We can similarly find expressions for other intervals. 
+</para>
+
+<section id="section-2d1">
+<title> Graph of cosec⁻¹cosecx  </title>
+<para id="element-111">
+
+Using three expressions obtained above, we can draw plot of the composition function. We have extended the plot, using the fact that composition is a periodic function with a period of 2π. The equation of plot, which is equivalent to plot y=x shifted by 2π towards right, is :
+
+</para>
+<para id="element-112">
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-113">
+The equation of plot, which is equivalent to plot y=x shifted by 2π towards left, is :
+
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-115">
+<figure id="fig-115">
+<title> cosecant inverse of cosecant </title>
+<media id="id1167155631978" alt=""><image src="../../media/c13.gif" mime-type="image/gif"/></media>
+<caption> The function is periodic with period 2π. </caption>
+</figure>
+
+</para>
+<para id="element-116">
+We see that graph of composition is discontinuous. Its domain is <m:math>
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+
+. Its range is <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+. The function is periodic with period 2π.
+
+</para>
+</section>
+</section>
+<para id="element-117">
+<note id="id4856497">We can similarly find out expressions for different intervals for arcsecant and arccotangent compositions. We have left out discussion of these two functions as exercise.
+</note>
+</para>
+
+</section>
+  
+  </content>
+  
+</document>

@@ -1,0 +1,3783 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Trigonometric values, equations and identities</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>86f7c182-ecd6-4e35-b5b2-c097d4464212</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">In this module, we discuss trigonometric values and angles. In particular, we shall learn about two very useful algorithms which help us to find (i) value of trigonometric function when angle is given and (ii) angles when value of trigonometric function is given. In addition, we shall go through various trigonometric equations and identities. We are expected to be already familiar with them.  For this reason, solutions of equations and identities are presented here without deduction and are included for reference purpose.
+
+
+</para>
+<section id="section-1">
+<title> Values of trigonometric function </title>
+
+<para id="element-2">It is sufficient to know values of trigonometric functions for angles in first quarter. These angles are called acute angles (angle value less than π/2). Here, we develop algorithm, which converts angles in other quadrants in terms of acute angles. Basic idea is that angles can be expressed in terms of combination of acute angle and reference angles like 0, π/2, π and 2π. These angles demark quadrants. Using certain procedure, we can find value of trigonometric function of any angle provided we know the trigonometric value of corresponding acute angle.   For the sake of convenience, we shall concentrate on acute angles π/6, π/4 and π/3, whose trigonometric function values are known to us. We follow an algorithm to determine trigonometric values as given here :
+</para>
+<para id="element-3">
+<term>1 : </term> Express given angle as sum or difference of acute angle and reference angles 0, π/2, π and 2π.
+</para>
+<para id="element-4"><term>2 : </term> Write trigonometric function of sum or difference as trigonometric function of acute angle. A trigonometric sum/difference combination of angles involving angles of 0, π and 2π does not change the function. However, a combination involving π/2 changes function from sine to cosine and vice-versa, tangent to cotangent and vice-versa and cosecant to secant and vice-versa.
+
+</para>
+<para id="element-5">
+<term>3 : </term> Apply sign before trigonometric function determined as above in accordance with the sign rule of trigonometric function.
+
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>+</m:mo>
+        <m:mspace width="1em"/>
+        <m:mi>o</m:mi>
+        <m:mi>r</m:mi>
+        <m:mspace width="1em"/>
+        <m:mo>−</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-6a">
+
+where “f” and “g” denote trigonometric functions, “r” denotes reference angles like 0, π/2, π and 2π and “a” denotes acute angle. 
+</para>
+
+<para id="element-7">
+<figure id="fig-7"><title> Trigonometric sign diagram </title><media id="idp13969216" alt=""><image src="../../media/tis1a.gif" mime-type="image/gif"/></media><caption> Signs of six trigonometric functions in different quadrants.</caption></figure>
+
+</para>
+<para id="element-8">
+Let us consider an angle 7π/6. We are required to find sine and cotangent values of this angle. Here, we see that 7π/6 is greater than π. Hence, it is equal to π plus some acute angle, say, x. 
+
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-10">
+Since combination involves angle π, the sine of given angle retains the trigonometric function form. However, angle 7π/6 falls in third quadrant, in which sine is negative. Thus,
+
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">
+Similarly,
+
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-14">
+This method is very helpful to determine value of trigonometric function provided we know the value of trigonometric function of corresponding acute angle resulting from combination involving angles 0, π/2, π and 2π. Here, we shall work out few standard identities involving combination of angles with reference angles. We need not remember these identities. Rather, we should rely on the procedure discussed here as all of these can be derived on spot easily.
+</para>
+<section id="section-1a">
+<title> Reflection in 0 </title>
+<para id="element-15">
+There is no change in function form. Function takes sign in accordance with sign rule. 
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title> Reflection in π/2 </title>
+
+<para id="element-17">
+Reflection in π/2 is also known as co-function identities. Functions are called co-functions when their compliments have same value. As such, sine and cosine are co-functions. In this case, there is change in function form as combination of angle involves π/2. Function takes sign in accordance with sign rule. 
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+<section id="section-1c">
+<title> Reflection in π </title>
+<para id="element-19">
+
+In this case, there is no change in function form. Function takes sign in accordance with sign rule. 
+
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-1d">
+<title> Shift by π/2 </title>
+<para id="element-21">
+
+Shift refers to horizontal shift of graph. We shall explore this aspect of trigonometric function in detail in a separate module. From transformation point of view, there is change in function form as combination of angle involves π/2. Function takes sign in accordance with sign rule. 
+
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+<section id="section-1e">
+<title> Shift by π </title>
+<para id="element-23">
+In this case, there is no change in function form. Function takes sign in accordance with sign rule. 
+
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+
+  </m:mrow>
+</m:math>
+ 
+
+</para>
+</section>
+<section id="section-1f">
+<title> Shift by 2π </title>
+<para id="element-25">
+In this case, there is no change in function form. Function takes sign in accordance with sign rule. 
+
+
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sec</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Finding angles </title>
+
+<para id="element-27">
+Trigonometric functions are many-one relation. We are required to find angles corresponding to a given trigonometric value. For example, what are angles corresponding to sine value of -√3/2. In other words, we need to find angles whose sine evaluates to this value. Note that these values corresponds to intersection of parallel line y=-√3/2 with the graph of sine curve.
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Graph of sine function </title>
+<media id="idp892800" alt=""><image src="../../media/tis3a.gif" mime-type="image/gif"/></media>
+<caption> Intersection of sine function with parallel value line. </caption>
+</figure>
+
+</para>
+<para id="element-29">
+For the time being, let us concentrate the interval [0,2π], which corresponds to one cycle of four quadrants. We follow an algorithm as given here to find angles in this interval :
+
+</para>
+<para id="element-30">
+<term>1 : </term> Consider only numerical magnitude of the given value. Find acute angle whose trigonometric function value corresponds to the numerical magnitude of the given value.
+</para>
+<para id="element-31">
+<term>2 : </term>Use sign rule and identify quadrants in which trigonometric function has the sign that of given value.
+</para>
+<para id="element-32">
+<term>3 : </term>Use value diagram and determine the angles as required.
+</para>
+<para id="element-33">
+<figure id="fig-33">
+<title> Trigonometric value diagram </title>
+<media id="idp13329888" alt=""><image src="../../media/tis2a.gif" mime-type="image/gif"/></media>
+<caption> Angles whose trigonometric function values are same in different quadrants(to be used in conjunction with sign diagram). </caption>
+</figure>
+
+</para>
+<para id="element-34">
+To see the working of the algorithm, let us consider sinx = -√3/2. Considering only the magnitude of numerical value, we have :
+
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-36">
+Thus, required acute angle is π/3. Now, sine function is negative in third and fourth quadrants.  Looking at the value diagram, the angle in third quadrant is :
+
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-38">
+Similarly, angle in fourth quadrant is :
+
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<example id="example-40">
+<para id="element-40"><term>Problem : </term> 
+Find angles in [0,2π], if
+
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-42"><term>Solution : </term> 
+Considering only the magnitude of numerical value, we have :
+
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-44">
+Thus, required acute angle is π/3. Now, cotangent function is positive in first and third quadrants.  Looking at the value diagram, the angle in third quadrant is :
+
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46">
+Hence angles are π/3 and 4π/3.
+</para>
+</example>
+<section id="section-2a">
+<title> Negative angles</title>
+
+<para id="element-47">
+
+When we consider angle as a real number entity, we need to express angles as negative angles as well. The corresponding negative angle (y) is obtained as :
+ 
+
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-49">
+Thus, negative angles corresponding to  4π/3 and 5π/3 are :
+
+</para>
+<para id="element-50">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-51">
+We can also find negative angle values using a separate negative value diagram (see figure). We draw negative value diagram by demarking quadrants with corresponding angles and writing angle values for negative values. We deduct “2π” from the relation for positive value diagram. 
+
+</para>
+<para id="element-52">
+<figure id="fig-52"><title> Trigonometric value diagram </title><media id="idp13065568" alt=""><image src="../../media/tis4a.gif" mime-type="image/gif"/></media><caption> Trigonometric value diagram for negative angles </caption></figure>
+</para>
+<para id="element-53">
+Let us consider sinx = -√3/2 again. The acute angle in first quadrant is π/3. Sine is negative in third and fourth quadrants. The angles in these quadrants are :
+
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+</section>
+<section id="section-3">
+<title> Trigonometric equations</title>
+<section id="section-3a">
+<title> Zeroes of sine and cosine functions </title>
+<para id="element-56">
+
+Trigonometric equations are formed by equating trigonometric functions to zero. The solutions of these equations are :
+
+</para>
+<para id="element-57">
+<term>1 : </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-58">
+<term>2 : </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<section id="section-3a1">
+<title> Definition of other trigonometric functions  </title>
+<para id="element-59">
+
+We define other trigonometric functions in the light of zeroes of sine and cosine as listed above :
+
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+</section>
+<section id="section-3b">
+<title> Trigonometric equations</title>
+
+<para id="element-61">
+Trigonometric function can be used to any other values as well. Solutions of such equations are given here without deduction for reference purpose. Solutions of three equations involving sine, cosine and tangent functions are listed here :
+
+</para>
+<para id="element-62">
+1. Sine equation
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65">
+2. Cosine equation
+
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-68">
+3. Tangent equation
+
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-71">
+In order to understand the working with trigonometric equation, let us consider an equation :
+
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+As worked out earlier, -√3/2 is sine value of two angles in the interval [0, π]. Important question here is to know which angle should be used in the solution set. Here,
+
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-75">
+We can write general solution using either of two values. 
+
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-77">
+The solution sets appear to be different, but are same on expansion. Conventionally, however, we use the smaller of two angles which lie in the interval [0, π]. In order to check that two series are indeed same, let us expand series from n=-4 to n=4, 
+
+</para>
+<para id="element-78">
+For <m:math>
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-79"><m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>13</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-623"><m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mrow>
+      <m:mn>4</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para><para id="element-80">
+Arranging in increasing order :
+</para>
+<para id="element-80a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>13</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-81">
+For <m:math>
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-82"><m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>14</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+ 
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-453"><m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>11</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>17</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para><para id="element-80b">
+Arranging in increasing order :
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>14</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>11</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>17</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-84">
+We see that there are common terms. There are, however, certain terms which do not appear in other series. We can though find those missing terms by evaluating some more values. For example, if we put n = 6 in the second series, then we get the missing term -13π/3. Also, putting n=5,7, we get 10π/3 and 16π/3. Thus, all missing terms in second series are obtained. Similarly, we can compute few more values in first series to find missing terms. We, therefore, conclude that both these series are equal.
+</para>
+<example id="example-85">
+
+<para id="element-85"><term>Problem : </term> 
+Find solution of equation :
+
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-87"><term>Solution : </term>
+Our objective here is to covert equation to linear form. Here, we can not convert sine term to cosine term, but we can convert <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+ in terms of <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>.
+
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-89">
+It is a quadratic equation in sinx. Factoring, we have :
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-91">
+Either, sinx=-1/2 or sinx = 2. But sinx can not be equal to 2. hence,
+
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>7</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-93">
+Note : We shall not work with any other examples here as purpose of this module is only to introduce general concepts of angles, identities and equations. These topics are part of separate detailed study. 
+</para>
+</example>
+</section>
+</section>
+<section id="section-4">
+<title>Trigonometric identities</title>
+
+<section id="section-4a">
+<title> Reciprocal identities </title>
+
+<para id="element-95">
+
+Reciprocals are defined for values of x for which trigonometric function in the denominator is not zero.
+
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>cosec</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>sec</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>cot</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>tan</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+<section id="section-4b">
+<title> Negative angle identities </title>
+<para id="element-97">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-4c">
+<title> Pythagorean identities </title>
+<para id="element-98">
+
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sec</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>cot</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>cosec</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+</section>
+<section id="section-4c1">
+<title> Sum/difference identities </title>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>∓</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>s</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>∓</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>x,y and (x+y) are not odd multiple of π/2</m:mtext>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cot</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>∓</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>x,y and (x+y) are not odd multiple of π/2</m:mtext>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+<section id="section-4d">
+<title> Double angle identities </title>
+<para id="element-100">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>tan</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>tan</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:msup>
+          <m:mi>tan</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>tan</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>tan</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>tan</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>cot</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>cot</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-4e">
+<title> Triple angle identities </title>
+
+<para id="element-101">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>tan</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>tan</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>tan</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>cot</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>cot</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>cot</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+<section id="section-4f">
+<title> Power reduction identities </title>
+<para id="element-102">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-4g">
+<title> Product to sum identities </title>
+<para id="element-103">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+<section id="section-4h">
+<title> Sum to product identities </title>
+<para id="element-104">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>y</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+
+</section>
+<section id="section-4i">
+<title> Half angle identities </title>
+<para id="element-105">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>-</m:mo>
+              <m:mi>cos</m:mi>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>cos</m:mi>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>cos</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>cos</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cot</m:mi>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>cosec</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>cot</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>cos</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>cos</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+</section>
+
+  </content>
+  
+</document>

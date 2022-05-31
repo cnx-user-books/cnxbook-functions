@@ -1,0 +1,693 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Inequality</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>408034db-5124-4423-8288-0a6a995667c4</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-150">
+Inequality is an important concept in understanding function and its properties – particularly domain and range. Many function forms are valid in certain interval(s) of real numbers. This means definition of function is subjected to certain restriction of values with respect to dependent and independent variables. The restriction is generally evaluated in terms of algebraic inequalities, which may involve linear, quadratic, higher degree polynomials or rational polynomials. 
+
+</para>
+<section id="section-5a">
+<title> Function definition and inequality  </title>
+<para id="element-151">
+
+A function imposes certain limitations by virtue of definition itself. We have seen such restriction with respect to radical functions in which polynomial inside square root needs to be non-negative. We have also seen that denominator of a rational function should not be zero. We shall learn about different functions in subsequent modules. Here, we consider few examples for illustration :
+
+</para>
+<para id="element-152">
+<term> 1 : </term> <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-153">
+Here, logrithmic function is defined for <m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0,1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+and
+</para>
+<para id="element-154">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>3</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-155">
+<term> 2 : </term> <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>arcsin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-156">
+Here, arcsine function is defined in the domain [-1,1]. Hence, 
+</para>
+<para id="element-157">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mn>3</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-158">
+It is clear that we need to have clear understanding of algebraic inequalities as function definitions are defined with certain condition(s).
+</para>
+</section>
+<section id="section-5b">
+<title> Forms of function inequality  </title>
+
+<para id="element-159">
+
+Function inequality compares function to zero. There are four forms :
+
+</para>
+<para id="element-160">
+<term> 1 : </term> f(x) &lt; 0
+</para>
+<para id="element-161">
+<term> 2 : </term>f(x) ≤ 0
+</para>
+<para id="element-162">
+<term> 3 : </term>f(x) &gt; 0
+</para>
+<para id="element-163">
+<term> 4 : </term> f(x) ≥ 0
+
+</para>
+<para id="element-164">
+Here, f(x) &lt; 0 and f(x) &gt;0 are strict inequalities as they confirm the notion of “less than” and “greater than”. There is no possibility of equality. If a strict inequality is true, then non-strict equality is also true i.e.
+
+</para>
+<para id="element-165">
+<term> 1 : </term> If f(x) &gt; 0 then  f(x) ≥  0 is true.
+</para>
+<para id="element-166">
+<term> 2 : </term>If f(x) ≥  0 then  f(x) &gt;  0 is not true.
+</para>
+<para id="element-167">
+<term> 3 : </term>If f(x) &lt;  0 then  f(x) ≤ 0 is true.
+</para>
+<para id="element-168">
+<term> 4 : </term>If f(x) ≤ 0 then  f(x) &lt; 0 is not true.
+
+</para>
+<para id="element-169">
+Further, we may be presented with inequality which compares function to non-zero value :
+ 
+</para>
+<para id="element-170">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>3</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-171">
+However, such alterations are equivalent expressions. We can always change this to standard form which compares function with zero :
+
+</para>
+<para id="element-172">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>3</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5c">
+<title>Inequalities   </title>
+<para id="element-81"> Some important definitions/ results are enumerated here : 
+</para>
+<para id="element-82">
+<list id="list-82" list-type="bulleted"><item> Inequalities involve a relation between two real numbers or algebraic expressions. </item>
+<item> The inequality relations are "&lt;", "&gt;", "≤" and "≥". </item>
+<item> Equal numbers can be added or subtracted to both sides of an inequality. </item>
+<item> Both sides of an inequality can be multiplied or divided by a positive number without any change in the inequality relation. </item>
+<item> Both sides of an inequality can be multiplied or divided by a negative number with reversal of inequality relation. </item>
+<item> Both sides of an inequality can be squared, provided expressions are non-negative. As a matter of fact, this conclusion results from rule that we can multiply both sides with a positive number.  </item>
+<item> When both sides are replaced by their inverse, the inequality is reversed .  </item>
+</list>
+</para>
+<para id="element-83">Equivalently, we may state above deductions symbolically.  
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>then :</m:mtext>
+    <m:mspace width="1em"/>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>y</m:mi>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>when “x” and “y” have same sign.</m:mtext>
+  </m:mrow>
+</m:math>
+</para><para id="element-570">It is evident that we can deduce similar conclusions with the remaining three inequality signs. </para>
+
+<section id="section-5c1">
+<title>Intervals with inequalities  </title>
+<para id="element-90">In general, a continuous interval is denoted with "less than (&lt;)" or "less than equal to (≤)" inequalities like :
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>5</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">The segment of a real number line from a particular number extending to plus infinity is denoted with “greater than” or “greater than equal to” inequalities like :
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">The segment of real number line from minus infinity to a certain number on real number line is denoted with “less than(&lt;) or less than equal to (≤)” inequalities like :
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">Two disjointed intervals are combined with “union” operator like :
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>5</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-5d">
+<title> Linear inequality  </title>
+<para id="element-173">
+Linear function is a polynomial of degree 1. A linear inequality can be solved for intervals of valid “x” and “y” values, applying properties of inequality of addition, subtraction, multiplication and division. For illustration, we consider a logarithmic function, whose argument is a linear function in x.
+</para>
+<para id="element-174">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-175">
+The argument of logarithmic function is a positive number. Hence, 
+</para>
+<para id="element-176">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-177">
+Therefore, interval of x i.e. domain of logarithmic function is <m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+        <m:mo>/</m:mo>
+        <m:mn>3,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+. The figure shows the values of “x” on a real number line as superimposed on x-axis. Note x= - 4/3 is excluded. 
+</para>
+<para id="element-178">
+<figure id="fig-178"><title> Graph of logarithmic function </title><media id="idp7692064" alt=""><image src="../../media/i1a.gif" mime-type="image/gif"/></media><caption> Domain is traced on x-axis.</caption></figure>
+</para>
+<para id="element-179">
+When f(x) = 0,
+</para>
+<para id="element-180">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>3</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-181">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-182">
+It means graph intersects x-axis at x=-1 as shown in the figure. From the figure, it is clear that range of function is real number set R.
+</para>
+<para id="element-183">
+<note id="idp1518480"> We shall similarly consider inequalities involving polynomials of higher degree, rational function etc in separate modules.
+</note>
+</para>
+<example id="example-184">
+<para id="element-184"> <term>Problem : </term> 
+ A linear function is defined as f(x)=2x+2. Find valid intervals of “x” for each of four inequalities viz f(x)&lt;0, f(x) ≤ 0, f(x) &gt; 0 and f(x) ≥ 0.
+</para>
+<para id="element-185">
+<term>Solution : </term> 
+ Here, given function is a linear function. At y=0,
+</para>
+<para id="element-186">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-187">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-188">
+At x=0,
+
+</para>
+<para id="element-189">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-190">
+We draw a line passing through these two points as shown in the figure. From the figure, we conclude that :
+</para>
+<para id="element-190a">
+<figure id="fig-190a"><title> Graph of linear function </title><media id="idm752656" alt=""><image src="../../media/i2a.gif" mime-type="image/gif"/></media><caption> Graph is continuous for all values of x.</caption></figure>
+</para>
+<para id="element-191">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-192">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-193">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-194">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+</section>   
+  </content>
+  
+</document>

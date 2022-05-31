@@ -1,0 +1,1942 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Cartesian Product (exercise)</title>
+  <metadata>
+  <md:content-id>m15209</md:content-id><md:title>Cartesian Product (exercise)</md:title>
+  <md:abstract/>
+  <md:uuid>2e10b524-f2d7-453e-a380-917c28374de1</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1"><term>Note : </term> The results of some of the questions (3 - 7) are of generic nature. As such, they can also be treated as theorems on Cartesian products.
+</para>
+<section id="section-1">
+<title>Worked out exercises</title>
+<section id="section-1a">
+<para id="element-2"><term>Problem 1 : </term>Cartesian product "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+" consists of 6 elements. If three of these are (1,2), (2,3) and (3,3), then find Cartesian product set "
+<m:math>
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+".
+</para>
+<para id="element-3"><term>Solution : </term>  We need to know two sets “A” and “B” in order to evaluate "
+<m:math>
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+". First elements of ordered pairs of "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+" are elements of set “A”. Hence, “1”,”2” and “3” are the elements of set “A”. On the other hand, second elements of ordered pairs of AXB are elements of set “B”. Hence, “2” and “3” are elements of set “B”.
+</para>
+<para id="element-4">Now, it is given that there are total 6 elements in the Cartesian product, which is equal to the product of numbers of elements in two sets i.e. 3 X 2.  It means that we have identified all elements of sets “A” and “B”. 
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>2,3</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">Following the rule for writing Cartesian product in terms of ordered pairs, we have :
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3,2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<para id="element-9"><term>Problem 2 : </term>Two sets are given as : A = {1,2} and B = {3,4}. Find the total numbers of subsets of "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+". Also write power set of AXB in roaster form. 
+</para>
+<para id="element-10"><term>Solution : </term>  The total numbers of elements in the Cartesian product "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+" is “pq”, where “p” and “q” are the numbers of elements in the individual sets “A” and “B” respectively. The all possible subsets that can be formed including empty set and the product "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+" itself is :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mi>p</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>X</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>16</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">Now, the Cartesian product is :
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">The corresponding power set comprises of empty set, 4 sets with elements comprising of one element plus 6 sets with elements comprising of two elements taken at a time plus 4 sets with elements comprising of three elements taken at a time plus set itself. There are total of 16 subsets. The power set is set of all subsets as its elements :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>P</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">It is easy to follow a scheme to write combination in which order is not relevant. We can denote each of the ordered pair with a symbol like :
+</para>
+<para id="element-21a"> 
+<m:math display="block">
+  <m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>c</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23"> As pointed out for generating combination for ordered pair, we can start with the left element and keep changing the last element of the combination till all combinations are exhausted. Here, power set in terms of symbols is :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>d</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>c</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>c</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>b</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>c</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+<section id="section-1c">
+<para id="element-29"><term>Problem 3 : </term>If  "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+" and "C" is any non-empty set, then prove that :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31"><term>Solution : </term>  Let us first discuss the logic of the relation here. The elements of set “A” are common to set “B”. Now Cartesian product of set "A" with set “C” will yield ordered pairs, which are common with the ordered pairs of the Cartesian product "B" with "C". However, as set “B” is either larger than or equal to, but not smaller than “A”, it follows that above relation should hold. 
+</para>
+<para id="element-32">Now, we prove the relation analytically. Let an arbitrary ordered pair (x,y) belongs to Cartesian product "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+".
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">According to definition of Cartesian product,
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">But “A” is subset of “B”. Hence, 
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Again, applying definition of Cartesian product,
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">This means that :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1d">
+<para id="element-42"><term>Problem 4 : </term> If  
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>C</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>D</m:mi>
+  </m:mrow>
+</m:math>
+, then prove that :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>D</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44"><term>Solution : </term>  Let an arbitrary ordered pair (x,y) belongs to Cartesian product "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+".
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>⊂</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">According to definition of Cartesian product,
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">But “A” is subset of “B”. Hence, 
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+. Also, “C” is subset of “D”. Hence, 
+<m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>D</m:mi>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>D</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">Again, applying definition of Cartesian product,
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mi>C</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>D</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">This means that :
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>D</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1e">
+<para id="element-54"><term>Problem 5 : </term>For any given four sets “A”, “B”, “C” and “D”,  prove that :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56"><term>Solution : </term> Let an arbitrary ordered pair (x,y) belongs to intersection set “
+<m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+”. Then,
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Applying definition of intersection,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>D</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">Applying definition of Cartesian product,
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>A</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>a</m:mi>
+        <m:mi>n</m:mi>
+        <m:mi>d</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>y</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>C</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>a</m:mi>
+        <m:mi>n</m:mi>
+        <m:mi>d</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>y</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>A</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>a</m:mi>
+        <m:mi>n</m:mi>
+        <m:mi>d</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>B</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>a</m:mi>
+        <m:mi>n</m:mi>
+        <m:mi>d</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>y</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">Applying definition of intersection,
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">Again, applying definition of Cartesian product,
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">This means that :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>⊂</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">Similarly, starting from RHS, we can prove that :
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>⊂</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">If sets are subsets of each other, then they are equal. Hence,
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1f">
+<para id="element-73"><term>Problem 6 : </term>Let “A” and “B” be two non-empty sets. If the numbers of common elements be “n” between sets “A” and “B”, then find the common elements between Cartesian products “
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>×</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+”.
+</para>
+<para id="element-74"><term>Solution : </term>  The common elements between sets “A” and “B” is “n”. This means :
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">We are required to evaluate the expression,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">We have earlier seen that four given sets, 
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">If we put C = B and D = A in this equation, then expression on the left hand side of the equation becomes what is required.
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+    <m:mo>×</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+<section id="section-1g">
+<para id="element-84"> <term>Problem 7 : </term>Let “A”, “B” and “C” be three sets. Then prove that :
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86"><term>Solution : </term>  From first De-morgan’s theorem, we know that :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>∩</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">Applying to the LHS, we have :
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">Now, component of complement set is set itself. Hence,
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">Applying distributive property of product operator over intersection operator, we have :
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1h">
+<para id="element-95"><term>Problem 8 : </term> Let “A”, “B” and “C” be three sets. Then prove that :
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97"><term>Solution : </term> From second De-morgan’s theorem, we know that :
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>∪</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99">Applying to the LHS, we have :
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-101">Now, component of complement set is set itself. Hence,
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">Applying distributive property of product operator over union operator, we have :
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>×</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>×</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+ 
+  </content>
+  
+</document>

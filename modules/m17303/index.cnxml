@@ -1,0 +1,675 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Transformation applied by fraction part function</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d20fee66-7e31-4f7d-b559-d8027fea106f</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Drawings of graphs resulting from transformation applied by fraction part function (FPF) follow the same reasoning and steps as deliberated for modulus  and greatest integer function. Before, we proceed to draw graphs for different function forms, we need to recapitulate the graph of fraction part function (FPF) and also infer thereupon few of the values of FPF around zero.
+
+
+</para>
+<para id="element-2">
+<figure id="fig-2">
+<title> Fraction part function </title>
+<media id="idm1135280" alt=""><image src="../../media/f1-f449.gif" mime-type="image/gif"/></media>
+<caption> FPF is a periodic function with period 1.</caption>
+</figure>
+
+</para>
+<para id="element-3">
+The values of FPF around zero are (we can write these expressions by observing graph. A bit of practice to write down these intervals helps.) :
+
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>1</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-5">
+Important point to note is that lower integer is included, but higher integer is excluded in the intervals of unity in which FPF is defined. The graph segment in the interval [0,1) is y=x i.e. identity function. We obtain expression of function in right intervals (positive value intervals of x) by shifting identity function towards right by 1 successively and in left intervals (negative value intervals of x) by shifting identity function towards left by 1 successively. The values of FPF are continuous real values which is equal to or greater than zero but less than 1. These function values are repeated in each of intervals of unity along x-axis. Thus, FPF is a periodic function with period of 1. Domain of FPF is R and range is [0,1). Further, FPF is related to real number as x=[x]+{x}.
+
+</para>
+<para id="element-6">
+A function like y=f(x) has different elements. We can apply FPF to these elements of the function. There are following different possibilities :
+
+</para>
+<para id="element-7">
+<term>1 : </term> y = f({x})
+</para>
+<para id="element-8">
+<term>2 : </term> y ={f(x)}
+</para>
+<para id="element-9">
+<term>3 : </term> {y} = f(x)
+</para>
+<section id="section-1">
+<title> Fraction part operator applied to the argument
+</title>
+
+<para id="element-10">
+
+The form of transformation is depicted as :
+
+
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-12">
+The graph of y=f(x) is transformed in y=f({x}) by virtue of changes in the argument values. The independent variable is subjected to fraction part operator. This changes the normal real value input to function. Instead of real numbers, independent variable to function is rendered to be fractions irrespective of values of x. A value like x = - 2.3 is passed to the function as 0.7 in the interval [0,1).  
+
+</para>
+<para id="element-13">
+Clearly, real values of “x” are truncated to fraction values in all intervals. It means that same set of values of the function y=f(|x|) corresponding to interval of x defined by [0,1] will repeat in other intervals along x-axis. The FPF is a periodic function with a period of 1. Taking advantage of this fact, we obtain graph of y=f({x}) by repeating part of graph for x in [0,1) to other intervals along x-axis. Clearly, transformed function y=f({x}) is periodic with a period of 1.
+
+</para>
+<para id="element-14">
+From the point of construction of the graph of y=f({x}), we need to modify the graph of y=f(x) as :    
+
+</para>
+<para id="element-15">
+<term>1 : </term> Draw lines parallel to y-axis (vertical lines) at integral values along x-axis to cover the graph of y=f(x). 
+</para>
+<para id="element-16">
+<term>2 : </term> Identify part of the graph for values of x in [0,1). Include end point corresponding to x=0 and exclude end point corresponding to x=1.  
+</para>
+<para id="element-17">
+<term>3 : </term> Repeat the part of the graph identified in step 2 for other intervals of x
+
+</para>
+<para id="element-18">
+The lines drawn in step 3 is the graph of y=f({x}).
+</para>
+<example id="example-19">
+<para id="element-19">
+<term>Problem : </term> 
+Draw the graph of sin{x}.
+
+</para>
+<para id="element-20">
+<term>Solution : </term> 
+Following the construction steps, graph of y=sin{x} is drawn by transforming y = sinx as shown here.
+
+
+</para>
+<para id="element-21">
+<figure id="fig-21">
+<title> Graph of y=sin{x} </title>
+<media id="idm1125344" alt=""><image src="../../media/f2-a3af.gif" mime-type="image/gif"/></media>
+<caption> Repeat the part of the graph identified between 0 and 1 to other intervals of x.</caption>
+</figure>
+</para>
+</example>
+<example id="example-22">
+<para id="element-22">
+<term>Problem : </term> 
+Draw the graph of <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mi>x</m:mi>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>e</m:mi>
+        <m:mrow>
+          <m:mo>[</m:mo>
+          <m:mi>x</m:mi>
+          <m:mo>]</m:mo>
+        </m:mrow>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-23">
+<term>Solution : </term> Rearranging, we have :
+
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mrow>
+          <m:mo>[</m:mo>
+          <m:mi>x</m:mi>
+          <m:mo>]</m:mo>
+        </m:mrow>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-25">
+Following the construction steps, graph of <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+is drawn by transforming <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ as shown here.
+
+
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> Transformation of exponential graph
+</title>
+<media id="idm7590688" alt=""><image src="../../media/f3-956b.gif" mime-type="image/gif"/></media>
+<caption> Repeat the part of the graph identified between 0 and 1 to other intervals of x.</caption>
+</figure>
+</para>
+</example>
+</section>
+<section id="section-2">
+<title> Fraction part function applied to the function
+</title>
+
+<para id="element-27">
+
+The form of transformation is depicted as :
+
+
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-29">
+The graph of y= f(x) is transformed in y={f(x)} by applying changes to the output of the function. Whatever be the function values, they will be changed to fraction values following definition of fraction part values as given earlier for few intervals. The values of y will lie in the interval [0,1). 
+
+</para>
+<para id="element-30">
+Here, we need to recognize one important aspect of graph of real valued function. Consider a function value y=3. The function value such as y=3.3 shows a change in function value of 3.3-3=0.3. This change in function value depends on the integral part of y, which is 3. The change will be different at other integral part like 2 depending on the nature of function y = f(x). What it means that the nature of graph in the integral intervals of y have different set of fractional parts. In turn it means that when real values are converted to fractional part, resulting values represent different set of fraction parts, which is represented by the nature of graph segment between two consecutive integral intervals of y.  Mathematically,
+
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-32">
+Clearly, {y} depends on y, but lies in the interval of y given by [0,1).  
+
+</para>
+<para id="element-33">
+From the point of construction of the graph of y={f(x)}, we need to modify the graph of y=f(x) as :    
+
+</para>
+<para id="element-34">
+<term>1 : </term> Draw lines parallel to x-axis (horizontal lines) at integral values along y-axis to cover the graph of y=f(x). 
+</para>
+<para id="element-35">
+<term>2 : </term> Identify segments of graph between two consecutive vertical intervals. Transfer these segments to y interval given by [0,1). 
+</para>
+<para id="element-36">
+<term>3 : </term> Include end point corresponding to y=0 and exclude end point corresponding to y=1.  
+
+</para>
+<para id="element-37">
+The lines drawn in step 3 is the graph of y={f(x)}.
+</para>
+<example id="example-38">
+
+<para id="element-38">
+<term>Problem : </term> 
+Draw the graph of <m:math>
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-39">
+<term>Solution : </term> 
+Following the construction steps, graph of <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+is drawn as shown here.
+
+
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Transformation of sine graph
+ </title>
+<media id="idp3701520" alt=""><image src="../../media/f4.gif" mime-type="image/gif"/></media>
+<caption> Transfer part of the graph identified in unit y interval [0,1).</caption>
+</figure>
+</para>
+</example>
+<example id="example-41">
+<para id="element-41">
+<term>Problem : </term> 
+Draw the graph of {2sinx}.
+</para>
+<para id="element-42">
+<term>Solution : </term> 
+Following the construction steps, graph of y={2sinx} is drawn by transforming y= 2sinx as shown here.
+
+
+</para>
+<para id="element-43">
+<figure id="fig-43">
+<title> Graph of y={sinx} </title>
+<media id="idp4645024" alt=""><image src="../../media/f5.gif" mime-type="image/gif"/></media>
+<caption> Transfer part of the graph identified in unit y-interval [0,1).</caption>
+</figure>
+</para>
+<para id="element-44">
+Note two individual solid circles on x-axis. They have been enclosed in squares for emphasis. We should analyze their existence while constructing the graph.
+ 
+</para>
+</example>
+</section>
+<section id="section-3">
+<title> Values assigned to fraction part function
+</title>
+<para id="element-45">
+
+The form of transformation is depicted as :
+
+
+
+
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>{</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-47">
+We need to evaluate this equation on the basis of assignment to the dependent expression variable. The value so evaluated is assigned to the FPF function {y}. We interpret assignment to {y} in accordance with the interpretation of equality of the FPF function to a value. In this case, we know that :
+
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mtext>FPF can not be equated to integers. No solution.</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49"><m:math display="block">
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∉</m:mo>
+    <m:mi>Z</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mtext>y = Continuous interval of fraction values starting from f(x)</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-50">
+Clearly, we need to neglect plot corresponding to integral values of f(x). On the other hand, there are multiple non-integral values of f(x) for a particular value of x corresponding to different intervals of unity along y. For example, 
+
+</para>
+<para id="element-51">
+{-1.47}= {-0.47}= {0.53} = {1.53) = (2.53) = …..   = 0.53
+</para>
+<para id="element-52">
+Such is the case with other fractional values. It means that part of the graph of y=f(x) lying in y interval of [0,1) will be repeated in consecutive intervals of 1 along y-axis. 
+
+</para>
+<para id="element-53">
+From the point of construction of the graph of {y}= f(x), we need to modify the graph of y=f(x) as :    
+
+</para>
+<para id="element-54">
+<term>1 : </term> Draw lines parallel to x-axis (horizontal lines) at integral values along y-axis to cover the graph of y=f(x). 
+</para>
+<para id="element-55">
+<term>2 : </term> Identify part of the graph in y interval [0,1). Include end point corresponding to y=0 and exclude end point corresponding to y=1.  Neglect other part of graph.
+</para>
+<para id="element-56">
+<term>3 : </term> Repeat part of graph identified in step 2 in other y intervals of unity along y-axis.
+
+</para>
+<para id="element-57">
+The lines drawn in step 3 is the graph of {y}= f(x).
+</para>
+<example id="example-58">
+<para id="element-58">
+<term>Problem : </term> 
+Draw graph of {y}= sinx; x∈[-2π,2π].
+
+</para>
+<para id="element-59">
+<term>Solution : </term> 
+Following construction steps, graph of {y}= sinx is drawn by transforming y= sinx as shown here.
+
+
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Graph of y=sin{x} </title>
+<media id="idm4442320" alt=""><image src="../../media/f6.gif" mime-type="image/gif"/></media>
+<caption> Identify part of the graph in y interval [0,1). Repeat part of graph so identified in other y intervals of unity </caption>
+</figure>
+</para>
+</example>
+<example id="example-61">
+<para id="element-61">
+<term>Problem : </term> 
+Draw graph of <m:math>
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+
+</para>
+<para id="element-62">
+<term>Solution : </term> 
+Following construction steps, graph of 
+<m:math>
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+is drawn by transforming <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ as shown here.
+
+
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Graph of y=sin{x} </title>
+<media id="idm2327696" alt=""><image src="../../media/f7.gif" mime-type="image/gif"/></media>
+<caption> Identify part of the graph in y interval [0,1). Repeat part of graph so identified in other y intervals of unity </caption>
+</figure>
+</para>
+</example>
+</section>
+
+  </content>
+  
+</document>

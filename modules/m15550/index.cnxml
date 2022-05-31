@@ -1,0 +1,3302 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Inverse functions (exercise)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>2ce4900f-df25-4e65-8f66-38023d0f3f3f</md:uuid>
+</metadata>
+  <content>
+<para id="element-1"><term>Working rules </term>
+</para>
+<para id="element-2"><term>A. Onto function</term>
+</para>
+<para id="element-3">
+<list id="list-2" list-type="bulleted">
+<item> A function is onto if every image in the co-domain has a pre-image in the domain set. </item>
+<item> Range = Co-domain </item>
+</list>
+</para>
+<para id="element-4"><term>B. Bijection</term>
+</para>
+<para id="element-5"><list id="list-5" list-type="bulleted">
+<item> If a function is both one-one and onto, then the function is a bijection.  </item>
+</list>
+</para>
+<para id="element-6"><term>C. Inverse function</term>
+</para>
+<para id="element-7"><list id="list-7" list-type="bulleted"><item> Solve given function for “x”. </item>
+<item> Substitute “x” by inverse symbol “<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>” and “y” by “x” to find the rule of inverse function. </item>
+<item> Exchange the domain and range of the given function with that of inverse function. </item>
+</list>
+</para>
+<section id="section-1">
+<para id="element-8"><term>Problem 1: </term> A function <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>→</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math> is given by :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">Is the function surjective? 
+</para>
+<para id="element-11"><term>Solution : </term> 
+</para>
+<para id="element-12"><term>Statement of the problem : </term> Surjection is another name for onto function. Here, given function is a trigonometric function. We need to check whether its range is equal to co-domain.
+</para>
+<para id="element-13">According to question : 
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Co-domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">Now, let 
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">Solving for “x”, we have :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>sin</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>y</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">The inverse trigonometric function is valid in its domain of [-1,1]. Hence, values of “y”, for which “x” is real, is [-1,1]. Therefore,
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+    <m:mo>,</m:mo>
+            <m:mn>1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">Clearly, range is not equal to co-domain. Thus, given function is not an onto function.
+</para>
+</section>
+<section id="section-2">
+<para id="element-24"><term>Problem 2: </term> A function <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>→</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math> is given by :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>    
+</para>
+<para id="element-26">Find the interval of values of “a” for which function is onto. 
+</para>
+<para id="element-27"><term>Solution : </term> 
+</para>
+<para id="element-28"><term>Statement of the problem : </term> It is given that the rational function is valid for all values of “x” as its domain is “R”. It is also given that co-domain of the function is “R”. In order to find the interval of "a", we consider that the function is an onto function. This implies that range of the function is equal to co-domain of the function i.e. “R”.
+</para>
+<para id="element-29">Let 
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>    
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>6</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>8</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>6</m:mn>
+    <m:mi>x</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>8</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">Rearranging as quadratic equation in variable “x”, we have :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>6</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">Since “x” is real, discreminant of the quadratic equation should be non-negative,
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>36</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>9</m:mn>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">Expanding and rearranging as quadratic equation in variable “y”, we have :
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>9</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>64</m:mn>
+        <m:mi>y</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>46</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>y</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">But, we have assumed that function is an onto function. As such, range of the function is equal to co-domain i.e “R”. It means that above inequality holds for all real values of “y”. Now, remember (as explained for sign scheme of quadratic equation) that a quadratic expression evaluates to non-negative number if (i) coefficient of “y2” is a positive number and (ii) descreminant is a non-positive number. Hence,
+</para>
+<para id="element-41"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>/</m:mo>
+    <m:mn>8</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">and
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>a</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>46</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mo>}</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>46</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>18</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>16</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>46</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>18</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>16</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>16</m:mn>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>64</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>16</m:mn>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>28</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>a</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>8</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>14</m:mn>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>28</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>a</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>8</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>14</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>14</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+        <m:mn>2</m:mn>
+        <m:mo>≤</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>≤</m:mo>
+        <m:mn>14</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">The first condition earlier yielded as a &gt; = 9/8. The required interval, therefore, is intersection of two intervals, which is [2,14]. 
+</para>
+</section>
+<section id="section-3">
+<para id="element-51">
+<term>Problem 3: </term> Let “f” be a one-one function with domain [x,y,z] and range [1,2,3]. It is given that only one of three conditions given below are true and remaining two are false :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52a">
+Determine <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>.
+</para>
+<para id="element-52b">
+<term>Solution : </term> 
+</para>
+<para id="element-53"><term>Statement of the problem : </term> With three conditions, there are three different possibilities for one being true and other two being false. We shall check each such possibility to see whether function is onto function. If the function is onto, then the function is a bijection as it is already given that function is an injection.
+</para>
+<para id="element-54">First combination :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is true, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is false, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is false, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">The function is clearly not one-one and hence not a bijection as f(x) = f(y).
+</para>
+<para id="element-59">
+Second combination :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is false, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is true, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is false, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">As f(z) = 2, f(x) = f(y) = 3. Again, the function is not one-one and hence not a bijection.
+</para>
+<para id="element-64">
+Third combination :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is false, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is false, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≠</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>is true, then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3.</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">As f(y) = 1, f(z) = 3 and f(x) = 2. In this case, we see that image and pre-image are related distinctly. The function is one-one and onto. Hence function is bijection for this combination. Also,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<para id="element-70"><term>Problem 4: </term> A function <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>→</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math> is given by :
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>|</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>|</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+Find <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>. 
+</para>
+<para id="element-73"><term>Solution : </term> 
+</para>
+<para id="element-74"><term>Statement of the problem : </term> We first need to see that the given function is bijection. If the function is bijection, then we find the rule of corresponding inverse function following the algorithm given in the beginning of the module. 
+</para>
+<para id="element-75">By definition of modulus function,
+</para>
+<para id="element-76"><m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">We take the derivative of the function to check whether the function is an injection :
+</para>
+<para id="element-79"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">We see that derivative of function is non-negative number for all values of “x” 
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">The equality holds only at a single point x = 0. Therefore, we conclude that function is an increasing function for all real values of “x”. It means that given function is one-one function in the domain of “R”. Now, we need to check whether function is onto function or not? For this, we find the range of the function. If range is “R”, then range is equal to co-domain, which is also “R”. For finding range of the function, we interpret the function, when “x” tends to become negative infinity or positive infinity (this is equivalent of taking limit). 
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mo>−</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mo>−</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">and
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-87">The range of the function, therefore, is set of real numbers, “R”. Thus, we conclude that given function is an onto function. 
+</para>
+<para id="element-88">The given function is both one-one and onto function and hence it is a bijection.
+</para>
+<para id="element-89">In order to find inverse function, we first solve the equation for “x” as :
+</para>
+<para id="element-90">
+For the interval,  <m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>y</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">But, we see that value of “x” is non-positive in the specified interval. Hence,
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">For the interval,  <m:math>
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">
+But, we see that value of “x” is non-negative in the specified interval. Hence,
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">Substituting “x” by “<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>” and “y” by “x”, we have the rule of inverse function as :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mi>x</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-592">and</para><para id="element-100"><m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<para id="element-101"><term>Problem 5: </term> A  quadratic function is given as :
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">Is the function invertible? If not, then find the intervals in which it is invertible. Also find corresponding inverse functions. 
+</para>
+<para id="element-104"><term>Solution : </term> 
+</para>
+<para id="element-105"><term>Statement of the problem : </term> The given function is a continuous function valid for all values of “x”. We need to analyze function to determine whether function is bijection.
+</para>
+<para id="element-106">Let "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>" and "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>" be two values. Then,
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">It means function is not one-one, but many one function. For determining whether function is onto function, we investigate the nature of its derivative,
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">Its root, when equated to zero, is -1/2. Its sign scheme is shown in the figure. The function value at "x = -1/2" corresponds to least value of the function. 
+</para>
+<para id="element-111">
+<figure id="fig-111">
+<title> Sign scheme of derivative </title>
+<media id="idp5163040" alt=""><image src="../../media/if1.gif" mime-type="image/gif"/></media>
+<caption> The function is strictly decreasing and increasing in two separate intervals.</caption>
+</figure>
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-113">From the figure it is clear that function is strictly decreasing in the interval (-∞,-1/2] and strictly increasing in the interval [-1/2, ∞). Further, we also observe from the graph as shown in the figure below that function is one-one in the individual interval. 
+</para>
+<para id="element-114">
+<figure id="fig-114">
+<title> Sign scheme of derivative </title>
+<media id="idp6444480" alt=""><image src="../../media/if2.gif" mime-type="image/gif"/></media>
+<caption> The function is strictly decreasing and increasing in two separate intervals.</caption>
+</figure>
+</para>
+<para id="element-265">Now, for determining inverse function, we solve the function for "x". Here :</para><para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-117">Solving for “x”, we have :
+</para>
+<para id="element-118">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>±</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>y</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-119">Substituting “x” by “<m:math>
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>” and “y” by “x”, we have the rule of inverse function as :
+</para>
+<para id="element-120">
+For interval <m:math>
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>(</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-122">
+For interval <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>,</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-123">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>3</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>  
+<section id="section-6">
+<para id="element-124"><term>Problem 6: </term> An onto function is given as :
+</para>
+<para id="element-125">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>}</m:mo>
+    <m:mo>,</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-126">Is the function invertible? If invertible, then find <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>.
+</para>
+<para id="element-127"><term>Solution : </term> 
+</para>
+<para id="element-128"><term>Statement of the problem : </term> The given function is an onto function. This will be bijection i.e. invertible, if function is strictly monotonic (increasing or decreasing) so that function is one-one as well. 
+</para>
+<para id="element-129">
+We see that <m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math> for all values of “x”. Thus, argument of the logarithmic function is positive for all real values of “x”. It means that domain of the given function is “R”. In order to determine monotonic nature of the function, we differentiate given function in relevant intervals. Before differentiating, we need to convert the base from “a” to “e” as :
+</para>
+<para id="element-130">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>log</m:mi>
+    <m:mi>e</m:mi>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>}</m:mo>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>e</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-131">Differentiating with respect to independent variable,
+</para>
+<para id="element-132">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>a</m:mi>
+        </m:msub>
+        <m:mi>e</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-133">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>a</m:mi>
+        </m:msub>
+        <m:mi>e</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-135">Again <m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> i.e. a positive number. Hence, sign of f’(x) is same as that of 
+<m:math display="block">
+  <m:mrow>
+        <m:msub>
+          <m:mi>log</m:mi>
+          <m:mi>a</m:mi>
+        </m:msub>
+        <m:mi>e</m:mi>
+  </m:mrow>
+</m:math>
+
+. 
+</para>
+<para id="element-136">
+For <m:math>
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-137">See the graph. Here x = e = 2.718281828.
+</para>
+<para id="element-138"><figure id="fig-138">
+<title> Sign scheme of derivative </title>
+<media id="idp5054032" alt=""><image src="../../media/if3a.gif" mime-type="image/gif"/></media>
+<caption> The function is strictly decreasing and increasing in two separate intervals.</caption>
+</figure>
+</para>
+<para id="element-139">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>e</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-140">The function is a decreasing function in the domain i.e. “R”
+</para>
+<para id="element-141">For <m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-142">See the graph. Here x = e = 2.718281828.
+</para>
+<para id="element-143"><figure id="fig-143">
+<title> Plot of the function </title>
+<media id="idp5016704" alt=""><image src="../../media/if4a.gif" mime-type="image/gif"/></media>
+<caption> The function is strictly decreasing and increasing in two separate intervals.</caption>
+</figure>
+</para>
+<para id="element-144">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mi>e</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-145">The function is an increasing function in the domain i.e. “R”
+</para>
+<para id="element-146">We see that function is either increasing or decreasing for all real values of “x”. Thus, we conclude that function is strictly monotonic and function is on-one. This, in turn, means that function is bijection, which signifies that inverse of the function exists.
+</para>
+<para id="element-147">In order to find the inverse function, we write the logarithmic function in the equivalent exponential function as :
+</para>
+<para id="element-148">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-149">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-150">Also,
+</para>
+<para id="element-151">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mi>y</m:mi>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-152">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+        <m:mo>}</m:mo>
+        <m:mo>{</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-153">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>     
+</para>
+<para id="element-154">In order to solve for “x”, we subtract two equations :
+</para>
+<para id="element-155">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>−</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-156">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mi>y</m:mi>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-157">Substituting “x” by “<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+” and “y” by “x”, we have the rule of inverse function as :
+</para>
+<para id="element-158">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mi>x</m:mi>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-7">
+<para id="element-159"><term>Problem 7: </term> A function <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>:</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>1,</m:mn>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+    <m:mo>→</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>1,</m:mn>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+ is given by :
+</para>
+<para id="element-160">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-161">
+Find <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>.
+</para>
+<para id="element-162"><term>Solution : </term> 
+</para>
+<para id="element-163"><term>Statement of the problem : </term> In order to determine the nature of given function to be a bijection, we need to check whether the function is both one-one and onto?
+</para>
+<para id="element-164">To check for one-one function, we determine the derivative of the function as :
+</para>
+<para id="element-165">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-631">Taking logarithm on both sides,</para><para id="element-166">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-167">Taking derivative on either side of the equation, we have :
+</para>
+<para id="element-168"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>f</m:mi>
+        <m:mo>′</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+<m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>x</m:mi>
+          <m:mo>−</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mi>f</m:mi>
+      <m:mo>′</m:mo>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+    <m:mo>=</m:mo>
+      <m:mrow>
+        <m:mi>f</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+<m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>x</m:mi>
+          <m:mo>−</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-170">Now, “x” lie in the interval [1,∞ ). Hence, f(x) is a positive number. Also, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+ is a positive number. Therefore,
+</para>
+<para id="element-171">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mtext>positive number</m:mtext>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-172">The root of the expression of f’(x), when equated to zero, is “0.5”. The derivative is positive in the interval between “1/2” and infinity. However, the domain of function begins at x = 1. We, therefore, conclude that the function is increasing in the interval given by [1,∞). The least value of the function is given as :
+</para>
+<para id="element-173"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+    <m:mn>2</m:mn>
+    <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+    <m:mn>2</m:mn>
+    <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-174">We interpret the function, when “x” tends to become positive infinity (this is equivalent of taking limit). 
+</para>
+<para id="element-175">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+        <m:mi>X</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>∞</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>∞</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-176">
+Thus, range of the given function is [1, ∞). Clearly,
+</para>
+<para id="element-177">
+Range = Co-domain = [1, ∞)
+</para>
+<para id="element-178">Therefore, function is onto and hence bijection. It means that function is invertible. Now, we solve the function for “x” for finding inverse function. Taking log on the base of “2” on either side of the equation,
+</para>
+<para id="element-179">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-180">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-181">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>±</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>X</m:mi>
+              <m:mn>1</m:mn>
+              <m:mi>X</m:mi>
+              <m:msub>
+                <m:mi>log</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>±</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msub>
+                <m:mi>log</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-182">But, we know that domain of the function is x &gt;= 1. Also, <m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mn>4</m:mn>
+          <m:msub>
+            <m:mi>log</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>. It means that only positive sign in the expression is valid. 
+</para>
+<para id="element-183">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msub>
+                <m:mi>log</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-184">Substituting “x” by “<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>” and “y” by “x”, we have the rule of inverse function as :
+</para>
+<para id="element-185">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>f</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msub>
+                <m:mi>log</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+  </content>
+  
+</document>

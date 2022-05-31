@@ -1,0 +1,3295 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rational inequality</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1fe7fec1-afad-49d6-a8a3-84ce8a0795f5</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-300">Rational inequality is an inequality involving rational expression. There are four forms of inequality. Corresponding to each of these forms, there are four rational inequality forms. These inequality forms essentially compare a rational expression, f(x), with zero. The four inequalities are :
+
+
+</para>
+<para id="element-300a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-301">
+We need to note two important aspects of these inequalities. Solution of inequalities, in general, are not discrete values but set of “x” values in the form of interval or union of intervals. Generally, the inequality holds for a continuum of values. Second aspect is about the basic nature of inequality. We know that zero has special significance in real number system. It divides real number system in positive and negative segments. Therefore, solution of these inequalities is about knowing the sign of function values for different intervals in the domain of the function. Corresponding to four inequalities, we need to know intervals in which rational function is (i) negative (ii) non-positive (iii) positive and (iv) non-negative. In the following section, we shall devise a technique to determine sign of rational expression in different internals.
+</para>
+
+<section id="section-10">
+<title>Sign scheme or diagram for rational function</title>
+
+
+
+<para id="element-303">
+
+Sign scheme or diagram is representation of sign in different intervals along real number line. This gives a visual idea about the sign of function. Graphically, sign of function changes when graph crosses x-axis. This means that sign of function changes about the zeroes of function i.e. about real roots of a function. However, rational function is ratio of two functions. A change of sign of either numerator or denominator affects sign of rational function. 
+
+</para>
+<para id="element-304">We consider here only integral rational functions such that expressions in numerator and denominator can be decomposed into linear factors. Equating each of the linear factors, we determine points about which either or both of numerator and denominator functions change sign. We should understand that each of the linear factors is a potential source of sign change as the value of x changes in the domain. This means that each of the points so determined plays a critical role in deciding the sign of function. For this reason, we call these points as “critical points”. 
+
+</para>
+
+<para id="element-307">
+Let us consider an example here :
+
+
+</para>
+<para id="element-308">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-309">Critical points are -1, 2, -1 and 4. There are two important things to realize here. First, we can not cancel common linear factors as this will result in loosing undefined points and will loose information on sign change. The marking on real number line is as shown here :
+</para>
+<para id="element-310">
+<figure id="fig-310">
+<title> Sign scheme/ diagram </title>
+<media id="idm2664944" alt=""><image src="../../media/r10.gif" mime-type="image/gif"/></media>
+<caption> Sign scheme/ diagram </caption>
+</figure>
+</para>
+<para id="element-311">Second, the fact that function may change its sign in the domain has an interesting consequence. It can be better understood in terms of function graph, which is essentially a curve. The event of crossing of x-axis by the graph records the event of change of sign. Another change in the sign of graph warrants that curve should cross x-axis again. This corresponds to reversal of sign. It is not possible to change sign of function without crossing x-axis. This means that function will change sign at critical points. Equivalently, we say that sign of function alternates in consecutive sub-intervals. Now, these considerations set up the first two steps of sign diagram :
+
+
+
+</para>
+<para id="element-305"><term>1: </term> Decompose both numerator and denominator into linear factors. Find critical points by equating linear factors individually to zero. 
+
+</para>
+<para id="element-306"><term>2: </term> Mark critical points on a real number line. If n be the numbers of critical points, then real number line is divided into (n+1) sub-intervals.
+
+</para>
+<para id="element-312"> The question however remains that we should know sign of function in at least one interval. We determine the same by testing function value for an intermediate x-value in any of the sub-intervals. Though it is not a rule, we consider a test point in the right most interval, which extends to positive infinity. This helps us to assign signs in the intervals left to it by alternating signs. Sometimes, it may, however, be easier to evaluate function value at x= 0, 1 or -1, provided they are not the critical points. This has the advantage that calculation of function value is easier. Now, these consideration set up the next step of sign diagram :
+</para>
+<para id="element-313"><term>3: </term> Test sign of function in a particular interval. Assign alternate signs in adjacent sub-intervals. 
+
+</para>
+<para id="element-314">
+For the example case, let us put x=0,
+
+
+</para>
+<para id="element-316a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>0</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-316">Thus, sign of function in the interval between -1 and 2 is positive. The signs of function alternate in adjacent sub-intervals.
+
+</para>
+<para id="element-317">
+<figure id="fig-317">
+<title> Sign scheme/ diagram </title>
+<media id="idp108128" alt=""><image src="../../media/r11.gif" mime-type="image/gif"/></media>
+<caption> Sign scheme/ diagram </caption>
+</figure>
+
+</para>
+<para id="element-318">
+We have noted that sign of each linear factor combines to determine the sign of rational function. This fact is reflected as sign alternates in adjacent sub-intervals. However, we need to consider the effect of case in which a linear factor is repeated. If a linear factor evaluates to a positive number in an interval and is repeated, then there is no effect on the sign of function. If a linear factor evaluates to a negative number in an interval and is repeated even times, then there is no effect on the sign of function. The product of negative sign repeated even times yield a positive sign and as such does not affect the sign of function. However, if a linear factor evaluates to a negative number in an interval and is repeated odd times, then sign of function changes. Product of negative sign repeated odd times yield a negative sign and as such sign of function changes.
+
+</para>
+<para id="element-319">
+We conclude that if a linear factor is repeated even times, then sign of function will not alternate about the critical point corresponding to linear factor in question. On the other hand, if a linear factor is repeated odd times, then sign of function will alternate as before. Now, these consideration set up the next step of sign diagram :
+
+
+</para>
+<para id="element-320">
+<term>4: </term> If a linear factor is repeated even times, then sign of function will not alternate about the critical point corresponding to linear factor in question.
+
+</para>
+<para id="element-321">
+In the example case, the linear factor (x+1) is repeated even times (count both in numerator and denominator). As such, sign of function will not change about critical point “-1”. Thus, sign diagram drawn as above need to be modified as :
+</para>
+<para id="element-322">
+<figure id="fig-322">
+<title> Sign scheme/ diagram </title>
+<media id="idp538656" alt=""><image src="../../media/r12.gif" mime-type="image/gif"/></media>
+<caption> Sign scheme/ diagram </caption>
+</figure>
+</para>
+<para id="element-323">
+We can verify modification due to repeated linear factors by putting x = -2 in the function :
+
+
+</para>
+
+<para id="element-325">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-326">
+We summarize steps for drawing sign scheme/ diagram as :
+
+</para>
+<para id="element-327">
+<term>1: </term> Decompose both numerator and denominator into linear factors. Do not cancel common linear factors. Find critical points by equating linear factors individually to zero. 
+</para>
+<para id="element-328">
+<term>2: </term> Mark distinct critical points on a real number line. If n be the numbers of distinct critical points, then real number line is divided into (n+1) sub-intervals.
+</para>
+<para id="element-329">
+<term>3: </term> Test sign of function in a particular interval. Assign alternate signs in adjacent sub-intervals. 
+</para>
+<para id="element-330">
+<term>4: </term> If a linear factor is repeated even times, then sign of function will not alternate about the critical point corresponding to linear factor in question.
+</para>
+</section>
+<section id="section-11">
+<title>Solution of rational inequalities using sign scheme or diagram </title>
+
+<para id="element-331">
+
+An important point about interpreting sign diagram is that sign of function relates to non-zero values of function. Note that zero does not have sign. The critical points corresponding to numerator function are zeroes of rational function. As such, the graph of function is continuous at these critical points and these critical points can be included in the sub-interval. On the other hand, the rational function is not defined for critical points corresponding to denominator function (as denominator turns zero). We, therefore, conclude that an interval can include critical points corresponding to numerator function, but not the critical points corresponding to denominator function. In case, there are common critical points between numerator and denominator, then those critical points can not be included in the sub-interval.
+
+
+</para>
+<para id="element-335a">
+We can interpret sign diagram in two ways. Either we determine the solution of a given quadratic inequality or we determine intervals of all four types of inequalities for a given quadratic expression. We shall illustrate these two approaches by working with the example case.
+</para>
+<section id="section-11a">
+<title>Determining solution of a given quadratic inequality </title>
+
+
+<para id="element-332">
+Let us consider that we are required to solve rational inequality 
+
+</para>
+<para id="element-333">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+    
+
+</para>
+<para id="element-334">
+The sign diagram as drawn earlier for the given rational function is shown here :
+</para>
+<para id="element-334a">
+<figure id="fig-334a">
+<title> Sign scheme/ diagram </title>
+<media id="idp5303920" alt=""><image src="../../media/r12.gif" mime-type="image/gif"/></media>
+<caption> Sign scheme/ diagram </caption>
+</figure>
+</para>
+<para id="element-335">
+We need to interpret signs of different intervals to find the solution of a given rational inequality. 
+</para>
+<para id="element-336">
+Clearly, solution of given inequality is :
+
+</para>
+<para id="element-337">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    <m:mo>]</m:mo>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>,</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-338">
+Note that we need to remove -1 and 4 from the solution set as function is not defined for this x – value. However, inequality involved “greater than or equal to” is not strict inequality. It allows equality to zero. As such, we include critical point “2” belonging to numerator function. Further, we can also write the solution set in alternate form as :
+
+</para>
+<para id="element-339">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>U</m:mi>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1,2</m:mn>
+      </m:mrow>
+    <m:mo>]</m:mo>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-11b">
+<title>Determining interval of four quadratic inequalities </title>
+
+<para id="element-340">
+Let us take the rational expression of example case and determine intervals of each of four inequalities. The sign diagram as drawn earlier is shown here :
+</para>
+<para id="element-341">
+
+<figure id="fig-341">
+<title> Sign scheme/ diagram </title>
+<media id="idm11454128" alt=""><image src="../../media/r12.gif" mime-type="image/gif"/></media>
+<caption> Sign scheme/ diagram </caption>
+</figure>
+
+</para>
+<para id="element-342">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2,4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>2,4</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1,2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>U</m:mi>
+    <m:mo>(</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+ 
+
+</para>
+<para id="element-343">
+Note that critical point “2” belonging to numerator is included for inequalities which allows equality.
+</para>
+<para id="element-344">
+<term>Inclusion and exclusion of critical points</term>
+
+</para>
+<para id="element-345">
+Based on the discussion above, we summarize inclusion or exclusion of critical points here :
+
+</para>
+<para id="element-346">
+<term>1: </term> Question of inclusion of critical points arises when inequality involved is not strict.
+</para>
+<para id="element-347">
+<term>2: </term> Critical points belonging to numerator are included in solution set.
+</para>
+<para id="element-348">
+<term>3: </term> Critical points belonging to denominator are excluded from solution set.
+</para>
+<para id="element-348a">
+<term>3: </term> Critical points belonging to both numerator and denominator are excluded from solution set.
+</para>
+</section>
+</section>
+<section id="section-1">
+<title>Solution of rational inequalities using wavy curve method </title>
+
+
+
+<para id="element-84a">
+Wavy curve method is a modified sign diagram method. This method has the advantage that we do not need to test sign of interval as required in earlier case. The steps involved are :
+</para>
+<para id="element-85a">
+<term>1: </term>Factorize numerator and denominator into linear factors.
+</para>
+<para id="element-86a">
+<term>2: </term>Make coefficients of x positive in all linear factors. This step may require to change sign of “x” in the linear factor by multiplying inequality with -1. Note that this multiplication will change the inequality sign as well. For example, “less than” will become “greater than” etc.
+</para>
+<para id="element-87a">
+<term>3: </term>Equate each linear factor to zero and find values of x in each case. The values are called critical points.
+</para>
+<para id="element-88a">
+<term>4: </term>Identify distinct critical points on real number line. The “n” numbers of distinct critical points divide real number lines in (n+1) sub-intervals.
+</para>
+<para id="element-89a">
+<term>5: </term>The sign of rational function in the right most interval is positive. Alternate sign in adjoining intervals on the left. 
+</para>
+<para id="element-89b">
+<term>5: </term> If a linear factor is repeated even times, then sign of function will not alternate about the critical point corresponding to linear factor in question.
+</para>
+<para id="element-90a">
+We need to exclude exception points i.e. critical points of denominator from solution set. Further, it is important to understand that signs of intervals as determined using this method are not the signs of function – rather signs of modified function in which sign of “x” has changed. However, if we are not required to change the sign of “x” i.e. to modify the function, then signs of intervals are also signs of function. We shall though keep this difference in mind, but we shall refer signs of intervals as sign scheme or diagram in this case also.
+</para>
+
+<example id="example-108">
+<para id="element-108">
+<term>Problem : </term>  Apply wavy curve method to find the interval of x for the inequality given :
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-111">
+<term>Solution : </term> We change the sign of "x" in the denominator to positive by multiplying both sides of inequality with -1. Note that this changes the inequality sign as well.  
+</para>
+<para id="element-111abc">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-111abcd">
+Here, critical points are :
+
+</para>
+<para id="element-125">
+<m:math display="block">
+  <m:mrow>
+
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+	    <m:mo>,</m:mo>
+		    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-127">The critical points are marked on the real number line. Starting with positive sign in the right most interval, we denote signs of adjacent intervals by alternating sign. </para>
+
+<para id="element-304a">
+<figure id="fig-304a"><title> Sign diagram </title><media id="idp2696304" alt=""><image src="../../media/r7.gif" mime-type="image/gif"/></media><caption> Sign of function alternates.</caption></figure>
+</para>
+<para id="element-128">Thus, interval of x as solution of inequality is :
+</para>
+<para id="element-129">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-130">We do not include "1" as it reduces denominator to zero. 
+</para>
+</example>
+
+<example id="example-91a">
+
+<para id="element-91a">
+<term>Problem : </term> 
+ Find solution of the rational inequality given by :
+
+</para>
+<para id="element-92a">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>15</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-93a">
+<term>Solution : </term> 
+ We first convert the given inequality to standard form f(x) ≥ 0. 
+
+</para>
+<para id="element-94a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>15</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-95a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>15</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-96a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>6</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>15</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>5</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-98a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>12</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>12</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+ 
+
+</para>
+
+<para id="element-102a">
+Critical points are -4, -3, 1/2, 3. Corresponding sign diagram is :
+
+</para>
+<para id="element-103a">
+<figure id="fig-103a">
+<title> Sign diagram </title>
+<media id="idp7282240" alt=""><image src="../../media/r1-5abe.gif" mime-type="image/gif"/></media>
+<caption> Sign of function alternates.</caption>
+</figure>
+</para>
+<para id="element-104a">
+The solution of inequality is :
+
+</para>
+<para id="element-105a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+        <m:mo>]</m:mo>
+        <m:mo>∪</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>3,1</m:mn>
+            <m:mo>/</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>∪</m:mo>
+        <m:mo>[</m:mo>
+        <m:mn>3,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-130aabb">We do not include "-3" and "1" as they reduce denominator to zero. 
+</para>
+</example>
+<example id="example-106a">
+
+<para id="element-106a">
+<term>Problem : </term> 
+ Find solution of :
+
+
+</para>
+<para id="element-107a">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-108a">
+<term>Solution : </term> 
+ Rearranging, we have :
+
+</para>
+<para id="element-109a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+
+<para id="element-112a">
+Now, polynomial in the numerator i.e. <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+
+
+ is positive for all real x as D&lt;0 and a&gt;0. Thus, dividing either side of the inequality by this polynomial does not change inequality. Now, we need to change the sign of x in one of the linear factors of the denominator positive in accordance with sign rule. This is required to be done in the factor (1-x). For this, we multiply each side of inequality by -1. This change in sign accompanies change in inequality as well :
+</para>
+<para id="element-113a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-114a">
+Critical points are -1 and 1. Hence, solution of the inequality in x is :
+
+</para>
+<para id="element-115a">
+<figure id="fig-115a">
+<title> Sign diagram </title>
+<media id="idm10862928" alt=""><image src="../../media/r2-ddb8.gif" mime-type="image/gif"/></media>
+<caption> Sign of function alternates.</caption>
+</figure>
+</para>
+<para id="element-116a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+
+<section id="section-3">
+<title>Rational inequality with repeated linear factors </title>
+<para id="element-80">We have already discussed rational polynomial with repeated factors. We need to count repeated factors which appear in both numerator and denominator. If the linear factors are repeated even times, then we do not need to change sign about critical point corresponding to repeated linear factor. 
+</para>
+
+<para id="element-70"><term>Note  : </term> While working with rational function having repeated factors, we need to factorize higher order polynomial like cubic polynomial. In such situation, we can employ a short cut. We guess one real root of the cubic polynomial. We may check corresponding equation with values such as 1,2, -1 or -2 etc and see whether cubic expression becomes zero or not for that value. If one of the roots is known, then cubic expression is f(x) = (x-a) g(x), where "a" is the guessed root and g(x) is a quadratic expression. We can then find other two roots anlayzing quadratic expression. For example, <m:math>
+		<m:mrow>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>3</m:mn>
+			</m:msup>
+			<m:mo>−</m:mo>
+			<m:mn>6</m:mn>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>+</m:mo>
+			<m:mn>11</m:mn>
+			<m:mi>x</m:mi>
+			<m:mo>−</m:mo>
+			<m:mn>6</m:mn>
+			<m:mo>=</m:mo>
+			<m:mfenced>
+				<m:mrow>
+					<m:mi>x</m:mi>
+					<m:mo>−</m:mo>
+					<m:mn>1</m:mn>
+				</m:mrow>
+			</m:mfenced>
+					<m:mo>(</m:mo>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>-</m:mo>
+			<m:mn>5</m:mn>
+			<m:mi>x</m:mi>
+			<m:mo>+</m:mo>
+			<m:mn>6</m:mn>
+					<m:mo>)</m:mo>
+			<m:mo>=</m:mo>
+			<m:mfenced>
+				<m:mrow>
+					<m:mi>x</m:mi>
+					<m:mo>−</m:mo>
+					<m:mn>1</m:mn>
+				</m:mrow>
+			</m:mfenced>
+			<m:mfenced>
+				<m:mrow>
+					<m:mi>x</m:mi>
+					<m:mo>−</m:mo>
+					<m:mn>2</m:mn>
+				</m:mrow>
+			</m:mfenced>
+			<m:mfenced>
+				<m:mrow>
+					<m:mi>x</m:mi>
+					<m:mo>−</m:mo>
+					<m:mn>3</m:mn>
+				</m:mrow>
+			</m:mfenced>
+
+		</m:mrow>
+	</m:math>
+</para>
+
+
+
+<example id="example-81j">
+<para id="element-81j"> <term>Problem : </term> Find interval of x satisfying the inequality given by :
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+
+      </m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>3</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:mn>3</m:mn>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:mi>x</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82"> <term>Solution : </term> We factorize each of the polynomials in numerator and denominator  :
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+
+
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">It is important that we do not cancel common factors or terms. Here, critical points are -1/2,1,0,1 and 2. The critical point "1" is repeated even times. Hence, we do not change sign about "1" while drawing sign scheme.
+</para>
+<para id="element-95">
+<figure id="fig-95">
+<title> Sign diagram </title>
+<media id="idp3390048" alt=""><image src="../../media/r4-9bfa.gif" mime-type="image/gif"/></media>
+<caption> Sign of function alternates.</caption>
+</figure>
+</para>
+<para id="element-96">While writing interval, we drop equality sign for critical points, which corresponds to denominator.
+</para>
+<para id="element-324k">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>2</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-324ka">
+</para>
+<para id="element-324kb">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>,</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>)</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>(</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>,</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-130aabbee">We do not include "-1" and "1" as they reduce denominator to zero. 
+</para>
+
+</example>
+</section>   
+</section>
+
+<section id="section-2">
+<title>Polynomial inequality </title>
+<para id="element-381">
+We can treat polynomial inequality as rational inequality, because a polynomial function is a rational function with denominator as 1. Logically, sign method used for rational function should also hold for polynomial function. Let us consider a simple polynomial inequality, 
+<m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+
+              <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+            <m:mn>0</m:mn>
+   </m:mrow>
+</m:math>. Here, function is product of two linear factors  (2x-3)(x+2). Clearly, x=3/2 and x=-2 are the critical points. The sign scheme of the function is shown in the figure :
+
+</para>
+<para id="element-382">
+<figure id="fig-382"><title> Sign diagram </title><media id="idm2612960" alt=""><image src="../../media/r3.gif" mime-type="image/gif"/></media><caption> Sign of function alternates.</caption></figure>
+</para>
+<para id="element-383">
+Solution of x satisfying inequality is :
+</para>
+<para id="element-384">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>2</m:mi>
+        <m:mo>,</m:mo>
+      <m:mfrac>
+        <m:mo>3</m:mo>
+        <m:mn>2</m:mn>
+      </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-385">It is evident that this method is easier and mechanical in approach.
+</para>
+
+</section>
+
+<section id="section-5">
+<title> Radical function </title>
+<para id="element-400">The term radical is name given to square root sign (√). A radical number is <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>n</m:mi>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math> root of a real number. If y is <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>n</m:mi>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math> root of x, then :
+
+</para>
+<para id="element-400a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-401">
+Interchangeably, we write :
+
+</para>
+<para id="element-402">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>n</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi/>
+      <m:mrow>
+        <m:msqrt/>
+      </m:mrow>
+      <m:mi>n</m:mi>
+    </m:msubsup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-403">
+If n is even integer, then x can not be negative. For n=2, we drop “n” from the notation and we write,
+
+</para>
+<para id="element-404">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mi>x</m:mi>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-405">
+We extend this concept to function in which number “x” is substituted by any valid expression (algebraic, trigonometric, logaritmic etc). Some examples are :
+
+</para>
+<para id="element-406">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>log</m:mi>
+        <m:msub>
+          <m:mi/>
+          <m:mi>e</m:mi>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>5</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<para id="element-408">
+We shall also include study of radical function which is part of rational form like :
+
+</para>
+<para id="element-409">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>5</m:mn>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-411">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:mfenced>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>x</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>5</m:mn>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+</para>
+
+<section id="section-5a">
+<title> Analysis of radical function </title>
+
+<para id="element-413">
+Analysis of root function is same as analysis of inequality of function. Because, radical function ultimately results in inequality. We make use of the fact that expression within the radical sign is non-negative. Here, we denote a radical function as :
+
+
+</para>
+<para id="element-414">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-415">
+As the expression under is non-negative,
+
+</para>
+<para id="element-416">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-417">
+When radical function is part of a function defined in rational form, the radical function should not be zero. Let us consider a function as :
+
+</para>
+<para id="element-418">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-419">
+As the radical is denominator of the rational expression, expression under radical sign is positive,
+
+</para>
+<para id="element-420">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math></para>
+<para id="element-421">We have already worked with inequalities involving polynomial and rational functions. We shall restrict ourselves to few illustrations here. 
+</para>
+</section>   
+
+<example id="example-501">
+<para id="element-501"><term>Problem : </term> Find domain of the function :
+
+</para>
+<para id="element-502">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>-</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-503"><term>Solution : </term> 
+One radical (inner) is contained with another radical (outer). For the outer radical,
+
+</para>
+<para id="element-504">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>≤</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-505">
+The term on each side of inequality is a positive quantity. Squaring each side does not change inequality,
+
+</para>
+<para id="element-506">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mn>1</m:mn>
+      <m:mo>-</m:mo>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mo>≤</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-507">
+This quadratic inequality is true for all real x. Now, for inner radical
+
+</para>
+<para id="element-508">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-509">
+We multiply by -1 to change the sign of x in 1-x,
+
+</para>
+<para id="element-510">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-511">
+Using sign rule :
+
+</para>
+<para id="element-512">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-513">
+Since, conditions corresponding to two radicals need to be fulfilled simultaneously, the domain of the given function is intersection of outer and inner radicals.
+</para>
+<para id="element-514">
+<figure id="fig-514"><title> Domain of the function </title><media id="idp8986112" alt=""><image src="../../media/r9.gif" mime-type="image/gif"/></media><caption> Intersection of two domains.</caption></figure>
+</para>
+<para id="element-515">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,1</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-516">
+</para>
+</example>
+
+<example id="example-437">
+<para id="element-437"><term>Problem : </term> Find the domain of the function given by :
+</para>
+<para id="element-438">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>14</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>11</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>6</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>3</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-440"><term> Solution : </term> Clearly, function is real for values of “x” for which expression within square root is a non negative number. We note that independent variable is raised to positive integers. The nature of each monomial depends on the value of x and nature of power. If x≥1, then monomial evaluates to higher value for higher power. If x lies between 0 and 1, then monomial evaluates to lower value for higher power. Further, a negative x yields negative value when raised to odd power and positive value when raised to even power. We shall use these properties to evaluate the expression for three different intervals of x. </para>
+
+
+<para id="element-443">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>14</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>11</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-444">We consider different intervals of values of expression for different values of “x”, which cover the complete interval of real numbers.
+</para>
+<para id="element-445">
+<term>1: </term> <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>≥</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-446">In this case, <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>a</m:mi>
+    </m:msup>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>b</m:mi>
+    </m:msup>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+. Evaluating in groups,
+</para>
+<para id="element-447">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>14</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>11</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>6</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-448"><term>2: </term>  <m:math>
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+      <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-449">In this case, <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>a</m:mi>
+    </m:msup>
+    <m:mo>&lt;</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>b</m:mi>
+    </m:msup>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>. Rearranging in groups,
+</para>
+<para id="element-450"><m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>14</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>11</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>6</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-451">Here, <m:math>
+  <m:mrow>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>11</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>6</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+ is negative. Hence total expression is positive,
+</para>
+<para id="element-452">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>14</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mo>{</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>11</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>6</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-453"><term>3: </term>  <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-454">Rearranging in groups,
+</para>
+<para id="element-455">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>14</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>11</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>6</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-456">Here, <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>14,</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ are positive and <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>11</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>  is negative. Hence, total expression is positive,
+</para>
+<para id="element-457">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>14</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>11</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>6</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-458">We see that expression is positive for all values of “x”. Hence, domain of the function is :
+</para>
+<para id="element-459">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+</section> 
+<section id="section-6">
+<title> Exercise </title>
+
+<para id="element-321aaa">
+<exercise id="exercise-321aaa">
+<problem id="idp122368">
+<para id="element-321aaab">
+Find solution of the rational inequality given by :
+
+</para>
+<para id="element-322ab">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:mfenced>
+
+      </m:mrow>
+      <m:mfenced>
+        <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>3</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+</problem>
+
+<solution id="idp9332672">
+<para id="element-323aaa"><term>Hint : </term> Critical points are -5,-1 and 3. We need to exclude end corresponding to x=3 as denominator turns zero for this value.
+ 
+</para>
+<para id="element-324ab">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>,</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>]</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>(</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>,</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-117">
+<exercise id="exercise-117a">
+<problem id="idp5910704">
+<para id="element-117aa">
+Find solution of the rational inequality given by :
+</para>
+<para id="element-118a">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>16</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>51</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</problem>
+
+<solution id="idp2259040">
+<para id="element-119a">
+<term>Hint : </term>Critical points are -4,-3,3/2,5/2.
+
+</para>
+<para id="element-120a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3,3</m:mn>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mo>/</m:mo>
+        <m:mn>2,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-121b">
+<exercise id="exercise-121b">
+<problem id="idp4454880">
+<para id="element-121aa">
+Find solution of the rational inequality given by :
+
+</para>
+<para id="element-122a">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>6</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mn>11</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+</problem>
+
+<solution id="idp363776">
+<para id="element-123a">
+
+<term>Hint : </term> Factorize denominator as 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>6</m:mn>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>11</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>6</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>. Critical points are -3,-1,1,2,3.
+
+</para>
+<para id="element-124a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3,</m:mn>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1,2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3,</m:mn>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-321a">
+<exercise id="exercise-121a">
+<problem id="idp8988096">
+<para id="element-321aa">
+Find solution of the rational inequality given by :
+
+</para>
+<para id="element-322a">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>3</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:mn>3</m:mn>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:mi>x</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:mfrac>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+</problem>
+
+<solution id="idp4194016">
+<para id="element-323a"><term>Hint : </term> Factorize denominator as 
+</para>
+<para id="element-323b">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-324b">Critical points are -1/2,1,1,0,1 and 2. We see that "1" is repeated odd times. Hence, we continue to assign alternating signs in accordance with wavy curve method. The solution of x for the inequality is :
+
+</para>
+
+<para id="element-324a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>2</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+</section> 
+  </content>
+  
+</document>

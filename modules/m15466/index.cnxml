@@ -1,0 +1,700 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Function operations (exercise)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>abd386f1-99e6-4abf-936b-5ccfb1ac00ab</md:uuid>
+</metadata>
+  <content>
+<para id="element-195">In this module, we shall work with different function types, which are combined in various ways to form a function. The domain of such functions are determined in accordance with rules for function operations.</para><para id="element-1"><term>Working rules : </term>
+</para>
+<para id="element-2">
+<list id="list-2" list-type="bulleted">
+<item> Find domain of the each individual function, which composes the given function. The individual functions may be different function types.
+ </item>
+<item> The domain of a function is unchanged when it is multiplied with a scalar (i.e. a constant) </item>
+<item> The resulting domain after addition, subtraction and multiplication of two functions is given by the intersection of domains, "<m:math>
+  <m:mrow>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>". </item>
+<item> In the case of division, we need to remove values for which denominator is zero.  <m:math>
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>{values of “x” for which denominator is zero}</m:mtext>
+  </m:mrow>
+</m:math>.   </item>
+</list>
+</para>
+<para id="element-3"><note id="idp6276976"> This exercise module did not follow immediately after the module on function operations. We needed to know different function types first to apply the concept with them.  </note>
+</para>
+
+
+<section id="section-3">
+<para id="element-18"><term>Problem 1: </term> Find the domain of the function given by :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20"><term>Solution : </term> 
+</para>
+<para id="element-21"><term>Statement of the problem : </term> The function has rational form. Denominator consists of product of two greatest integer functions. 
+</para>
+<para id="element-22">We can consider, the function as product of three individual functions :
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-24">The domain of "x" is “R”. We, now, analyze individual greatest integer functions such that it does not become zero. If we recall the graph of greatest integer function, then we can realize that the value of greatest integer [x] is equal to zero for the interval given by 0≤ x &lt; 1. Following this clue, we find the intervals in which greatest integer functions are zero.
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Greatest integer function </title>
+<media id="idp10860368" alt=""><image src="../../media/fo1-6a0b.gif" mime-type="image/gif"/></media>
+<caption> The greatest integer function evaluates to zero for 0≤ x &lt; 1.</caption>
+</figure>
+</para>
+<para id="element-26">
+For <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>, 
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>2</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>2,3</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">It means that given function is undefined for this interval of “x”. The domain of the function for this condition is : 
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>2,3</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+Similarly, for <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>if</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,0</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">The domains for this condition is : 
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1,0</m:mn>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Hence, domain of the given function is intersection of two domains as shown in the figure. Note that we have not considered the domain of numerator, “x”, as its domain is “R” and its intersection with any interval is interval itself. 
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Domain of the function </title>
+<media id="idp11426976" alt=""><image src="../../media/fo2.gif" mime-type="image/gif"/></media>
+<caption> The domain of the function is intersection of domains of individual functions.</caption>
+</figure>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Domain</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>∞</m:mi>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>[</m:mo>
+    <m:mn>0,2</m:mn>
+    <m:mo>)</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>∪</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>[</m:mo>
+    <m:mn>3,</m:mn>
+    <m:mi>∞</m:mi>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-5">
+<para id="element-56"><term>Problem 2: </term> Find the domain of the function given by :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>9</m:mn>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58"><term>Solution : </term> 
+</para>
+<para id="element-59"><term> Statement of the problem : </term> The given function is sum of logarithmic and algebraic function. 
+</para>
+<para id="element-60">Here, we observe that argument (input) of logarithmic function is itself a trigonometric function. We know that cosine function is real for all real values of "x". The important point to realize here is that we have to evaluate logarithmic function for the values of trigonometric function "cos(x-5)" – not for independent variable “x”. Now, the argument of logarithmic function is a positive number. It means that :
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">The basic interval of cosine function is <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2,</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>. The solution of the cosine inequality is the domain of the logarithmic function :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>n</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2,</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>π</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>5,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>n</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>Z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">For the algebraic function, the expression within the square root is non-negative number :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Clearly, roots of the quadratic equation, when equated to zero, is -3,3. Here, coefficient of quadratic equal equation is positive. Therefore, middle section is negative. Hence, its domain is :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>≤</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">The domain of given function, f(x), is intersection of two functions i.e.
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:msub>
+      <m:mi>D</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">From the figure, the common interval is between <m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math> as obtained for n = -1.
+</para>
+<para id="element-72">
+<figure id="fig-72">
+<title> Domain of the function </title>
+<media id="idp5723712" alt=""><image src="../../media/fo4.gif" mime-type="image/gif"/></media>
+<caption> The domain of the function is intersection of domains of individual functions.</caption>
+</figure>
+</para>
+<para id="element-73"><note id="idm7005760"> We should draw a rough number line diagram on paper for few values of “n”. </note>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>5</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>,</m:mo>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mi>π</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+  
+  </content>
+  
+</document>

@@ -1,0 +1,713 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Union of sets</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>80a9a60d-b9fc-408d-ba5e-1ccd64635147</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We are familiar with basic algebraic operations. These basic mathematical operations, however, are not valid in all contexts. For example, algebraic operation such as addition has different details, when operated on vectors. Clearly, we expect that these operations will also be not same in the case of sets – which are collections and not  individual elements.
+</para>
+<para id="element-2">Nevertheless, set operations bear resemblance to algebraic operation. For example, when we combine (not add) two sets, then the operation involved is called “union”. We can see that there is resemblance of the intent of addition, subtraction etc in the case of sets also.
+</para>
+<section id="section-1">
+<title>Venn diagrams</title>
+<para id="element-3">Venn diagrams are pictorial representation of sets/subsets and relationship that the sets/subsets have among them. It helps us to analyze relationship and carry out valid set operations in a relatively easier manner vis – a – vis symbolic representation.
+</para>
+<section id="section-1a">
+<title>Universal set</title>
+<para id="element-4">Universal set is the largest set among collection of sets. Importantly, it is not the collection of everything as might be conjectured by the nomenclature. For example, "R", is universal set comprising of all real numbers. The rational numbers, integers and natural numbers are its subset. In other consideration, we can call integers as universal set. In that case, sets such as {1,2,3}, prime numbers, even numbers, odd numbers are subset of the universal set of integers.
+</para>
+<para id="element-5">The universal set is pictorially represented by a region enclosed within a rectangle on Venn diagram. For illustration, consider the universal set of English alphabets and universal set of first 10 natural numbers as shown in the top row of the figure
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Universal set </title>
+<media id="idp4965472" alt=""><image src="../../media/u5.gif" mime-type="image/gif"/></media>
+<caption> The universal set is represented by a region enclosed within a rectangle.</caption>
+</figure>
+</para>
+<para id="element-7">Many times, however, we may not be required to list elements of a universal set. In such case, we represent the universal set simply by a rectangle and the symbol for universal set, “U”, in the corner. This is particularly helpful, where number of elements in universal set are very large.
+</para>
+<para id="element-8">The subsets of the universal set are represented by  closed curves – usually circles. The subset of vowels (V) is shown here within the circle with the listing of elements. Note that we have not listed all the alphabets for universal set and used the symbol “U” in the corner only.
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Subset </title>
+<media id="idp742384" alt=""><image src="../../media/u6.gif" mime-type="image/gif"/></media>
+<caption> The subset of the universal set is represented by a closed curve – usually circle.</caption>
+</figure>
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Union of sets</title>
+<para id="element-11">Union works on two operands, each of which is a set. The operation is denoted by symbol "
+<m:math>
+  <m:mrow>
+    <m:mo>∪</m:mo>
+  </m:mrow>
+</m:math>
+". Now, the question is : what do we expect when two sets are combined? Clearly, we need to enlist all the elements of two sets in the resulting set.
+</para>
+<para id="element-12">
+<definition id="definition-12">
+<term> Union of two sets </term>
+<meaning id="idm2723824"> The union of sets “A” and “B” is a third set, which consists all the elements of two sets. </meaning>
+</definition>
+</para>
+<para id="element-14">
+In symbol,
+</para>
+<para id="element-14a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">The word “or” in the set builder form defining union is important. It means that the element “x” belongs to either “A” or “B”. The element may belong to both sets (common to two sets), but not necessarily. We can, therefore, infer that union set consists of :
+</para>
+<para id="element-16">
+<list id="list-16" list-type="enumerated">
+<item> elements exclusive to A </item>
+<item> elements exclusive to B</item>
+<item> elements common to A and B  </item>
+</list>
+</para>
+<para id="element-17">As a set includes only distinct elements, the common elements are represented only once in the union set. Thus, union set consists of elements of both sets without repeating an element. Now, the set is represented on Venn diagram as shown here.
+</para>
+<para id="element-18">
+<figure id="fig-18"><title> Union of two sets </title>
+<media id="idp44704" alt=""><image src="../../media/u1.gif" mime-type="image/gif"/></media>
+<caption> The representation of union on Venn diagram</caption>
+</figure>
+</para>
+<para id="element-19">For illustration of working with union, let us consider two sets of positive integers as given here,
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">The union of two sets is :
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6,4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">But repetition of elements in a set does not change it. Hence, we need not repeat elements in the resulting union.
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">Here, universal set is natural numbers. The representation of union of joint sets is shown in the figure. We can observe that very construction of union on Venn diagram ensures that elements are not repeated.
+</para>
+<para id="element-27">
+<figure id="fig-27">
+<title> Union of two sets </title>
+<media id="idm573008" alt=""><image src="../../media/u2.gif" mime-type="image/gif"/></media>
+<caption> The representation of union on Venn's diagram</caption>
+</figure>
+</para>
+<section id="section-2a">
+<title>Interpretation of union set</title>
+<para id="element-28">Let us examine the defining set of union : 
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">We consider an arbitrary element, say “x”,  of the union set. Then, we interpret the conditional meaning as :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>t</m:mi>
+    <m:mi>h</m:mi>
+    <m:mi>e</m:mi>
+    <m:mi>n</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">Can we emphasize this conditional meaning in reverse order :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>t</m:mi>
+    <m:mi>h</m:mi>
+    <m:mi>e</m:mi>
+    <m:mi>n</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">Yes, we can agree with the second conditional meaning as well. We, therefore, conclude that the statements work in both ways. We write two statements together as :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">We can reach yet another conclusion by observing representation of union set on Venn diagram. Now, if an arbitrary element “x” does not belong to union set, then it is clear that it does not belong to the region represented by the union set on the Venn’s diagram. Hence,
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Union of two sets </title>
+<media id="idp10496944" alt=""><image src="../../media/u1.gif" mime-type="image/gif"/></media>
+<caption> The representation of union on Venn's diagram</caption>
+</figure>
+</para>
+<para id="element-38"><m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mtext>does not belong </m:mtext>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>and</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">The important thing to note here is the word “and” in place of “or” used before. Think about it. Here two conditions follow simultaneously. If an element does not belong to an union set, then it will not belong to either of individual sets simultaneously. Now, the next thing to consider is whether this conditional statement will be true other way round as well? 
+</para>
+<para id="element-40"><m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">Yes, we can agree to this statement. We, therefore, conclude that the statements work in both ways. We write two statements together with the help of two ways arrow sign as :
+</para>
+<para id="element-42"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>and</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∉</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2b">
+<title>Union of disjoint sets</title>
+<para id="element-43">Consider students in class X and class XI. Let us denote the respective sets as "T" for tenth and "E" for eleventh class. Clearly, union i.e. combination of two sets should include elements from each of the sets. Hence,
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mtext>students in class X and XI</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">This is a straight forward union of two sets. The resulting set comprises of all elements present in both the sets. Since it is not possible that students studying in class X are also students of XI, we are sure that the numbers of elements in the union is sum of numbers of students in each class. As there is no commonality between two sets, it is a union of two “disjoint” sets. We conclude here that union of two disjoint sets has no common elements.
+</para>
+</section>
+<section id="section-2c">
+<title>Union with subset</title>
+<para id="element-46">The set “B” consists of all elements of its subset “A”. In other words, the elements of a subset “A” also belongs to the set “B”. The operation of union is combining elements of two sets. The union with a subset, therefore, consists of elements from both “A” and “B”. However, all elements of “A” are also the elements of “B”. Therefore, we find that union set is same as the superset “B”. Symbolically,
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>then</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>B</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">We can check this deduction with the help of an example. Let us consider two sets as :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>4,5,6</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+Here, we see that A
+<m:math>
+  <m:mrow>
+    <m:mo>⊂</m:mo>
+  </m:mrow>
+</m:math>
+B. Now,
+</para>
+<para id="element-52"><m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6,4,5,6</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53"><figure id="fig-53">
+<title> Union with subset </title>
+<media id="idp2720960" alt=""><image src="../../media/u3a.gif" mime-type="image/gif"/></media>
+<caption> The representation of union with subset on Venn diagram</caption>
+</figure>
+</para>
+</section>
+<section id="section-2d">
+<title>Multiple unions </title>
+<para id="element-53a">If 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is a finite family of sets, then their unions, one after another, is denoted as :
+</para>
+<para id="element-53b">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>∪</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>∪</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>∪</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>∪</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Important results </title>
+<para id="element-54">In this section we shall discuss some of the important characteristics/ deductions for the union operation.
+</para>
+<section id="section-3a">
+<title>Idempotent law </title>
+<para id="element-55">
+The literal meaning of the word “idempotent” is “unchanged when multiplied by itself”. Following the clue, the union of a set with itself is the set itself. This is an equivalent statement conveying the meaning of “idempotent” in the context of union. Symbolically,
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">The union set consists of distinct elements and common elements taken once. Between two sets here, all elements are common. The union set consists of all elements of either set. 
+</para>
+</section>
+<section id="section-3b">
+<title>Identity law </title>
+<para id="element-58">The algebraic operators like addition and multiplication have defined identities, which does not change the other operand of the operator. For example, if we add “0” to a number, it remains same. Hence, “0” is additive identity. Similarly, “1” is multiplicative identity. 
+</para>
+<para id="element-59">In the case of union, we find that union of a set with empty set does not change the set. Hence, empty set is union identity.
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">As there is no element in empty set, union has same elements as that in “A”.
+</para>
+</section>
+<section id="section-3c">
+<title>Law of U </title>
+<para id="element-62">All sets are subsets of universal set for a given context. We have seen that union with subset results in the set itself. Clearly, union of universal set with its subset will result in the universal set itself.
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3d">
+<title>Commutative law </title>
+<para id="element-64">In order to assess whether commutative property holds or not, we consider the example, used earlier. Let the sets be :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Then,  
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6,4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>4,5,6,7,8,1,2,3,4,5,6</m:mn>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">Thus, we see that order of operands with respect to the union operator is not differentiating. We can also appreciate this law on Venn diagram, which does not change by changing positions of sets across union operator.
+</para>
+</section>
+<section id="section-3e">
+<title>Associative law </title>
+<para id="element-71">The associative property also holds with respect to union operator. We know that associative property is about changing the place of parentheses as here :
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">The parentheses simply change the precedence of operation. On Venn diagram, union involving three sets appears same, irrespective of whether we apply union operation in a particular sequence. 
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Union of three sets </title>
+<media id="idp7165248" alt=""><image src="../../media/u4.gif" mime-type="image/gif"/></media>
+<caption> Associative law </caption>
+</figure>
+</para>
+</section>
+</section>
+
+
+ 
+  </content>
+  
+</document>

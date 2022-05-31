@@ -1,0 +1,1531 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Monotonic functions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>3d4ac357-a36f-4bf9-97db-492fe43cf7e9</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The term “monotonic” conveys the meaning of maintaining order or the sense of “no change”. In the context of function, we think a monotonic function as the one whose successive values are increasing, decreasing or constant. There is a sense of maintaining order of function values as independent variable changes. These aspects are pictorially evident on the graph of a function. In a general case, a function may or may not maintain its order of change in its domain i.e. in the overall context. However, we can always identify monotonic behavior in an appropriately chosen subset of domain – unless it is a point function or a singleton. 
+</para>
+
+<para id="element-2">Consider the graph of sine function. As a whole, the function is not monotonic as the order of the function is not preserved over the domain of the function, which is “R”. However, if we consider an interval, say, between “0” and “π/2”, then we find that function keeps increasing with the increasing independent variable. Therefore, sine function is monotonic in this interval.
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Monotonic function </title>
+<media id="idm9910096" alt=""><image src="../../media/mf1-0248.gif" mime-type="image/gif"/></media>
+<caption> The sine function is monotonic in certain intervals.</caption>
+</figure>
+</para>
+<para id="element-3">
+On the other hand, a linear polynomial function represents a straight line, which maintains its monotonic nature through out its domain. The monotonic nature of a function, therefore, is investigated in a suitable interval, which is either domain or its subset. We shall refer this interval as X to illustrate the concept in this module. From the point of view of monotonic behavior, we classify function in following categories :
+</para>
+
+<para id="element-5">
+<term>1: Constant function : </term> Function values does not change as independent variable varies. 
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>for all</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>∈</m:mo>
+    <m:mi>X</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-7">
+
+<term>2: Strictly increasing: 
+</term>Function value change as independent variable varies in accordance with following condition : 
+</para>
+<para id="element-7a">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>for all</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>∈</m:mo>
+    <m:mi>X</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-7d"><term>3: Non-decreasing or increasing : 
+</term>Function value change as independent variable varies in accordance with following condition : 
+</para>
+<para id="element-7e">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>for all</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>∈</m:mo>
+    <m:mi>X</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-7b">
+<term>4: Strictly decreasing: 
+</term>Function value change as independent variable varies in accordance with following condition :
+
+</para>
+<para id="element-7c"><m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>for all</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>∈</m:mo>
+    <m:mi>X</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-7f"><term>5: Non-increasing or decreasing : 
+</term>Function value changes as independent variable varies in accordance with following condition : 
+</para>
+<para id="element-7g">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>for all</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>∈</m:mo>
+    <m:mi>X</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7h">There is one ambiguity in the definition of classification presented above. According to the definition, a constant function is an increasing, decreasing or both kinds of function. Clearly, this interpretation is wrong and is an exception. An increasing or non-decreasing class actually captures the notion of an overall increasing function, which is intermittently constant and thereby distinguishes this class from strictly increasing order. Similarly, a decreasing or non-increasing class actually captures the notion of an overall decreasing function, which is intermittently constant and thereby distinguishes this class from strictly decreasing order.
+</para>
+<para id="element-783"><term>Note : </term>It may confound clarity, but we should know that there is another classification. In this classification (i) "strictly increasing" is known simply as "increasing", (ii) "strictly decreasing" is known simply as "decreasing", (iii) "increasing" is known as "monotonically increasing" and (iv) "decreasing" is known as "monotonically decreasing". Clearly, this classification is not the same as what is given here. The best way to deal with this situation is to ignore this confusion and be explicit in what we mean. Saying "strictly increasing" for example ensures that equality of function values is not allowed. Similarly, saying "non-decreasing" ensures that function values do not decrease. We shall try to adhere to this explicit classification to the extent possible. </para><para id="element-7i">
+<term>Derivative and nature of function</term>
+</para>
+<para id="element-7j">We shall learn subsequently that first derivative of a function is defined in terms of ratio of the differences between two successive values of function and that of independent variable, however small is the difference in independent variable. It is easy to visualize, then, that if we know the nature of derivative in a given interval, then we can determine monotonic behavior of the function as well.  
+
+
+</para>
+<para id="element-7k">
+<m:math display="block">
+		<m:mrow>
+			<m:mi>f</m:mi>
+			<m:mo>′</m:mo>
+			<m:mfenced>
+				<m:mrow>
+					<m:mi>x</m:mi>
+				</m:mrow>
+			</m:mfenced>
+			<m:mo>=</m:mo>
+			<m:munderover>
+				<m:mrow>
+					<m:mi>L</m:mi>
+					<m:mi>i</m:mi>
+					<m:mi>m</m:mi>
+				</m:mrow>
+				<m:mrow>
+					<m:mi>h</m:mi>
+					<m:mo>→</m:mo>
+					<m:mn>0</m:mn>
+				</m:mrow>
+				<m:mrow/>
+			</m:munderover>
+			<m:mfrac>
+				<m:mrow>
+					<m:mi>f</m:mi>
+					<m:mfenced>
+						<m:mrow>
+							<m:mi>x</m:mi>
+							<m:mo>+</m:mo>
+							<m:mi>h</m:mi>
+						</m:mrow>
+					</m:mfenced>
+					<m:mo>−</m:mo>
+					<m:mi>f</m:mi>
+					<m:mfenced>
+						<m:mrow>
+							<m:mi>x</m:mi>
+						</m:mrow>
+					</m:mfenced>
+				</m:mrow>
+				<m:mi>h</m:mi>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+
+</para>
+<para id="element-7l">Depending on the monotonic nature of function, the relative values of f(h) and f(x+h) are different and so the sign of first derivative. 
+</para>
+
+<section id="section-1">
+<title>Strictly increasing function</title>
+<para id="element-8">The successive value of function increases as the value of the independent variable increases. In other words, the preceding values are less than successive values that follow. Mathematically, 
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2,</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">
+<figure id="fig-10">
+<title> Increasing function </title>
+<media id="idm6194032" alt=""><image src="../../media/mf2-9d33.gif" mime-type="image/gif"/></media>
+<caption> The successive function value is greater than previous value.</caption>
+</figure>
+</para>
+<example id="example-18">
+
+<para id="element-18"><term>Problem : </term> Determine monotonic nature of the function in the interval [0,∞).
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20"><term>Solution : </term> Let <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+ and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> belong to the interval [0,∞) such that <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> &lt; <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>. Multiplying inequality with <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> (a positive number) does not change the nature of inequality :
+</para>
+<para id="element-20a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-20b">
+Multiplying inequality with <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> (a positive number) does not change the nature of inequality :
+
+
+</para>
+<para id="element-20c">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+
+
+
+
+</para>
+<para id="element-20d">Combining two inequalities,
+
+
+</para>
+<para id="element-20e">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>&lt;</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&lt;</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-20f">
+Thus, given function is strictly decreasing in [0,∞).
+</para>
+</example>
+
+<para id="element-11a">As f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>)&lt;f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X, the difference “f(x+h) – f(x)” is positive for “h”, however small. This implies that the first derivative of function is positive. If we think of possibility, then we can realize that tangent to the function curve can be parallel to x-axis for couple of x values, while curve is continuously increasing in the interval. It means that first derivative can be equal to zero for few points in the interval in which it is strictly increasing. This is clear from the figure given here, 
+
+</para>
+<para id="element-956"><figure id="fig-956">
+<title> Strictly increasing function </title>
+<media id="idm6934384" alt=""><image src="../../media/mf7.gif" mime-type="image/gif"/></media>
+<caption> The first derivative can be zero at certain point(s) - but not in continuous interval.</caption>
+</figure></para><para id="element-802">Thus, for strictly increasing function,
+</para><para id="element-11b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>Equality sign holds for points only - not on a continuous section in X</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11c">
+For strictly increasing function, if <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>&lt;<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, then f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) &lt; f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>), for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X. It means that all distinct x values correspond to distinct y values and vice-versa. Therefore, strictly increasing function is one-one function i.e. a bijection and hence “invertible”. In other words, if a function has strict increasing order, then it is invertible. Mathematically, we say that if f’(x) ≥0; (equality holding for points only), x∈X, then function is invertible in X. For example, consider sine function,
+
+</para>
+<para id="element-11d">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-11e">
+We know that cosx is positive in the interval [-π/2,π/2]. Hence sine function is a strictly increasing function in [-π/2,π/2] and is invertible. Recall that inverse sine function is defined in this interval. 
+
+</para>
+<para id="element-11f">
+The order of a function provides an easy technique to determine range of a continuous function, corresponding to a given domain interval. For example, if domain of a continuously increasing function, f(x), is [<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>], then the least value of the function is  f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) and greatest value of the function is f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>). Hence, range of the function is :
+
+</para>
+<para id="element-11g">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-11h">
+We shall study this aspect of finding range in detail in a separate module. 
+</para>
+
+
+</section>
+<section id="section-2">
+<title>Non-decreasing function or increasing</title>
+<para id="element-33">The successive value of function increases or remains constant as the value of the independent variable increases. In other words, the preceding values are less than or equal to successive values that follow. Mathematically, 
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+<figure id="fig-35"><title>Non decreasing function </title><media id="idm5914576" alt=""><image src="../../media/mf3.gif" mime-type="image/gif"/></media><caption> The successive function value is greater than or equal to previous value.</caption></figure>
+</para>
+<para id="element-36">As f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>)≤f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X, the difference “f(x+h) – f(x)” is non-negative for “h”, however small. This implies that the first derivative of function is non-negative. If we think of possibility, then we can realize that tangent to the function curve can be parallel to x-axis for a subset of X, while curve is increasing overall in the interval. It means that first derivative can be equal to zero points or sub-intervals in which it is increasing. Thus, for non-decreasing function,
+</para>
+<para id="element-37a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>Equality sign holds for few points or a continuous section in X</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37b">
+For increasing function, if <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>&lt;<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, then f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) ≤ f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>), for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X. This means that there may be same function values for different values of x. This is “many one” relation and as such function is not invertible in X. 
+</para>
+</section>
+<section id="section-3">
+<title>Strictly decreasing function </title>
+<para id="element-38">The successive value of function decreases as the value of the independent variable increases. In other words, the preceding values are greater than successive values that follow. Mathematically,  
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Strictly decreasing function </title>
+<media id="idm10881296" alt=""><image src="../../media/mf4.gif" mime-type="image/gif"/></media>
+<caption> The successive function value is less than previous value.</caption>
+</figure>
+</para>
+
+<example id="example-46a">
+<para id="element-46a"><term>Problem : </term> Determine monotonic nature of the function in the interval (-∞,0].
+
+</para>
+<para id="element-46b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46c">
+<term>Solution : </term> Let <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> belong to the interval [0,∞) such that <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> &lt; <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>. Multiplying inequality with <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> (a negative number) changes the nature of inequality :
+
+</para>
+<para id="element-46d">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-46e">
+Multiplying inequality with <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> (a negative number) changes the nature of inequality :
+
+</para>
+<para id="element-46f">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-46g">
+Combining two inequalities,
+
+</para>
+<para id="element-46h">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>&gt;</m:mo>
+    <m:msubsup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>&gt;</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46i">
+Thus, given function is strictly decreasing in (-∞,0].
+</para>
+</example>
+<para id="element-46j">As f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>)&gt;f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X, the difference “f(x+h) – f(x)” is negative for “h”, however small. This implies that the first derivative of function is negative. If we think of possibility, then we can realize that tangent to the function curve can be parallel to x-axis for couple of x values, while curve is continuously decreasing in the interval. It means that first derivative can be equal to zero for few points in the interval in which it is strictly decreasing. Thus, for strictly decreasing function,
+
+</para>
+<para id="element-46k">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>Equality sign holds for points only - not on a continuous section in X</m:mtext>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-46l">
+For strictly decreasing function, if <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>&lt;<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, then f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) &gt; f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>), for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X. It means that all distinct x values correspond to distinct y values and vice-versa. Therefore, strictly decreasing function is one-one function i.e. a bijection and hence “invertible”. In other words, if a function has strict decreasing order, then it is invertible. Mathematically, we say that if f’(x) ≤ 0 (equality holding for points only); x∈X, then function is invertible in X. For example, consider sine function,
+
+</para>
+<para id="element-46m">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46n">
+We know that cosx is negative in the interval [π/2, 3π/2]. Hence sine function is a strictly decreasing function in [π/2, 3π/2] and is invertible. Recall though that inverse sine function is not defined in this interval, but in basic interval about origin [-π/2,π/2]. 
+
+</para>
+<para id="element-46o">
+The order of a function provides an easy technique to determine range of a continuous function, corresponding to a given domain interval. For example, if domain of a continuously decreasing function, f(x), is [<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>], then the least value of the function is  f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) and greatest value of the function is f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>). Hence, range of the function is :
+
+</para>
+<para id="element-46p">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Range</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>,</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46q">
+We shall study this aspect of finding range in detail in a separate module. 
+</para>
+
+</section>
+<section id="section-4">
+<title>Non-increasing function or decreasing</title>
+<para id="element-43">The successive value of function decreases or remains constant as the value of the independent variable increases. In other words, the preceding values are greater than or equal to successive values that follow. Mathematically, 
+
+
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>If</m:mtext>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mtext>then</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≥</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<figure id="fig-45"><title> Non-increasing function or  decreasing </title><media id="idp335504" alt=""><image src="../../media/mf5.gif" mime-type="image/gif"/></media><caption> The successive function value is less than or equal to previous value.</caption></figure>
+</para>
+
+<para id="element-48a">As f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>)≥ f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X, the difference “f(x+h) – f(x)” is non-positive for “h”, however small. This implies that the first derivative of function is non-positive. If we think of possibility, then we can realize that tangent to the function curve can be parallel to x-axis for a subset of X, while curve is decreasing overall in the interval. It means that first derivative can be equal to zero at points or in sub-intervals in which it is decreasing. Thus, for non-decreasing function,
+
+</para>
+<para id="element-48b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>′</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>≤</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>Equality sign holds for few points or a continuous section in X</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-48c">
+For decreasing function, if <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>&lt;<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, then f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>) ≥ f(<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>), for all <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>,<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>∈X. This means that there may be same function values for different values of x. This is “many one” relation and as such function is not invertible in X. 
+</para>
+
+</section>
+
+
+
+ 
+  </content>
+  
+</document>

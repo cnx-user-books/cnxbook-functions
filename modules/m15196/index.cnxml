@@ -1,0 +1,1024 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Intersection of sets</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9b911fdb-6715-4b78-9624-d53c7925f282</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We have pointed out that a set representing a real situation is not an isolated collection. Sets, in general, overlaps with each other. It is primarily because a set is defined on few characteristics, whereas elements generally can possess many characteristics. Unlike union, which includes all elements from two sets, the intersection between two sets includes only common elements. 
+</para>
+<para id="element-2">
+<definition id="definition-1"><term> Intersection of two sets  </term>
+<meaning id="idp8128816"> The intersection of sets “A” and “B” is the set of all elements common to both “A” and “B”.</meaning>
+</definition>
+</para>
+<para id="element-3">The use of word “and” between two sets in defining an intersection is quite significant. Compare it with the definition of union. We used the word “or” between two sets.  Pondering on these two words, while deciding membership of union or intersection, is helpful in application situation. 
+</para>
+<para id="element-4">The intersection operation is denoted by the symbol, "
+<m:math>
+  <m:mrow>
+    <m:mo>∩</m:mo>
+  </m:mrow>
+</m:math>
+". We can write intersection in set builder form as :
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Intersection of two sets </title>
+<media id="idp9336608" alt=""><image src="../../media/i1.gif" mime-type="image/gif"/></media>
+<caption> The intersection set consists of elements common to two sets.</caption>
+</figure>
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">Again note use of the word “and” in set builder qualification. We can read this as “x” is an element, which belongs to set “A” and set “B”. Hence, it means that “x” belongs to both “A” and “B”.
+</para>
+<para id="element-8">In order to understand the operation, let us consider the earlier example again,
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>1,2,3,4,5,6</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>4,5,6,7,8</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">
+Then,
+</para>
+<para id="element-12"><m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>4,5,6</m:mn>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">On Venn diagram, an intersection is the region intersected by circles, which represent two sets.
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Intersection of two sets </title>
+<media id="idm201328" alt=""><image src="../../media/i2.gif" mime-type="image/gif"/></media>
+<caption> The intersection set consists of elements common to two sets.</caption>
+</figure>
+</para>
+<section id="section-1">
+<title>Interpretation of Intersection set</title>
+<para id="element-16">Let us examine the defining set of intersection :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>:</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">We consider an arbitrary element, say “x”,  of the intersection set. Then, we interpret the conditional meaning as :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">The conditional statement is true in opposite direction as well. Hence,
+</para>
+<para id="element-21">
+<m:math display="block" id="If">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>f</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">We summarize two statements with two ways arrow as :
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>⇔</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">In addition to two ways relation, there is an interesting aspect of intersection. Intersection is subset of either of two sets. From Venn diagram, it is clear that :
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Intersection of two sets </title>
+<media id="idp12448992" alt=""><image src="../../media/i1.gif" mime-type="image/gif"/></media>
+<caption> The intersection set consists of elements common to two sets.</caption>
+</figure>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>⊂</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">and
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>⊂</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-1a">
+<title>Intersection with a subset</title>
+<para id="element-30">Since all elements of a subset is present in the set, it emerges that intersection with subset is subset. Hence, if “A” is subset of set “B”, then :
+</para>
+<para id="element-31"><m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title>Intersection of disjoint sets</title>
+<para id="element-32">If no element is common to two sets “A” and “B” , then the resulting intersection is an empty set : 
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">In that case, two sets “A” and “B” are “disjoint” sets.
+</para>
+</section>
+<section id="section-1c">
+<title>Multiple intersections</title>
+<para id="element-35">
+If 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>,</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is a finite family of sets, then their intersections one after another is denoted as :
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:msub>
+      <m:mi>A</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>∩</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>.</m:mo>
+    <m:mo>∩</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>n</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Important results</title>
+<para id="element-37">In this section we shall discuss some of the important characteristics/ deductions for the intersection operation.
+</para>
+<section id="section-2a">
+<title>Idempotent law</title>
+<para id="element-38">
+The intersection of a set with itself is the set itself. 
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">This is because intersection is a set of common elements. Here, all elements of a set is common with itself. The resulting intersection, therefore, is set itself.
+</para>
+</section>
+<section id="section-2b">
+<title>Identity law</title>
+<para id="element-41">The intersection with universal set yields the set itself. Hence, universal set functions as the identity of the intersection operator.
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">It is easy to interpret this law. Only the elements in "A" are common to universal set. Hence, intersection, being the set of common elements, is set "A".
+</para>
+</section>
+<section id="section-2c">
+<title>Law of empty set</title>
+<para id="element-44">Since empty set is element of all other sets, it emerges that intersection of an empty set with any set is an empty set (empty set is only common element between two sets). 
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>φ</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2d">
+<title>Commutative law</title>
+<para id="element-46">The order of sets around intersection operator does not change the intersection. Hence, commutative property holds in the case of intersection operation.
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2e">
+<title>Associative law</title>
+<para id="element-48">The associative property holds with respect to intersection operator. 
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">The intersection of sets “A” and “B” on Venn’s diagram is :
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> Intersection of two sets </title>
+<media id="idp12329952" alt=""><image src="../../media/i3.gif" mime-type="image/gif"/></media>
+<caption> The intersection is a set of common elements and shown as colored region.</caption>
+</figure>
+</para>
+<para id="element-52">In turn, the intersection of set “A
+<m:math>
+  <m:mrow>
+    <m:mo>∩</m:mo>
+  </m:mrow>
+</m:math>
+B” and set “C” is the small region in the center :
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Intersection inloving three sets </title>
+<media id="idp13698176" alt=""><image src="../../media/i4.gif" mime-type="image/gif"/></media>
+<caption> Intersection of a set with "the intersection set of two sets" </caption>
+</figure>
+</para>
+<para id="element-54">It is easy to visualize that the ultimate intersection is independent of the sequence of operation.
+</para>
+</section>
+<section id="section-2f">
+<title>Distributive law</title>
+<para id="element-55">The intersection operator(
+<m:math>
+  <m:mrow>
+    <m:mo>∩</m:mo>
+  </m:mrow>
+</m:math>
+) is distributed over union operator (
+<m:math>
+  <m:mrow>
+    <m:mo>∪</m:mo>
+  </m:mrow>
+</m:math>
+) :
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">We can check out this relation with the help of Venn diagram. For convenience, we have not shown the universal set. In the first diagram on the left, the colored region shows the union of sets “B” and “C” ie. 
+<m:math>
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+. The colored region in the second diagram on the right shows the intersection of set “A” with the union obtained in the first diagram i.e. 
+<m:math>
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-58"> 
+<figure id="fig-58">
+<title> Distributive law </title>
+<media id="idp19153504" alt=""><image src="../../media/i5.gif" mime-type="image/gif"/></media>
+<caption> Distribution of intersection operator over union operator </caption>
+</figure>
+</para>
+<para id="element-59">
+We can now interpret the colored region in the second diagram from the point of view of expression on the right hand side of the equation :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">The colored region is indeed the union of two intersections : "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>"
+ and "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>"
+. Thus, we conclude that distributive property holds for "intersection operator over union operator".
+</para>
+<para id="element-62">In the same manner, we can prove distribution of “union operator over intersection operator” :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-2f1">
+<title>Analytical proof</title>
+<para id="element-64">Distributive properties are important and used for practical application. In this section, we shall prove the same in analytical manner. For this, let us consider an arbitrary element “x”, which belongs to set "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>"
+: 
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-931">Then, by definition of intersection :</para><para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>A</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mi>n</m:mi>
+    <m:mi>d</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>B</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>o</m:mi>
+        <m:mi>r</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>A</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>a</m:mi>
+        <m:mi>n</m:mi>
+        <m:mi>d</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>A</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>a</m:mi>
+        <m:mi>n</m:mi>
+        <m:mi>d</m:mi>
+        <m:mspace width="1em"/>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>∈</m:mo>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-70a"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">But, we had started with "
+<m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+" and used its definition to show that “x” belongs to another set. It means that the other set consists of the elements of the first set – at the least.  Thus,
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>⊂</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">Similarly, we can start with "
+<m:math>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+"  and reach the conclusion that :
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>⊂</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">If sets are subsets of each other, then they are equal. Hence,
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">Proceeding in the same manner, we can also prove other distributive property of “union operator over intersection operator” :
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>∪</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mo>∩</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>∩</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>∪</m:mo>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+</section>
+
+  </content>
+  
+</document>

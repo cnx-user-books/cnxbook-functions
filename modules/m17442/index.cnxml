@@ -1,0 +1,2480 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Continuous function</title>
+  <metadata>
+  <md:content-id>m17442</md:content-id><md:title>Continuous function</md:title>
+  <md:abstract/>
+  <md:uuid>808031bf-2924-44d2-b709-180176b450d2</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Idea of "continuity" in the context of function is same as its dictionary meaning. It simply means that function is continuous without any abrupt or sudden change in the value of function. An indicative way to test continuity is to see (graphically or otherwise) that there is no sudden jump in function value in the domain of function. If domain of function is a continuous interval i.e. no points or sub-intervals are excluded from real number set representing domain, then we can draw a continuous function without lifting the drawing instrument i.e. pen, pencil etc. If we have to lift the pen in order to complete the graph of a function in the continuous interval, then function is not continuous. 
+
+</para>
+<para id="element-2">
+The feature of continuity is related to function. Therefore, continuity of a function is meaningful in its domain only. It means that we do not need to evaluate continuity in intervals or points where function is not defined. This is an important consideration that helps us to differentiate between “discontinuity” and “undefined values”.
+
+
+</para>
+
+<section id="section-1">
+<title> Important concepts </title>
+<para id="element-3">
+The condition of continuity is expressed in terms of limit and function value. Both of these are required to exist and be equal. We shall learn about these aspects more in detail after having brief overview of these terms.
+</para>
+
+
+<section id="section-1a">
+<title> Limit from left </title>
+<para id="element-4">
+
+The limit from left means that a function approaches a value (<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>) as x approaches the test point “a” from left such that x is always less than “a” – but not equal to “a”. 
+
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-7">
+We show here three illustrations of “limit from left”. The important aspect of these figures is that graph tends to a particular value (infinity is also included). This is done by showing the orientation of graph pointing to limiting value when x is infinitesimally close to test point. Important point to note is that graph does not reach limiting value. Note empty circle at the end of graph, which represents the value of limit not yet occupied by graph. Similarly, asymptotic nature of graph tending to infinity maintains a small distance away from asymptotes, denoting that graph does not reach limiting value. 
+</para>
+<para id="element-8">
+<figure id="fig-8">
+<title> Limit from left </title>
+<media id="id8711510" alt=""><image src="../../media/c1-d740.gif" mime-type="image/gif"/></media>
+<caption> Limit from left </caption>
+</figure>
+
+</para>
+</section>
+
+<section id="section-1b">
+<title> Limit from right </title>
+
+<para id="element-9">
+
+The limit from right means that a function approaches a value (<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>) as x approaches the test point “a” from right such that x is always greater than “a” – but not equal to “a”.  
+
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-11">
+We show here three illustrations of “limit from right" as in the earlier case. Important point to note is that graph does not reach limiting value, which represents the value of limit not yet occupied by graph. 
+
+
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Limit from right </title>
+<media id="id13646744" alt=""><image src="../../media/c2-fc48.gif" mime-type="image/gif"/></media>
+<caption> Limit from right </caption>
+</figure>
+
+</para>
+</section>
+<section id="section-1c">
+<title> Limit at a point  </title>
+
+<para id="element-13">
+
+The limit at a point means that a function approaches a value (L) as x approaches the test point “a” from either side.  
+
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-15">
+We show here three illustrations of limit at a point. Important point to again note is that graph does not reach limiting value, which represents the value of limit not yet occupied by graph. 
+</para>
+<para id="element-16">
+<figure id="fig-16">
+<title> Limit at a point </title>
+<media id="id5552569" alt=""><image src="../../media/c3-a105.gif" mime-type="image/gif"/></media>
+<caption> Limit at a point </caption>
+</figure>
+
+</para>
+</section>
+<section id="section-1d">
+<title> Function value </title>
+<para id="element-17">
+Function value is obtained by substituting x values in the function. In case of rational function, we first reduce expression by removing common factors from numerator and denominator.
+ 
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Continuity at a point </title>
+
+<para id="element-18">
+
+The requirement of continuity is that there should not be abrupt change in function value when there is small change in independent variable. We can enforce this requirement if we can determine x-values in its immediate neighborhood in the domain of function for smallest change in the function values. Mathematically, we say that a function is continuous at a point x=a, if there is small change in function such that 
+<m:math>
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>|</m:mo>
+    <m:mo>&lt;</m:mo>
+    <m:mi>δ</m:mi>
+  </m:mrow>
+</m:math>
+, then  independent variable “x” varies in its immediate neighborhood such that <m:math>
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&lt;</m:mo>
+    <m:mo>∈</m:mo>
+  </m:mrow>
+</m:math>
+, where δ
+ and ∈
+ are arbitrarily chosen small positive numbers. 
+
+</para>
+<para id="element-19">
+Condition of continuity is expressed in terms of definition of various limits. Note that limit approaches a value when independent variable comes very close to a point where continuity is being checked. If limit approaches very close to the function value at a point, then it is guaranteed that there exists a value of independent variable in its immediate neighborhood. This fulfills the requirement of continuity as explained in previous paragraph. 
+
+
+</para>
+<para id="element-20">For the sake of understanding the requirement of continuity, let us consider identity function, which is known to be continuous in its domain. 
+
+</para>
+<para id="element-21a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-21">
+<figure id="fig-21">
+<title> Identity function </title>
+<media id="id3880270" alt=""><image src="../../media/c10-3ac7.gif" mime-type="image/gif"/></media>
+<caption> Identity function </caption>
+</figure>
+
+</para>
+
+<para id="element-22">Let us consider a test point,  x=1. Here, both left and right limit exist and is equal to 1. As such limit of function exists and is equal to 1, which is equal to the function value. As a matter of fact, these observations underline the requirement of continuity at a point. The conditions for continuity at a point in the domain of function are :
+</para>
+<para id="element-23">
+1: Limit of function exits at the point.
+
+</para>
+<para id="element-24">
+2: Limit of function is equal to function value at that point.
+
+</para>
+<para id="element-25">
+Mathematically,
+
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-27">One important aspect of the requirement is that we test continuity at a finite real value of x, having finite function value. Hence, it is implicitly implied that limit of function should evaluate to a finite function value. </para>
+<section id="section-2a">
+<title> Continuity from left  </title>
+
+<para id="element-27a">
+
+A function is continuous from left at x=a when left limit exists at x=a and is equal to function value at that point. 
+
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-2b">
+<title> Continuity from right  </title>
+
+<para id="element-29">
+
+
+A function is continuous from right at x=a when right limit exists at x=a and is equal to function value at that point. 
+
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2c">
+<title> Continuity .vs. limit  </title>
+
+<para id="element-31">
+
+The condition of continuity given above appears to be same as that of limit, which is defined as :
+
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-33">However, there is one differentiating aspect. The limit need not evaluate to function value as required for continuity. It means continuity of function has stricter requirement than that of the existence of limit. To understand this point, we consider a variant of modulus function as given here,
+
+</para>
+<para id="element-34">
+<code id="id3923299" display="block">
+       | x  ; x&gt;0
+f(x) = | 1  ; x=0
+       | -x ; x&lt;0
+</code>
+
+
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Graph of function </title>
+<media id="id15760078" alt=""><image src="../../media/c4-c449.gif" mime-type="image/gif"/></media>
+<caption> Graph of function </caption>
+</figure>
+
+</para>
+<para id="element-36">Clearly, limit exists and is equal to zero, but function value is 1 at x=0. Thus, limit is finite, but not equal to function value. As such, given function is not continuous at x=0. The important point to note is that existence of limit or function value at a point is a necessary condition, but not a sufficient condition for continuity. Both the conditions as enumerated should be fulfilled. The concept of continuity, therefore, is a stricter property of a function with respect to limit. 
+</para>
+</section>
+<section id="section-2d">
+<title> Continuity and exception (singularity)   </title>
+
+<para id="element-37">In order to investigate continuity at singularity point, we consider a function definition which is obtained by modifying modulus function :
+
+</para>
+<para id="element-38">
+<code id="id7390391" display="block">
+       | x; x&gt;0
+f(x) = |
+       | -x: x&lt;0
+</code>
+
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Graph of function </title>
+<media id="id12626495" alt=""><image src="../../media/c5-c40c.gif" mime-type="image/gif"/></media>
+<caption> Graph of function </caption>
+</figure>
+
+</para>
+<para id="element-40">The function is not defined for x=0. Singularity is a point where function is not defined. Thus, this point is singularity for the function which is otherwise defined for all other points on R. They are equal and are equal to a value which is not defined! In accordance with the definition, the limit of function exists at x=0 and is equal to zero. At this point, both left and right limits exist. After all, limit points to a value. Here, it points to a value outside the domain of function. See graph. Existence of limit at x=0, however, has nothing to do with continuity of function at that point as function is not defined at x=0 in the first place. This point is not the part of function definition i.e. its domain and hence continuity or discontinuity is not a concern.
+</para>
+<para id="element-41">
+We consider another function. This is modulus of reciprocal condition, f(x) = |1/x|. 
+Using transformation technique, we draw of graph of function as shown :
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Graph of function </title>
+<media id="id14314423" alt=""><image src="../../media/c6.gif" mime-type="image/gif"/></media>
+<caption> Graph of function </caption>
+</figure>
+
+</para>
+<para id="element-45">
+The left and right limits both are positive infinity (read tending to infinity) at x=0. The limit of the function is infinity at this point. But, again point x=0 is not part of function definition. Hence, we say that function is continuous in its domain R-{0}. 
+
+</para>
+<para id="element-46">Clearly, we need to distinguish between “discontinuous” and “undefined”. Going by two illustrations above, we need to understand that tangent, cotangent, secant and cosecant functions are continuous functions though they appear to be discontinuous graphically. They are not defined at certain values, but then these points are not the part of domain as well. As a matter of fact, rational functions, known to have singularities corresponding to points where denominator is zero, are continuous functions in their domain. For this reason, function such as reciprocal function "1/x" is a continuous function in its domain, which is R – {0}. 
+
+
+</para>
+
+</section>
+<section id="section-2e">
+<title> Continuity and differentiability   </title>
+
+<para id="element-47">Continuity at a point does not guarantee that function is differentiable at the point. In order to understand this, we now consider the modulus function itself. Is function continuous at x=0? Is function is differentiable at x=0?
+
+
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Graph of function </title>
+<media id="id3538400" alt=""><image src="../../media/c7-c9e9.gif" mime-type="image/gif"/></media>
+<caption> Graph of function </caption>
+</figure>
+
+</para>
+<para id="element-49">
+The limit of function is 0, which is finite and is equal to function value. Clearly, function is continuous at this point – thought we can not draw a tangent at this point and as such function is not differentiable at the point. The converse of the assertion, however, is true. If a function is differentiable at a point, then function is continuous at that point. Clearly, differentiability has stricter requirements than that of continuity.
+</para>
+</section>
+</section>
+
+<section id="section-3">
+<title> Types of discontinuity   </title>
+
+<para id="element-50">A function is discontinuous if it is not continuous. We can fail the conditions of continuity in many ways. Accordingly, there are following types of discontinuity :
+
+</para>
+<para id="element-51">
+<term> 1. Removable discontinuity : </term> Limit of the function exists and is finite, but is not equal to function value. We can remove this type of discontinuity by suitably redefining function value at the test point.
+
+</para>
+<example id="example-52">
+
+<para id="element-52">
+<term>Problem : </term> 
+Find whether the given function is continuous at x = -2
+
+</para>
+<para id="element-53">
+<code id="id6710716" display="block">
+        | 3x – 2; x ≠ -2
+f(x) =  |
+        |  -4   ; x = -2
+</code>
+
+</para>
+<para id="element-54">
+<term>Solution : </term> 
+Here, left and right limits, when x-&gt;2, are :
+
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>8</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-56">
+Function value at x=-2 is :
+
+
+</para>
+<para id="element-56a">
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-57">
+Thus, function is not continuous at x=-2. The discontinuity is removable as we can remove discontinuity by redefining function, at x=-2 as f(x) = -8.
+
+</para>
+<para id="element-58">
+<code id="id9787128" display="block">
+
+       | 3x – 2; x≠ -2
+f(x) = |
+       |  -8   ; x = -2
+</code>
+
+</para>
+
+</example>
+<para id="element-59">
+<term> 2. Irremovable or jump discontinuity : </term>  This kind of discontinuity arises when left and right limits are not equal. This means limit of function does not exist.
+
+</para>
+<example id="example-60">
+
+<para id="element-60">
+<term>Problem : </term> 
+Find whether the given function is continuous at x = 0
+
+</para>
+<para id="element-61">
+<code id="id4333556" display="block">
+
+       | |x|/x; x≠0
+f(x) = |
+       | 0    ; x = 0
+</code>
+
+</para>
+<para id="element-62">
+<term>Solution : </term> 
+As a matter of fact, this is signum function. For  x &lt;0, |x| = -x, Hence, left limit is :
+
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-64">
+<figure id="fig-64">
+<title> Graph of function </title>
+<media id="id8799230" alt=""><image src="../../media/c8-b271.gif" mime-type="image/gif"/></media>
+<caption> Graph of function </caption>
+</figure>
+
+</para>
+<para id="element-65">
+We see that left limit is not equal to f(0) = 0. We can, therefore, conclude at this stage of analysis itself that function is not continuous at x=0. However, we continue to evaluate right hand limit as well to determine the nature of discontinuity. For  x &gt;0, |x| = x. Hence, right limit is :
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-67">
+Clearly, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+    <m:mo>≠</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+. The discontinuity is, thus, irremovable or jump type.
+</para>
+</example>
+<para id="element-68">
+<term> 3. Essential discontinuity : </term> In this case, at least one of left or right limits does not exist or is infinite.  We need to evaluate these conditions in the domain only.
+
+</para>
+
+<example id="example-69">
+
+<para id="element-69a">
+<term>Problem : </term> 
+Find whether the given function is continuous at x = 0.
+
+</para>
+<para id="element-69">
+<code id="id3846714" display="block">
+
+       | 1/x; x&gt;0
+F(x) = | 0  ; x = 0
+       |  -x; x&lt;0
+</code>
+
+
+</para>
+<para id="element-71">
+<term>Solution : </term> 
+Here, left limit is :
+
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Graph of function </title>
+<media id="id3665214" alt=""><image src="../../media/c9.gif" mime-type="image/gif"/></media>
+<caption> Graph of function </caption>
+</figure>
+
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-73">
+Right limit is :
+
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>-</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-75">
+Since right limit is infinite, the function is discontinuous at x=0. 
+
+</para>
+</example>
+
+<para id="element-76abc">From these illustrations, it is clear that existence of discontinuity is associated with the manner function is defined. Here, all functions, which are  discontinuous at point, are defined in piece-wise manner. On the other hand, basic functions having single definition which we have covered in the course and which are not piece wise defined are continuous functions. We do not intend to generalize these observations, but we can underline that piece - wise definitions indicate possibility of discontinuity.  
+</para>
+
+<para id="element-76">
+Further, we note that function value exists and function is defined at the point where function is discontinuous. If there is no function value at a point, then function is not defined at that point and there is no question of continuity or discontinuity. 
+</para>
+</section>
+
+<section id="section-4">
+<title> Continuity in an open interval (a,b)
+</title>
+
+<para id="element-77">
+
+A function is continuous in an open interval if function is continuous at all points in the interval. This is a simple extension of the concept of continuity at a point. Both left and right limits exist and are equal to function value at all points in the interval. Since end points are not defined, there is always a point on either sides of a given point anywhere in the interval. 
+
+</para>
+<para id="element-78">
+Many of the known functions are continuous in open interval. Polynomial,  trigonometric, exponential, logarithmic functions etc. are continuous functions in open interval.  
+</para>
+</section>
+
+<section id="section-5">
+<title> Continuity in a closed interval [a,b]
+</title>
+<para id="element-79">
+
+The possibility that there always exist a point around a given point is not there at end points of closed interval. We can not determine left limit at lower end and right limit at upper end of the closed interval. For this reason, we test continuity of function at the closing points from one side only. For a function to be continuous in the closed interval, it should be continuous at all points in the interval and also at the bounding values of closed intereval, [a,b]. Hence, 
+
+</para>
+<para id="element-80">
+(i) limit exists at all points in the interval and are equal to function values at those points.
+
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+        <m:mo>;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>&lt;</m:mo>
+        <m:mi>c</m:mi>
+        <m:mo>&lt;</m:mo>
+        <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-82">
+(ii) right limit exists at x=a and is equal to function value at the lower end of closed interval. 
+. 
+
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-84">
+(iii) left limit exists at x=b and is equal to function value at the upper end of closed interval. 
+
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mi>b</m:mi>
+        <m:mo>−</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-6">
+<title> Function operations, compositions of function and continuity
+</title>
+<para id="element-86">
+
+If two functions are continuous at a point or in interval, then function resulting from function operations like addition, subtraction, scalar product, product and quotient are continuous at that point. Further, properly formed function compositions of two or more functions are also continuous. 
+
+
+</para>
+<para id="element-87">
+These properties of continuity are extremely helpful tool for determining continuity of more complicated functions, which are formed from basic functions. Idea is that we are aware of continuity of basic functions. Therefore, continuity of functions formed from these basic functions will also be continuous. 
+
+</para>
+<para id="element-88">
+Generally, basic functions are continuous in real numbers set R or its subsets. For example, we know that polynomial functions, sine, cosine, tangent, exponential and logarithmic functions etc are continuous on R. Similarly, a radical function is continuous for non-negative x values. Their composition or the new function will be continuous in the new domain, which is defined in accordance with the rule given here :
+
+</para>
+<para id="element-89">
+<list id="list-89" list-type="bulleted">
+<item> scalar product (multiplication with a constant) : domain remains same
+</item>
+<item> addition/subtraction/product : domain is intersection of individual domains
+</item>
+<item> division or quotient : domain is intersection of individual domains minus points for which denominator is zero
+</item>
+<item> fog or gof  :  domain is intersection of individual domains
+ </item>
+</list>
+
+
+</para>
+<para id="element-90">
+In the nutshell, the function formed from other functions is continuous in new domain as defined above. If we look closely at the definition of continuity here, then "finding interval in which function is continuous" is same as finding "domain" of new function arising from mathematical operations.
+</para>
+
+</section>
+
+<section id="section-8">
+<title> Continuous extension of function </title>
+
+<para id="element-110">
+
+Many functions are not defined at singularities. For example, rational functions are not defined for values of x when denominator becomes zero. By including these singular points or exception points in the domain, we can redefine function such that it becomes continuous in the extended domain. This extension of the domain of function such that function remains continuous is known as continuous extension.
+
+
+</para>
+<example id="example-111">
+<para id="element-111"><term>Problem : </term> 
+
+Obtain the continuous extension of the function given by :
+
+
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-113">
+<term>Solution : </term> 
+The denominator is zero when x=1. In order that this point is included in the domain of the function, the value of function at this point should be equal to the limit of the function at this point. Now, 
+
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-115">
+Hence, extended function is :
+
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+</example>
+
+</section>
+
+<section id="section-9">
+<title> Combination of continuous and discontinuous functions
+</title>
+
+
+<para id="element-118">
+
+We can have combinations of function resulting from function operations or composition, which involves both continuous and discontinuous functions. We need to know what would be the nature of resulting function? In general, such combinations result in discontinuous function. It is not important to have a generalization here, but such combinations point to the possibility that a function may have discontinuities.
+
+</para>
+<para id="element-119">
+Let us consider two functions f(x) and g(x). Let also assume that f(x) is a continuous function and g(x) is discontinuous function. We, now, consider the operation as :
+
+
+</para>
+<para id="element-120">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>h</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-121">
+Rearranging, we have :
+
+</para>
+<para id="element-122">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>h</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-123">
+In order to test the nature of h(x), let us assume that h(x) is a continuous function. In that case, we know that difference of two continuous functions is a continuous function. As such, g(x) is a continuous function. But, this is contradictory to what we had assumed in the beginning. It means that our supposition that h(x) is continuous function, is wrong. Clearly, function h(x) resulting from addition operation is a discontinuous function. We can extend similar conclusion to subtraction operation as well as subtraction is equivalent to addition operation.
+
+</para>
+<para id="element-124">
+We have already studied few discontinuous functions like greatest integer, least integer and fraction part functions etc. They are discontinuous at integral values. A composition such as y = sin[x] is a discontinuous function. We can analyze these compositions analytically. However, graphical methods are more efficient in this case. We can draw these compositions with the help of transformation of graph by these discontinuous functions. We have dealt this aspect separately in modules titled such as “transformation of graphs by greatest integer function” or “transformation of graphs by fraction part function” etc. For this reason, we shall not discuss this topic any further here in this module.
+</para>
+</section>
+
+<section id="section-7">
+<title> Examples 
+</title>
+<example id="example-92">
+
+<para id="element-92">
+<term>Problem : </term> 
+Find whether the given function is continuous at x = -2
+
+</para>
+<para id="element-93">
+<code id="id12747289" display="block">
+        | g(x);   x ≠ 1
+f(x) =  |
+        |  2  ;   x = 1
+</code>
+
+</para>
+<para id="element-93a">
+where,
+</para>
+<para id="element-93b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">
+<term>Solution : </term> In order to factorize cubic expression in the numerator, we guess that x=1 is one real root. We can see that expression turns zero for x=0. Hence, we conclude that (x-1) is one of the factor of cubic expression. Now, for x ≠ 1, 
+
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mi>x</m:mi>
+              <m:mo>+</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+          <m:mo>−</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:mfrac>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:mfenced>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-96">
+The reduced expression is not an indeterminate form. Hence, left and right limits, when x-&gt;1, are :
+
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-98">
+Here,  <m:math>
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>. We, therefore, conclude that function is not continuous at x=1. This is a removable discontinuity as we can remove this discontinuity by redefining function at x=1 as f(x) = 3/2.
+</para>
+</example>
+<example id="example-101">
+
+<para id="element-101">
+<term>Problem : </term> 
+Find whether the given function is continuous at x = 0
+
+</para>
+<para id="element-102">
+<code id="id11075111" display="block">
+
+        | x sin(1/x), x ≠ 0
+f(x) =  |
+        |  0; x = 0
+</code>
+
+
+</para>
+<para id="element-103">
+<term>Solution : </term> 
+For  x ≠ 0;
+
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mrow>
+        <m:mi>lim</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>−</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>x</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>x</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-105">
+Note that as x--&gt;0, 1/x--&gt;infinity and sin(1/x) --&gt; a finite value in [-1,1]. Thus, function tends to become 0 X finite value, which is equal to zero. Similar is case for right limit. Hence,
+
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-107">
+Thus, function is continuous at x = 0.
+</para>
+</example>
+
+</section>
+
+
+
+<section id="section-10">
+<title>Exercises</title>
+
+<para id="element-125a">
+<exercise id="exercise-125a">
+<problem id="id9063099">
+<para id="element-125">
+If the function given below is continuous in its domain, then determine value of k.  
+
+
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-127">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+
+</problem>
+
+<solution id="id3315716">
+<para id="element-128">
+For x ≠1, the function is :
+
+</para>
+<para id="element-129">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-129bc">
+We guess here that one of the roots of numerator is 1. It is true as numerator is zero for x=1. Thus, (x-1) is a factor of cubic expression in the numerator. 
+
+</para>
+
+<para id="element-129a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>x</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-130">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+  
+</para>
+<para id="element-131">
+Clearly, 
+
+</para>
+<para id="element-132">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-133">
+For function to be continuous, this limit should be equal to value of function at x=1. Hence,
+
+</para>
+<para id="element-134">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-135a">
+<exercise id="exercise-135a">
+<problem id="id14829676">
+<para id="element-135">
+Determine if the given function is continuous.
+
+</para>
+<para id="element-136">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-137">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id6781925">
+<para id="element-138">
+For x ≠ 0, the function is of standard form whose limit is 1 when x approaches 0. Thus, limit is not equal to function value at x=0. Clearly, function is discontinuous at x=0. It is a removable discontinuity.
+
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-139a">
+<exercise id="exercise-139a">
+<problem id="id5383204">
+<para id="element-139">
+Determine continuity of function given at x= 0 :
+
+</para>
+<para id="element-140">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>/</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>/</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>≠</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-141">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id3554287">
+<para id="element-142">
+In order to evaluate limit at x=0, we determine left and right limits at x=0. We see here that as x approaches zero 1/x approaches negative infinity from left, whereas it approaches to positive infinity from the right. Using these facts, left hand limit is :
+
+</para>
+<para id="element-143">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>−</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mi>∞</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mi>∞</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-144">
+Now right limit is :
+ 
+</para>
+<para id="element-145">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>/</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>/</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mi>∞</m:mi>
+      <m:mi>∞</m:mi>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mtext>form</m:mtext>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+ 
+</para>
+<para id="element-146">
+Dividing by <m:math>
+  <m:mrow>
+            <m:msup>
+              <m:mi>e</m:mi>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>/</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:msup>
+  </m:mrow>
+</m:math>
+, we have :
+
+</para>
+<para id="element-147">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mn>0</m:mn>
+        <m:mo>+</m:mo>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:msup>
+              <m:mi>e</m:mi>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>/</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mrow>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mrow>
+              <m:msup>
+                <m:mi>e</m:mi>
+                <m:mrow>
+                  <m:mi>∞</m:mi>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-148">
+Clearly, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+    <m:mo>≠</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+. Hence, function is discontinuous at x=0.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-149a">
+<exercise id="exercise-149a">
+<problem id="id8321795">
+<para id="element-149">
+Determine continuity of the function given by :
+
+</para>
+<para id="element-150">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>x is rational</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-151">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>x is irrational</m:mtext>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</problem>
+
+<solution id="id8043731">
+<para id="element-152">
+In order to determine continuity, we consider set of rational and irrational numbers separately. Let us first work with rational set. We determine limit when as x approaches any real value point “a” in real domain. Note that x approaches real number “a” assuming only rational number in its set. We say that x approaches "a" through rational numbers. Then,
+
+</para>
+<para id="element-153">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-154">
+Now, we work with irrational set. Here, x approaches real number “a” assuming only irrational numbers in the domain. Then,
+
+</para>
+<para id="element-155">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>→</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mn>2</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-156">
+Let us consider that function is continuous at x=a. In that case,
+
+</para>
+<para id="element-157">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>l</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-158">
+We have taken any arbitrary point x=a and we find that function is continuous only for a single value – not an interval or union of intervals. Thus, we conclude given function is continuous only at one point and discontinuous at all other points.
+</para>
+</solution>
+</exercise>
+</para>
+</section>
+
+
+  </content>
+  
+</document>
