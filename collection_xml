@@ -1,0 +1,89 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10464</md:content-id>
+    <md:title>Functions</md:title>
+    <md:language>en</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>cac9bca0-6634-4daf-8a90-968f4bbf25a2</md:uuid>
+<md:slug>functions</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Sets </md:title>
+      <col:content>
+        <col:module document="m15194"/>
+        <col:module document="m15193"/>
+        <col:module document="m15195"/>
+        <col:module document="m15196"/>
+        <col:module document="m15198"/>
+        <col:module document="m15199"/>
+        <col:module document="m15203"/>
+        <col:module document="m15207"/>
+        <col:module document="m15209"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Relations</md:title>
+      <col:content>
+        <col:module document="m15225"/>
+        <col:module document="m15233"/>
+        <col:module document="m15239"/>
+        <col:module document="m15242"/>
+        <col:module document="m15243"/>
+        <col:module document="m15253"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Real functions</md:title>
+      <col:content>
+        <col:module document="m15265"/>
+        <col:module document="m17315"/>
+        <col:module document="m15241"/>
+        <col:module document="m17304"/>
+        <col:module document="m15293"/>
+        <col:module document="m15464"/>
+        <col:module document="m15269"/>
+        <col:module document="m15505"/>
+        <col:module document="m15299"/>
+        <col:module document="m15276"/>
+        <col:module document="m15461"/>
+        <col:module document="m15277"/>
+        <col:module document="m17352"/>
+        <col:module document="m15421"/>
+        <col:module document="m15278"/>
+        <col:module document="m17229"/>
+        <col:module document="m15466"/>
+        <col:module document="m15566"/>
+        <col:module document="m15297"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Transformation of graphs</md:title>
+      <col:content>
+        <col:module document="m14562"/>
+        <col:module document="m15513"/>
+        <col:module document="m17261"/>
+        <col:module document="m17290"/>
+        <col:module document="m17303"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Function properties</md:title>
+      <col:content>
+        <col:module document="m17364"/>
+        <col:module document="m15279"/>
+        <col:module document="m15292"/>
+        <col:module document="m15560"/>
+        <col:module document="m15463"/>
+        <col:module document="m15474"/>
+        <col:module document="m17417"/>
+        <col:module document="m15499"/>
+        <col:module document="m15512"/>
+        <col:module document="m15550"/>
+        <col:module document="m15050"/>
+        <col:module document="m17542"/>
+        <col:module document="m17442"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
