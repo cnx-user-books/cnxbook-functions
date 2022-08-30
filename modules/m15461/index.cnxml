@@ -2469,11 +2469,10 @@ Now, we know that graph of logarithmic function for base, a &gt; 1, is a continu
     <m:mo>=</m:mo>
 
       <m:mi>log</m:mi>
-    <m:msub>
-      <m:mrow>
+    <m:mrow>
         <m:mn>10</m:mn>
       </m:mrow>
-    </m:msub>
+    
     <m:mfenced>
       <m:mrow>
         <m:mfrac>
@@ -2516,11 +2515,10 @@ Hence, range of given function is :
         <m:mo>(</m:mo>
       <m:mrow>
       <m:mi>log</m:mi>
-    <m:msub>
-      <m:mrow>
+    <m:mrow>
         <m:mn>10</m:mn>
       </m:mrow>
-    </m:msub>
+    
     <m:mfenced>
       <m:mrow>
         <m:mfrac>
